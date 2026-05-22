@@ -1,0 +1,48 @@
+{
+  "nome": "Diocese de Jales",
+  "url_base": "https://diocesedejales.org.br/paroquias/",
+  "listagem": {
+    "item_selector": "article.elementor-post",
+    "link_selector": "h3.elementor-post__title a",
+    "imagem_selector": "img"
+  },
+  "paginacao": {
+    "tipo": "url_page",
+    "url_pattern": "https://diocesedejales.org.br/paroquias/page/{page}/",
+    "next_selector": null
+  },
+  "detalhes": {
+    "tipo_layout": "label_value",
+    "campos_labels": {
+      "setor": [
+        "Setor:"
+      ],
+      "telefone": [
+        "Telefone:"
+      ],
+      "email": [
+        "E-mail:"
+      ],
+      "funcionamento_secretaria": [
+        "Funcionamento na Secretaria",
+        "Fucionamentos na Secretaria"
+      ],
+      "endereco": [
+        "Endereço"
+      ],
+      "clero": [
+        "Clero"
+      ]
+    },
+    "campos_seletores": {
+      "setor": ".elementor-heading-title",
+      "telefone": ".elementor-heading-title",
+      "email": ".elementor-heading-title",
+      "funcionamento_secretaria": ".elementor-heading-title",
+      "endereco": ".elementor-heading-title",
+      "clero": ".elementor-heading-title"
+    },
+    "horarios_missa_seletor": ".elementor-widget-theme-post-content",
+    "social_selector": ".elementor-widget-social-icons a"
+  }
+}

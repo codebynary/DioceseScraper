@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diocese Scraper - Painel de Controle Inteligente</title>
+    <!-- Google Fonts: Outfit (headings) and Inter (body/code) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Vanilla CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <!-- Background glow elements for rich aesthetic -->
+    <div class="glow-bg">
+        <div class="glow-sphere sphere-1"></div>
+        <div class="glow-sphere sphere-2"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="app-container">
+        <!-- Header -->
+        <header class="main-header">
+            <div class="logo-area">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-brain-circuit"></i>
+                </div>
+                <div>
+                    <h1>Diocese<span>Scraper</span></h1>
+                    <p class="subtitle">Raspagem de Paróquias Assistida por Inteligência Artificial</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button id="btn-api-settings" class="btn btn-secondary">
+                    <i class="fa-solid fa-key"></i> Chave Gemini
+                </button>
+            </div>
+        </header>
+
+        <!-- API Key Missing Notification Banner -->
+        <div id="api-key-banner" class="banner banner-warning hidden">
+            <div class="banner-content">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <span>Chave de API do Gemini não configurada. A análise inteligente de novos sites está desativada.</span>
+            </div>
+            <button id="btn-config-now" class="btn btn-sm btn-warning">Configurar Agora</button>
+        </div>
+
+        <!-- Main Workspace -->
+        <main class="main-content">
+            <!-- Left Sidebar / Stats & Action -->
+            <section class="control-panel">
+                <div class="panel-card main-actions-card">
+                    <h2>Adicionar Diocese</h2>
+                    <p>Inicie a raspagem assistida por IA inserindo a URL de uma nova diocese ou arquidiocese.</p>
+                    <button id="btn-new-scrape" class="btn btn-primary btn-block">
+                        <i class="fa-solid fa-plus"></i> Analisar Novo Site
+                    </button>
+                </div>
+
+                <div class="panel-card dioceses-list-card">
+                    <div class="card-header">
+                        <h2>Dioceses Configuradas</h2>
+                        <span id="dioceses-count" class="badge">0</span>
+                    </div>
+                    <div id="dioceses-list" class="dioceses-list">
+                        <!-- Loading state -->
+                        <div class="list-empty">
+                            <i class="fa-solid fa-circle-notch fa-spin"></i> Carregando dioceses...
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Right Area / Dynamic View (Logs, Previews, Configs, or Tables) -->
+            <section class="viewer-panel">
+                <div id="empty-state" class="panel-card empty-card">
+                    <i class="fa-solid fa-church"></i>
+                    <h3>Selecione uma Diocese ou Adicione uma Nova</h3>
+                    <p>Aqui você poderá ver as paróquias extraídas, revisar as configurações inteligentes e acompanhar o status de execução da raspagem em tempo real.</p>
+                </div>
+
+                <!-- Scraping Progress Panel -->
+                <div id="scrape-progress-panel" class="panel-card hidden">
+                    <div class="panel-header">
+                        <div>
+                            <h3 id="progress-diocese-name">Raspando paróquias...</h3>
+                            <p class="status-indicator"><span class="dot pulse"></span> Executando processo de extração</p>
+                        </div>
+                    </div>
+                    <div class="terminal-container">
+                        <div class="terminal-header">
+                            <span><i class="fa-solid fa-terminal"></i> Console de Execução</span>
+                            <button id="btn-clear-terminal" class="btn-icon" title="Limpar"><i class="fa-solid fa-trash-can"></i></button>
+                        </div>
+                        <div id="terminal-body" class="terminal-body">
+                            <!-- Logs will stream here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Parish Data Viewer Panel -->
+                <div id="data-viewer-panel" class="panel-card hidden">
+                    <div class="panel-header">
+                        <div>
+                            <h3 id="viewer-diocese-name">Paróquias Extraídas</h3>
+                            <p id="viewer-stats">0 paróquias catalogadas</p>
+                        </div>
+                        <div class="header-actions">
+                            <button id="btn-re-scrape" class="btn btn-secondary btn-sm">
+                                <i class="fa-solid fa-rotate"></i> Rodar Novamente
+                            </button>
+                        </div>
+                    </div>
+                    <div class="search-bar-container">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="search-parishes" placeholder="Filtrar paróquias por nome, clero, setor ou e-mail...">
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Paróquia</th>
+                                    <th>Setor</th>
+                                    <th>Clero / Pároco</th>
+                                    <th>Contatos / Funcionamento</th>
+                                    <th>Redes</th>
+                                </tr>
+                            </thead>
+                            <tbody id="parishes-table-body">
+                                <!-- Data rows -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- MODAL: API Key Setup -->
+    <div id="modal-api-key" class="modal">
+        <div class="modal-content card-glass">
+            <div class="modal-header">
+                <h2>Chave da API do Gemini</h2>
+                <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>O Scraper utiliza a inteligência artificial do **Gemini 2.5** para ler o HTML dos sites informados, encontrar as classes CSS e criar a configuração do scraper automaticamente.</p>
+                <div class="form-group">
+                    <label for="input-api-key">Insira sua Chave de API:</label>
+                    <div class="input-password-wrapper">
+                        <input type="password" id="input-api-key" placeholder="AIzaSy...">
+                        <button id="btn-toggle-key-visibility" class="btn-icon"><i class="fa-solid fa-eye"></i></button>
+                    </div>
+                    <span class="help-text">Sua chave é salva localmente apenas no arquivo `configs/settings.json`.</span>
+                </div>
+                <div id="api-key-feedback" class="feedback-msg"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary modal-close-btn">Cancelar</button>
+                <button id="btn-save-api-key" class="btn btn-primary">Salvar e Validar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL: Add New Diocese & AI Analysis -->
+    <div id="modal-new-diocese" class="modal">
+        <div class="modal-content card-glass modal-lg">
+            <div class="modal-header">
+                <h2>Análise Inteligente de Diocese</h2>
+                <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <!-- Step 1: Input URL -->
+                <div id="analyze-step-input">
+                    <p>Digite o nome e a URL da página principal de listagem de paróquias do site da nova diocese.</p>
+                    <div class="form-group">
+                        <label for="input-diocese-name">Nome da Diocese/Arquidiocese:</label>
+                        <input type="text" id="input-diocese-name" placeholder="Ex: Diocese de Jales">
+                    </div>
+                    <div class="form-group">
+                        <label for="input-diocese-url">URL da Lista de Paróquias:</label>
+                        <input type="url" id="input-diocese-url" placeholder="Ex: https://diocesedejales.org.br/paroquias/">
+                    </div>
+                    <div id="analyze-feedback" class="feedback-msg error"></div>
+                </div>
+
+                <!-- Step 2: AI Loading -->
+                <div id="analyze-step-loading" class="hidden text-center py-4">
+                    <div class="loader-container">
+                        <div class="loader-ring"></div>
+                        <i class="fa-solid fa-robot ai-loader-icon"></i>
+                    </div>
+                    <h3>Gemini analisando estrutura do site...</h3>
+                    <p>Estamos baixando a página de listagem e de uma paróquia exemplo. O modelo inteligente está gerando as regras de extração automaticamente.</p>
+                </div>
+
+                <!-- Step 3: AI Result Review (Split View) -->
+                <div id="analyze-step-result" class="hidden">
+                    <p class="success-banner"><i class="fa-solid fa-circle-check"></i> Análise de IA concluída! Revise o resultado do teste abaixo antes de rodar o scraper.</p>
+                    <div class="split-view">
+                        <!-- Left: Test Parish Preview Card -->
+                        <div class="preview-side">
+                            <h4>Pré-visualização da Paróquia de Teste</h4>
+                            <div class="parish-preview-card">
+                                <div class="preview-header">
+                                    <div class="preview-thumb" id="preview-image">
+                                        <i class="fa-solid fa-church"></i>
+                                    </div>
+                                    <div>
+                                        <h5 id="preview-nome">Paróquia Exemplo</h5>
+                                        <p id="preview-url" class="text-truncate">https://site.org/paroquia</p>
+                                    </div>
+                                </div>
+                                <div class="preview-details">
+                                    <div class="preview-field"><span class="lbl">Setor:</span> <span id="preview-setor">-</span></div>
+                                    <div class="preview-field"><span class="lbl">Clero:</span> <span id="preview-clero">-</span></div>
+                                    <div class="preview-field"><span class="lbl">Telefone:</span> <span id="preview-telefone">-</span></div>
+                                    <div class="preview-field"><span class="lbl">E-mail:</span> <span id="preview-email">-</span></div>
+                                    <div class="preview-field"><span class="lbl">Secretaria:</span> <span id="preview-secretaria" class="text-multiline">-</span></div>
+                                    <div class="preview-field"><span class="lbl">Endereço:</span> <span id="preview-endereco" class="text-multiline">-</span></div>
+                                    <div class="preview-field"><span class="lbl">Redes Sociais:</span> <span id="preview-redes">-</span></div>
+                                    <div class="preview-field"><span class="lbl">Horários Missa (Texto):</span> <span id="preview-missas" class="text-multiline scrollable-text">-</span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right: Config JSON (Read-only or editable) -->
+                        <div class="config-side">
+                            <h4>Configurações Geradas pela IA</h4>
+                            <textarea id="config-json-textarea" rows="18"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="btn-analyze-back" class="btn btn-secondary hidden">Voltar</button>
+                <button id="btn-analyze-cancel" class="btn btn-secondary modal-close-btn">Cancelar</button>
+                <button id="btn-run-analysis" class="btn btn-primary">Iniciar Análise Inteligente</button>
+                <button id="btn-save-confirm" class="btn btn-success hidden">Confirmar e Iniciar Raspagem</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/static/script.js"></script>
+</body>
+</html>
