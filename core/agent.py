@@ -65,21 +65,35 @@ def clean_html(html_str):
     return html_str[:12000] # Limit size to fit within flash context comfortably
 
 def validate_gemini_key(api_key):
-    """Tests connection to Gemini API with the provided key."""
-    try:
-        client = genai.Client(api_key=api_key)
-        # Call a very cheap/simple model to check if key is active
-        response = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents='Respond only "OK".'
-        )
-        return "OK" in response.text.upper()
-    except Exception as e:
-        print(f"Error validating Gemini API key: {e}")
-        return False
+    """Tests connection to Gemini API with the provided key.
+    Returns (is_valid, error_message)
+    """
+    import time
+    for attempt in range(5):
+        try:
+            client = genai.Client(api_key=api_key)
+            # Call a very cheap/simple model to check if key is active
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents='Respond only "OK".'
+            )
+            if response.text and "OK" in response.text.upper():
+                return True, ""
+            return False, "Resposta inesperada da API (não continha 'OK')."
+        except Exception as e:
+            error_msg = str(e)
+            if "503" in error_msg or "UNAVAILABLE" in error_msg or "ResourceExhausted" in error_msg:
+                sleep_time = 2 ** attempt
+                print(f"Gemini API 503/UNAVAILABLE, retrying key validation in {sleep_time}s...")
+                time.sleep(sleep_time)
+                continue
+            print(f"Error validating Gemini API key: {error_msg}")
+            return False, error_msg
+    return False, "Gemini API unavailable (503) after multiple retries."
 
 def analyze_diocese_layout(api_key, diocese_name, url_base, list_html, detail_html):
     """Sends HTML samples to Gemini to determine selectors and returns the config JSON."""
+    import time
     client = genai.Client(api_key=api_key)
     
     clean_list = clean_html(list_html)
@@ -108,19 +122,28 @@ def analyze_diocese_layout(api_key, diocese_name, url_base, list_html, detail_ht
     Return the config JSON matching the requested schema.
     """
     
-    try:
-        response = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=prompt,
-            config=types.GenerateContentConfig(
-                system_instruction=SYSTEM_PROMPT,
-                response_mime_type="application/json",
-                temperature=0.1
+    for attempt in range(5):
+        try:
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    system_instruction=SYSTEM_PROMPT,
+                    response_mime_type="application/json",
+                    temperature=0.1
+                )
             )
-        )
-        # Parse result to ensure it is valid JSON
-        config_data = json.loads(response.text)
-        return config_data
-    except Exception as e:
-        print(f"Error calling Gemini to generate config: {e}")
-        return None
+            # Parse result to ensure it is valid JSON
+            config_data = json.loads(response.text)
+            return config_data
+        except Exception as e:
+            error_msg = str(e)
+            print(f"Attempt {attempt + 1} failed: {error_msg}")
+            if "503" in error_msg or "UNAVAILABLE" in error_msg or "ResourceExhausted" in error_msg:
+                sleep_time = 2 ** attempt
+                print(f"Retrying in {sleep_time} seconds...")
+                time.sleep(sleep_time)
+                continue
+            print(f"Error calling Gemini to generate config: {e}")
+            return None
+    return None

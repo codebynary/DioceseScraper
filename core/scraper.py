@@ -58,11 +58,23 @@ def extract_social_media(soup, social_selector):
 
 def scrape_single_parish(url, config):
     """Scrapes detail fields of a single parish page using config rules."""
+    if not config:
+        config = {}
     response = fetch_page(url)
     if not response or response.status_code != 200:
         return None
         
-    soup = BeautifulSoup(response.text, 'html.parser')
+    if config.get("is_sitexpresso"):
+        try:
+            data = response.json()
+            html_text = data.get('html', '')
+        except Exception as e:
+            print(f"Error parsing SitExpresso detail JSON from {url}: {e}")
+            html_text = response.text
+    else:
+        html_text = response.text
+        
+    soup = BeautifulSoup(html_text, 'html.parser')
     details_cfg = config.get("detalhes", {})
     tipo_layout = details_cfg.get("tipo_layout", "label_value")
     campos_labels = details_cfg.get("campos_labels", {})
@@ -83,7 +95,9 @@ def scrape_single_parish(url, config):
     if tipo_layout == "label_value":
         # Get selector for headings/labels list
         # E.g. Jales uses '.elementor-heading-title' for both label and value
-        headings_selector = list(campos_seletores.values())[0] if campos_seletores else '.elementor-heading-title'
+        headings_selector = next((v for v in campos_seletores.values() if v), '.elementor-heading-title')
+        if not headings_selector:
+            headings_selector = '.elementor-heading-title'
         all_headings = [h.text.strip() for h in soup.select(headings_selector) if h.text.strip()]
         
         # Filter out common header/footer items
@@ -96,6 +110,10 @@ def scrape_single_parish(url, config):
         # Parse fields sequentially
         for idx, heading in enumerate(filtered_headings):
             for field, labels in campos_labels.items():
+                if not labels:
+                    continue
+                if isinstance(labels, str):
+                    labels = [labels]
                 # Check if heading matches any known labels for this field
                 if any(heading.lower() == label.lower() for label in labels):
                     # Value is expected to be the next element in the headings list
@@ -104,6 +122,10 @@ def scrape_single_parish(url, config):
                         # Verify the next element isn't another label
                         is_label = False
                         for f_name, l_list in campos_labels.items():
+                            if not l_list:
+                                continue
+                            if isinstance(l_list, str):
+                                l_list = [l_list]
                             if any(next_heading.lower() == l.lower() for l in l_list):
                                 is_label = True
                                 break
@@ -167,16 +189,32 @@ def scrape_diocese_iterator(config, limit=None):
             
         yield f"Acessando página de listagem {page}: {url}"
         
-        response = fetch_page(url)
-        if not response:
+        if config.get("is_sitexpresso"):
+            parsed = urllib.parse.urlparse(url)
+            ajax_url = f"{parsed.scheme}://{parsed.netloc}/?ajax=get&path={parsed.path}"
+            response = fetch_page(ajax_url)
+            if response:
+                try:
+                    data = response.json()
+                    html_text = data.get('html', '')
+                except Exception as e:
+                    print(f"Error parsing AJAX listing JSON: {e}")
+                    html_text = response.text
+            else:
+                html_text = None
+        else:
+            response = fetch_page(url)
+            html_text = response.text if response else None
+
+        if not html_text:
             yield f"Erro ao acessar listagem da página {page}. Encerrando busca."
             break
             
-        if response.status_code == 404:
+        if response and response.status_code == 404:
             yield f"Página {page} retornou 404. Fim da paginação."
             break
             
-        soup = BeautifulSoup(response.text, 'html.parser')
+        soup = BeautifulSoup(html_text, 'html.parser')
         
         # Select parish items
         item_sel = list_cfg.get("item_selector")
@@ -193,12 +231,40 @@ def scrape_diocese_iterator(config, limit=None):
             link_sel = list_cfg.get("link_selector")
             a_tag = item.select_one(link_sel) if link_sel else item.find('a')
             
-            if not a_tag or not a_tag.get('href'):
-                continue
+            if config.get("is_sitexpresso"):
+                if not a_tag:
+                    a_tag = item.select_one('[component]')
                 
-            href = resolve_url(url_base, a_tag['href'])
-            name = a_tag.text.strip()
-            
+                comp_val = a_tag.get('component') if a_tag else None
+                if not comp_val:
+                    comp_div = item.select_one('[component]')
+                    comp_val = comp_div.get('component') if comp_div else None
+                    
+                if not comp_val:
+                    continue
+                    
+                parsed = urllib.parse.urlparse(url_base)
+                href = f"{parsed.scheme}://{parsed.netloc}/?ajax=get&comp={comp_val}"
+                
+                name = None
+                caption_tag = item.select_one('figcaption')
+                if caption_tag:
+                    name = caption_tag.text.strip()
+                if not name:
+                    btn_tag = item.select_one('div.btn.btn-modal-images')
+                    if btn_tag:
+                        name = btn_tag.text.strip()
+                if not name and a_tag:
+                    name = a_tag.text.strip()
+                if not name:
+                    name = "Paróquia desconhecida"
+                name = " ".join(name.split())
+            else:
+                if not a_tag or not a_tag.get('href'):
+                    continue
+                href = resolve_url(url_base, a_tag['href'])
+                name = a_tag.text.strip()
+                
             if href in seen_urls:
                 continue
                 
