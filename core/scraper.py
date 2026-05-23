@@ -1,25 +1,48 @@
 import requests
 from bs4 import BeautifulSoup
 import time
+import random
 import urllib.parse
 from core import config_manager
+from core import enricher
 
 HEADERS = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'none',
+    'Sec-Fetch-User': '?1',
+    'Cache-Control': 'max-age=0'
 }
 
-def fetch_page(url, retries=3, delay=1):
-    """Politely fetches a URL with retries."""
+# Delay educado entre requisições: base + jitter aleatório
+POLITE_DELAY_BASE = 1.5   # segundos entre cada paróquia
+POLITE_DELAY_JITTER = 0.5 # ±variação aleatória
+
+def polite_sleep(base=POLITE_DELAY_BASE, jitter=POLITE_DELAY_JITTER):
+    """Espera educada com jitter para não parecer um bot previsível."""
+    time.sleep(base + random.uniform(-jitter, jitter))
+
+def fetch_page(url, retries=4, delay=2):
+    """Politely fetches a URL with retries and exponential backoff."""
     for attempt in range(retries):
         try:
-            r = requests.get(url, headers=HEADERS, timeout=15)
+            r = requests.get(url, headers=HEADERS, timeout=20)
             if r.status_code == 200:
                 return r
             elif r.status_code == 404:
                 return r
-        except requests.RequestException:
-            pass
-        time.sleep(delay)
+            elif r.status_code == 429:
+                # Rate limited — espera mais antes de tentar de novo
+                wait = delay * (2 ** attempt) + random.uniform(0, 2)
+                time.sleep(wait)
+                continue
+        except requests.RequestException as e:
+            print(f"[fetch_page] Tentativa {attempt+1}/{retries} falhou para {url}: {e}")
+        time.sleep(delay * (attempt + 1))
     return None
 
 def resolve_url(base_url, relative_url):
@@ -56,6 +79,170 @@ def extract_social_media(soup, social_selector):
         social_links[network] = href
     return social_links
 
+def _extract_sitexpresso_text_block(soup, result):
+    """
+    Para sites SitExpresso (ex: Chapecó), os dados vêm em blocos de texto corrido.
+    Encontra o bloco específico de detalhes ctt-text no HTML e extrai de forma estruturada.
+    """
+    import re
+    # Encontrar o bloco de detalhes ctt-text
+    detail_block = None
+    for div in soup.select('div.ctt-text'):
+        div_text = div.get_text()
+        if any(k in div_text for k in ['Endereço:', 'Contato:', 'Padre(s):', 'Padres:']):
+            detail_block = div
+            break
+            
+    if not detail_block:
+        text = soup.get_text(separator='\n', strip=True)
+    else:
+        text = detail_block.get_text(separator='\n', strip=True)
+        
+    lines = [l.strip() for l in text.split('\n') if l.strip()]
+    
+    sections = {
+        'endereco': [],
+        'contato': [],
+        'clero': [],
+        'setor': [],
+        'secretaria': [],
+        'outros': []
+    }
+    
+    current_section = None
+    
+    for line in lines:
+        line_lower = line.lower()
+        if 'endereço' in line_lower:
+            current_section = 'endereco'
+            content = re.sub(r'^Endereço\s*[:\-]?\s*', '', line, flags=re.IGNORECASE).strip()
+            if content:
+                sections['endereco'].append(content)
+        elif 'contato' in line_lower:
+            current_section = 'contato'
+            content = re.sub(r'^Contato\s*[:\-]?\s*', '', line, flags=re.IGNORECASE).strip()
+            if content:
+                sections['contato'].append(content)
+        elif any(k in line_lower for k in ['padre', 'presbítero', 'clero']):
+            current_section = 'clero'
+            content = re.sub(r'^(?:Padre[s]?|Presbítero[s]?|Clero)\s*(?:\([s]\))?\s*[:\-]?\s*', '', line, flags=re.IGNORECASE).strip()
+            if content:
+                sections['clero'].append(content)
+        elif 'setor' in line_lower:
+            current_section = 'setor'
+            content = re.sub(r'^Setor\s*[:\-]?\s*', '', line, flags=re.IGNORECASE).strip()
+            if content:
+                sections['setor'].append(content)
+        elif any(k in line_lower for k in ['secretaria', 'atendimento', 'funcionamento']):
+            current_section = 'secretaria'
+            content = re.sub(r'^(?:Secretaria|Atendimento|Funcionamento)\s*[:\-]?\s*', '', line, flags=re.IGNORECASE).strip()
+            if content:
+                sections['secretaria'].append(content)
+        elif any(k in line_lower for k in ['organização', 'história', 'acompanhe']):
+            current_section = 'outros'
+        else:
+            if current_section:
+                sections[current_section].append(line)
+                
+    # 1. Endereço
+    if sections['endereco']:
+        result['endereco'] = ", ".join(sections['endereco'])
+        
+    # 2. Clero
+    if sections['clero']:
+        result['clero'] = "\n".join(sections['clero'])
+        
+    # 3. Contatos (Telefone e E-mail)
+    tels = []
+    emails = []
+    for line in sections['contato']:
+        email_match = re.search(r'[\w.\-]+@[\w.\-]+\.\w{2,}', line)
+        if email_match:
+            emails.append(email_match.group(0))
+        else:
+            clean_tel = re.sub(r'^(?:Fone|Whats(?:App)?|Telefone|Contato|Celular)\s*[:\-]?\s*', '', line, flags=re.IGNORECASE).strip()
+            if clean_tel:
+                tels.append(clean_tel)
+                
+    if tels:
+        result['telefone'] = " / ".join(tels)
+    if emails:
+        result['email'] = emails[0]
+        
+    # 4. Setor
+    if sections['setor']:
+        result['setor'] = ", ".join(sections['setor'])
+        
+    # 5. Secretaria / Funcionamento
+    if sections['secretaria']:
+        result['funcionamento_secretaria'] = ", ".join(sections['secretaria'])
+        
+    return result
+
+
+def _extract_blind_regex_fallback(soup, result):
+    """
+    Se o site não possui rótulos visuais (Ex: Ordinariado Militar) e os seletores falharam,
+    varre o texto bruto e tenta pescar telefone, e-mail e endereço via Expressão Regular.
+    """
+    import re
+    # Copia o soup para não afetar as outras buscas caso precise
+    import copy
+    temp_soup = copy.copy(soup)
+    
+    # Remove header, footer, etc to avoid false positives
+    for tag in temp_soup(['header', 'footer', 'nav', 'aside', 'script', 'style', 'title']):
+        if tag:
+            tag.decompose()
+            
+    # Try to target the main content wrapper
+    main_content = temp_soup.find('main') or temp_soup.find(class_=re.compile(r'elementor-widget-theme-post-content|page-content'))
+    
+    text = ""
+    if main_content:
+        text = main_content.get_text(separator='\n', strip=True)
+        
+    if len(text) < 50:
+        text = temp_soup.get_text(separator='\n', strip=True)
+        
+    lines = [l.strip() for l in text.split('\n') if l.strip()]
+    
+    tels = []
+    emails = []
+    enderecos = []
+    
+    for line in lines:
+        # Match email
+        email_match = re.search(r'[\w.\-]+@[\w.\-]+\.\w{2,}', line)
+        if email_match:
+            emails.append(email_match.group(0))
+            
+        # Match phone (DDD and dashes, e.g. (35) 3239-4126, 3229-4100)
+        phone_matches = re.findall(r'\(?\d{2}\)?\s*\d{4,5}-?\d{4}', line)
+        if phone_matches:
+            tels.extend(phone_matches)
+            
+        # Match Address: Has CEP or starts with Rua, Avenida, etc.
+        line_lower = line.lower()
+        has_cep = re.search(r'\b\d{5}-?\d{3}\b', line)
+        starts_with_street = any(line_lower.startswith(prefix) for prefix in ['rua ', 'av ', 'avenida ', 'praça ', 'praca ', 'rodovia ', 'estr ', 'estrada ', 'cep '])
+        
+        # se tem CEP ou começa com rua/avenida, é endereço garantido
+        if has_cep or starts_with_street:
+            # limpar lixo antes
+            clean_addr = re.sub(r'^(?:Endereço|End):?\s*', '', line, flags=re.IGNORECASE)
+            enderecos.append(clean_addr)
+            
+    if not result.get('telefone') and tels:
+        result['telefone'] = " / ".join(list(set(tels)))
+    if not result.get('email') and emails:
+        result['email'] = emails[0]
+    if not result.get('endereco') and enderecos:
+        result['endereco'] = "\n".join(enderecos)
+        
+    return result
+
+
 def scrape_single_parish(url, config):
     """Scrapes detail fields of a single parish page using config rules."""
     if not config:
@@ -90,58 +277,109 @@ def scrape_single_parish(url, config):
         'redes_sociais': {},
         'horarios_missa_texto': None
     }
+
+    # Para SitExpresso, tenta extração por regex de texto corrido primeiro
+    if config.get("is_sitexpresso"):
+        result = _extract_sitexpresso_text_block(soup, result)
     
     # 1. Extract detail fields based on layout strategy
-    if tipo_layout == "label_value":
-        # Get selector for headings/labels list
-        # E.g. Jales uses '.elementor-heading-title' for both label and value
-        headings_selector = next((v for v in campos_seletores.values() if v), '.elementor-heading-title')
-        if not headings_selector:
-            headings_selector = '.elementor-heading-title'
-        all_headings = [h.text.strip() for h in soup.select(headings_selector) if h.text.strip()]
-        
-        # Filter out common header/footer items
-        filtered_headings = []
-        for h in all_headings:
-            if any(x in h.upper() for x in ['VATICANO', 'CNBB', 'MITRA DIOCESANA', 'LINKS ÚTEIS', 'NEWSLETTER', 'FIQUE POR DENTRO']):
-                continue
-            filtered_headings.append(h)
+    if not config.get("is_sitexpresso"):
+        if tipo_layout == "label_value":
+            headings_selector = details_cfg.get("headings_selector") or next((v for v in campos_seletores.values() if v), '.elementor-heading-title')
+            if not headings_selector:
+                headings_selector = '.elementor-heading-title'
+            all_headings = [h.text.strip() for h in soup.select(headings_selector) if h.text.strip()]
             
-        # Parse fields sequentially
-        for idx, heading in enumerate(filtered_headings):
-            for field, labels in campos_labels.items():
-                if not labels:
+            # Filter out common header/footer items
+            filtered_headings = []
+            for h in all_headings:
+                if any(x in h.upper() for x in ['VATICANO', 'CNBB', 'MITRA DIOCESANA', 'LINKS ÚTEIS', 'NEWSLETTER', 'FIQUE POR DENTRO']):
                     continue
-                if isinstance(labels, str):
-                    labels = [labels]
-                # Check if heading matches any known labels for this field
-                if any(heading.lower() == label.lower() for label in labels):
-                    # Value is expected to be the next element in the headings list
-                    if idx + 1 < len(filtered_headings):
-                        next_heading = filtered_headings[idx + 1]
-                        # Verify the next element isn't another label
-                        is_label = False
-                        for f_name, l_list in campos_labels.items():
-                            if not l_list:
-                                continue
-                            if isinstance(l_list, str):
-                                l_list = [l_list]
-                            if any(next_heading.lower() == l.lower() for l in l_list):
+                filtered_headings.append(h)
+                
+            # Parse fields sequentially
+            for idx, heading in enumerate(filtered_headings):
+                for field, labels in campos_labels.items():
+                    if not labels:
+                        continue
+                    if isinstance(labels, str):
+                        labels = [labels]
+                    # Check if heading matches any known labels for this field
+                    if any(heading.lower() == label.lower() for label in labels):
+                        # Value is expected to be the next element in the headings list
+                        if idx + 1 < len(filtered_headings):
+                            next_heading = filtered_headings[idx + 1]
+                            # Verify the next element isn't another label
+                            is_label = False
+                            for f_name, l_list in campos_labels.items():
+                                if not l_list:
+                                    continue
+                                if isinstance(l_list, str):
+                                    l_list = [l_list]
+                                if any(next_heading.lower() == l.lower() for l in l_list):
+                                    is_label = True
+                                    break
+                            # Verify against common section title headers too
+                            if next_heading.lower() in ['informações', 'media social', 'horários de missas', 'leia mais', 'clero']:
                                 is_label = True
-                                break
-                        # Verify against common section title headers too
-                        if next_heading.lower() in ['informações', 'media social', 'horários de missas', 'leia mais', 'clero']:
-                            is_label = True
-                            
-                        if not is_label:
-                            result[field] = next_heading
-                            
-    elif tipo_layout == "selector":
-        # Direct selector parsing
+                                
+                            if not is_label:
+                                result[field] = next_heading
+                                
+        # Direct selector parsing for selector layout or as a fallback for missing fields
         for field, selector in campos_seletores.items():
-            if selector:
-                element = soup.select_one(selector)
-                if element:
+            if selector and (tipo_layout == "selector" or result[field] is None):
+                if field == 'clero':
+                    elements = soup.select(selector)
+                    if elements:
+                        clero_members = []
+                        for el in elements:
+                            name_span = el.find('span', class_=lambda c: c and 'font-semibold' in c)
+                            role_span = el.find('span', class_=lambda c: c and ('text-secondary' in c or 'text-sm' in c))
+                            if name_span:
+                                name = name_span.text.strip()
+                                role = role_span.text.strip() if role_span else ""
+                                clero_members.append(f"{name} - {role}" if role else name)
+                            else:
+                                # For Campinas style: role is in the parent element, name is in anchor
+                                if el.name == 'a' and el.get('href') and '/clero/' in el.get('href') and el.parent and el.parent.name == 'h4':
+                                    txt = el.parent.text.strip()
+                                else:
+                                    txt = el.text.strip()
+                                lines = [l.strip() for l in txt.split('\n') if l.strip()]
+                                clero_members.extend(lines)
+                        seen = set()
+                        unique_members = []
+                        for m in clero_members:
+                            if m not in seen:
+                                seen.add(m)
+                                unique_members.append(m)
+                        result[field] = "\n".join(unique_members)
+                        continue
+                        
+                elements = soup.select(selector)
+                if elements:
+                    element = elements[-1]
+                    
+                    if field == 'email':
+                        cf_email = element.get('data-cfemail') or (element.find('a', class_='__cf_email__').get('data-cfemail') if element.find('a', class_='__cf_email__') else None)
+                        if not cf_email and 'data-cfemail' in str(element):
+                            import re
+                            m = re.search(r'data-cfemail="([0-9a-fA-F]+)"', str(element))
+                            if m:
+                                cf_email = m.group(1)
+                        if cf_email:
+                            try:
+                                enc = bytes.fromhex(cf_email)
+                                key = enc[0]
+                                dec = bytes([b ^ key for b in enc[1:]])
+                                decoded = dec.decode('utf-8')
+                                if decoded:
+                                    result[field] = decoded
+                                    continue
+                            except:
+                                pass
+                                
                     result[field] = element.text.strip()
                     
     # 2. Extract Mass Times
@@ -155,6 +393,11 @@ def scrape_single_parish(url, config):
     social_selector = details_cfg.get("social_selector")
     if social_selector:
         result['redes_sociais'] = extract_social_media(soup, social_selector)
+        
+    # 4. Fallback Extraction (Blind Regex) if everything failed
+    core_fields_empty = not any([result['endereco'], result['telefone'], result['email'], result['clero']])
+    if core_fields_empty:
+        result = _extract_blind_regex_fallback(soup, result)
         
     return result
 
@@ -202,6 +445,52 @@ def scrape_diocese_iterator(config, limit=None):
                     html_text = response.text
             else:
                 html_text = None
+        elif config.get("is_wpbakery_grid"):
+            response = fetch_page(url)
+            if not response:
+                html_text = None
+            else:
+                try:
+                    main_soup = BeautifulSoup(response.text, 'html.parser')
+                    grid_container = main_soup.find(class_='vc_grid-container')
+                    if grid_container:
+                        settings_str = grid_container.get('data-vc-grid-settings')
+                        nonce = grid_container.get('data-vc-public-nonce')
+                        post_id = grid_container.get('data-vc-post-id')
+                        ajax_endpoint = grid_container.get('data-vc-request') or "https://arquidiocesecampinas.com/wp-admin/admin-ajax.php"
+                        
+                        import json
+                        settings = json.loads(settings_str)
+                        settings["items_per_page"] = "-1"
+                        
+                        # Build flat payload
+                        flat_payload = {
+                            "action": "vc_get_vc_grid_data",
+                            "vc_action": "vc_get_vc_grid_data",
+                            "tag": "vc_basic_grid",
+                            "vc_post_id": post_id,
+                            "_vcnonce": nonce
+                        }
+                        for sk, sv in settings.items():
+                            if sk != "btn_data":
+                                flat_payload[f"data[{sk}]"] = str(sv)
+                                
+                        # Make POST request
+                        yield "Carregando listagem completa de paróquias via WPBakery AJAX..."
+                        ajax_resp = requests.post(ajax_endpoint, data=flat_payload, headers=HEADERS, timeout=30)
+                        if ajax_resp.status_code == 200:
+                            html_text = ajax_resp.text
+                            response = ajax_resp
+                        else:
+                            yield f"Erro na requisição WPBakery AJAX: Status {ajax_resp.status_code}"
+                            html_text = None
+                            response = ajax_resp
+                    else:
+                        yield "Não foi possível encontrar o container de grid do WPBakery. Usando HTML estático."
+                        html_text = response.text
+                except Exception as ex:
+                    yield f"Erro ao processar WPBakery Grid: {ex}. Usando HTML estático."
+                    html_text = response.text
         else:
             response = fetch_page(url)
             html_text = response.text if response else None
@@ -264,6 +553,22 @@ def scrape_diocese_iterator(config, limit=None):
                     continue
                 href = resolve_url(url_base, a_tag['href'])
                 name = a_tag.text.strip()
+                if not name and a_tag.get('title'):
+                    name = a_tag.get('title').strip()
+                if not name or name.lower() in ['ver mais', 'saiba mais', 'leia mais', 'detalhes', 'visualizar', 'link']:
+                    # Try to find a header or span inside the parent container that contains the name
+                    title_elem = item.find(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
+                    if not title_elem:
+                        # Find spans with large or bold text or containing class name like 'title' or 'name'
+                        title_elem = item.select_one('[class*="title"], [class*="name"], .wp-parresia-register-principal-color-text')
+                    if not title_elem:
+                        # Fallback to the first span or div
+                        title_elem = item.find('span')
+                    if title_elem:
+                        name = title_elem.text.strip()
+                if not name:
+                    name = "Paróquia desconhecida"
+                name = " ".join(name.split())
                 
             if href in seen_urls:
                 continue
@@ -306,7 +611,7 @@ def scrape_diocese_iterator(config, limit=None):
             break
             
         page += 1
-        time.sleep(0.5)
+        polite_sleep(base=1.0)
         
     total_found = len(parish_urls)
     yield f"Concluída Fase 1. Total de paróquias únicas encontradas: {total_found}\n"
@@ -324,15 +629,23 @@ def scrape_diocese_iterator(config, limit=None):
         details = scrape_single_parish(p['url'], config)
         if details:
             p.update(details)
-        results.append(p)
-        time.sleep(0.5)
+        
+        # Enriquecer o payload com dados estruturados
+        enriched_p = enricher.enrich_parish(p, nome_diocese, url_base)
+        results.append(enriched_p)
+        
+        # Delay educado com jitter: evita bloqueio e parece comportamento humano
+        polite_sleep()
         
     # Save output
     output_path = config_manager.get_diocese_data_path(nome_diocese)
     try:
-        import json
-        with open(output_path, "w", encoding="utf-8") as f:
-            json.dump(results, f, indent=2, ensure_ascii=False)
-        yield f"\nSUCESSO: Dados salvos em {output_path}"
+        merged = config_manager.merge_scraped_data(nome_diocese, results)
+        
+        # Gerar relatório qualitativo de validação
+        report = enricher.generate_enrichment_report(nome_diocese, merged)
+        yield report
+        
+        yield f"\nSUCESSO: Dados mesclados e salvos em {output_path}"
     except Exception as e:
         yield f"\nERRO ao salvar dados em {output_path}: {e}"
