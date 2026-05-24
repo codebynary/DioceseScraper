@@ -2,13 +2,16 @@ import re
 import os
 from core import enricher
 
-def parse_markdown_file(filepath):
+def parse_markdown_file(filepath, custom_diocese_name=None):
     filename = os.path.basename(filepath)
     # Extrai o nome da diocese limpando os prefixos padrão
-    diocese_name = filename.replace("Paroquias da ", "").replace("Paroquias ", "") \
-                           .replace("Paróquias da ", "").replace("Paróquias e Áreas Missionárias ", "") \
-                           .replace("Paróquias ", "").replace("Clero da ", "") \
-                           .replace(".md", "").replace(" - sem endereço", "").strip()
+    if custom_diocese_name and custom_diocese_name.strip():
+        diocese_name = custom_diocese_name.strip()
+    else:
+        diocese_name = filename.replace("Paroquias da ", "").replace("Paroquias ", "") \
+                               .replace("Paróquias da ", "").replace("Paróquias e Áreas Missionárias ", "") \
+                               .replace("Paróquias ", "").replace("Clero da ", "") \
+                               .replace(".md", "").replace(" - sem endereço", "").strip()
     
     with open(filepath, 'r', encoding='utf-8') as f:
         lines = f.readlines()

@@ -1,0 +1,4499 @@
+[
+  {
+    "nome": "Paróquia Senhora Sant’Ana - Catedral Metropolitana",
+    "tipo": "Catedral",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:45:49.779562",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "CEP: 44001-970",
+      "logradouro": "CEP",
+      "numero": "",
+      "complemento": "",
+      "bairro": "Centro",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44001-970",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3623-0055",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        },
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3223-7366",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquia@catedraldesantana.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania I – Senhora Sant’Ana",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania I – Senhora Sant’Ana"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Paulo Tarso Bispo de SouzaPç Monsenhor Renato Galvão, s/n Centro | Feira de Santana BA | www.catedraldesantana.com.br | ",
+    "raw": {
+      "nome": "Paróquia Senhora Sant’Ana - Catedral Metropolitana",
+      "endereco": "CEP: 44001-970",
+      "telefone": "(75) 3623-0055 – Catedral | (75) 3223-7366 – Secretaria",
+      "email": "paroquia@catedraldesantana.com.br",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania I – Senhora Sant’Ana",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "CEP: 44001-970",
+    "telefone": "(75) 3623-0055",
+    "email": "paroquia@catedraldesantana.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia Santuário Senhor dos Passos",
+    "tipo": "Santuário",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:45:56.029899",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Senhor dos Passos, s/n Centro | CEP: 44010-230",
+      "logradouro": "Av. Senhor dos Passos",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Centro | CEP",
+      "uf": "",
+      "cep": "44010-230",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3623-1347",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "pascom@paroquiasenhordospassos.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania I – Senhora Sant’Ana",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania I – Senhora Sant’Ana"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Paulo Tarso Bispo de SouzaFeira de Santana BA | www.santuariosenhordospassos.com.br | ",
+    "raw": {
+      "nome": "Paróquia Santuário Senhor dos Passos",
+      "endereco": "Av. Senhor dos Passos, s/n Centro | CEP: 44010-230",
+      "telefone": "(75) 3623-1347",
+      "email": "pascom@paroquiasenhordospassos.com.br",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania I – Senhora Sant’Ana",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Av. Senhor dos Passos, s/n Centro | CEP: 44010-230",
+    "telefone": "(75) 3623-1347",
+    "email": "pascom@paroquiasenhordospassos.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia Santuário Santo Antônio",
+    "tipo": "Santuário",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:46:02.087964",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Presidente Dutra, s/n Capuchinhos | CEP: 44050-000",
+      "logradouro": "Av. Presidente Dutra",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Capuchinhos | CEP",
+      "uf": "",
+      "cep": "44050-000",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "celular",
+          "valor": "(75) 99703-6702",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "psantoantonio@ig.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania I – Senhora Sant’Ana",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania I – Senhora Sant’Ana"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Paulo Tarso Bispo de SouzaFeira de Santana BA | ",
+    "raw": {
+      "nome": "Paróquia Santuário Santo Antônio",
+      "endereco": "Av. Presidente Dutra, s/n Capuchinhos | CEP: 44050-000",
+      "telefone": "(75) 99703-6702",
+      "email": "psantoantonio@ig.com.br",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania I – Senhora Sant’Ana",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Av. Presidente Dutra, s/n Capuchinhos | CEP: 44050-000",
+    "telefone": "(75) 99703-6702",
+    "email": "psantoantonio@ig.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia Cristo Redentor",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:46:08.171466",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Lopes Rodrigues, 10 – Bairro Brasília | CEP 44062-360",
+      "logradouro": "Rua Lopes Rodrigues",
+      "numero": "10",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Bairro Brasília | CEP",
+      "uf": "",
+      "cep": "44062-360",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3223-4423",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "pcredentor@oi.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania I – Senhora Sant’Ana",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania I – Senhora Sant’Ana"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Paulo Tarso Bispo de SouzaFeira de Santana BA | ",
+    "raw": {
+      "nome": "Paróquia Cristo Redentor",
+      "endereco": "Rua Lopes Rodrigues, 10 – Bairro Brasília | CEP 44062-360",
+      "telefone": "(75) 3223-4423",
+      "email": "pcredentor@oi.com.br",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania I – Senhora Sant’Ana",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Rua Lopes Rodrigues, 10 – Bairro Brasília | CEP 44062-360",
+    "telefone": "(75) 3223-4423",
+    "email": "pcredentor@oi.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora de Fátima",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:46:14.256899",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. João Durval Carneiro, s/n – Caseb | CEP 44045-000",
+      "logradouro": "Av. João Durval Carneiro",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Caseb | CEP",
+      "uf": "",
+      "cep": "44045-000",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3623-1107",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiacaseb@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania I – Senhora Sant’Ana",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania I – Senhora Sant’Ana"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Paulo Tarso Bispo de SouzaFeira de Santana BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora de Fátima",
+      "endereco": "Av. João Durval Carneiro, s/n – Caseb | CEP 44045-000",
+      "telefone": "(75) 3623-1107",
+      "email": "paroquiacaseb@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania I – Senhora Sant’Ana",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Av. João Durval Carneiro, s/n – Caseb | CEP 44045-000",
+    "telefone": "(75) 3623-1107",
+    "email": "paroquiacaseb@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora do Carmo",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:46:20.334207",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Vasco Filho, s/n – Bairro Serraria Brasil | CEP 40301-110",
+      "logradouro": "Rua Vasco Filho",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "Barbalho",
+      "cidade": "– Bairro Serraria Brasil | CEP",
+      "uf": "BA",
+      "cep": "40301-110",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [
+        {
+          "valor": "sec.paroquiadocarmo@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania I – Senhora Sant’Ana",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania I – Senhora Sant’Ana"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Paulo Tarso Bispo de SouzaFeira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora do Carmo",
+      "endereco": "Rua Vasco Filho, s/n – Bairro Serraria Brasil | CEP 40301-110",
+      "telefone": null,
+      "email": "sec.paroquiadocarmo@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania I – Senhora Sant’Ana",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Rua Vasco Filho, s/n – Bairro Serraria Brasil | CEP 40301-110",
+    "telefone": "",
+    "email": "sec.paroquiadocarmo@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia São João XXIII",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:46:26.413609",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Artêmia Pires Freitas, 10.570 – Bairro SIM | CEP 44085-370",
+      "logradouro": "Rua Artêmia Pires Freitas",
+      "numero": "10",
+      "complemento": "",
+      "bairro": "SIM",
+      "cidade": "570 – Bairro SIM | CEP",
+      "uf": "BA",
+      "cep": "44085-370",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "celular",
+          "valor": "(75) 99906 1788",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania I – Senhora Sant’Ana",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania I – Senhora Sant’Ana"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Paulo Tarso Bispo de SouzaFeira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia São João XXIII",
+      "endereco": "Rua Artêmia Pires Freitas, 10.570 – Bairro SIM | CEP 44085-370",
+      "telefone": "(75) 99906 1788",
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania I – Senhora Sant’Ana",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Rua Artêmia Pires Freitas, 10.570 – Bairro SIM | CEP 44085-370",
+    "telefone": "(75) 99906 1788",
+    "email": "",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia Senhor do Bonfim",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:46:32.465882",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Perolina Angélica, 294, | CEP 44022-032",
+      "logradouro": "Rua Perolina Angélica",
+      "numero": "294",
+      "complemento": "",
+      "bairro": "Cruzeiro",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44022-032",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3221-4255",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "psbonfimfsa@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania II – Nossa Senhora Aparecida",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania II – Nossa Senhora Aparecida"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Pedro Moraes Brito JúniorJardim Cruzeiro | Feira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia Senhor do Bonfim",
+      "endereco": "Rua Perolina Angélica, 294, | CEP 44022-032",
+      "telefone": "(75) 3221-4255",
+      "email": "psbonfimfsa@hotmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania II – Nossa Senhora Aparecida",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Rua Perolina Angélica, 294, | CEP 44022-032",
+    "telefone": "(75) 3221-4255",
+    "email": "psbonfimfsa@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania II – Nossa Senhora Aparecida"
+  },
+  {
+    "nome": "Nossa Senhora do Perpétuo Socorro",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:46:38.479272",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Macário Barreto, 35 – Tomba | CEP 44063-260",
+      "logradouro": "Praça Macário Barreto",
+      "numero": "35",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Tomba | CEP",
+      "uf": "",
+      "cep": "44063-260",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3622-2184",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiadotomba@ig.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania II – Nossa Senhora Aparecida",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania II – Nossa Senhora Aparecida"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Pedro Moraes Brito JúniorFeira de Santana – BA | ",
+    "raw": {
+      "nome": "Nossa Senhora do Perpétuo Socorro",
+      "endereco": "Praça Macário Barreto, 35 – Tomba | CEP 44063-260",
+      "telefone": "(75) 3622-2184",
+      "email": "paroquiadotomba@ig.com.br",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania II – Nossa Senhora Aparecida",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça Macário Barreto, 35 – Tomba | CEP 44063-260",
+    "telefone": "(75) 3622-2184",
+    "email": "paroquiadotomba@ig.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania II – Nossa Senhora Aparecida"
+  },
+  {
+    "nome": "Paróquia Santa Clara de Assis",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:46:44.529978",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Amado Bahia, 2015 – Panorama | CEP 44052- 360",
+      "logradouro": "Av. Amado Bahia",
+      "numero": "2015",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Panorama | CEP 44052- 360",
+      "uf": "",
+      "cep": "",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3616-4126",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "psca.fsa@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania II – Nossa Senhora Aparecida",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania II – Nossa Senhora Aparecida"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Pedro Moraes Brito JúniorFeira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia Santa Clara de Assis",
+      "endereco": "Av. Amado Bahia, 2015 – Panorama | CEP 44052- 360",
+      "telefone": "(75) 3616-4126",
+      "email": "psca.fsa@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania II – Nossa Senhora Aparecida",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Av. Amado Bahia, 2015 – Panorama | CEP 44052- 360",
+    "telefone": "(75) 3616-4126",
+    "email": "psca.fsa@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania II – Nossa Senhora Aparecida"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora Aparecida",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:46:44.530074",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua A, s/ n – Conjunto Feira IX | CEP 44017-680",
+      "logradouro": "Rua A",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "s/ n – Conjunto Feira IX | CEP",
+      "uf": "",
+      "cep": "44017-680",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3623-5233",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        },
+        {
+          "tipo": "celular",
+          "valor": "(75) 97400-2727",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "senhoraaparecida84@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania II – Nossa Senhora Aparecida",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania II – Nossa Senhora Aparecida"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Pedro Moraes Brito JúniorFeira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora Aparecida",
+      "endereco": "Rua A, s/ n – Conjunto Feira IX | CEP 44017-680",
+      "telefone": "(75) 3623-5233 | (75) 97400-2727",
+      "email": "senhoraaparecida84@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania II – Nossa Senhora Aparecida",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Rua A, s/ n – Conjunto Feira IX | CEP 44017-680",
+    "telefone": "(75) 3623-5233",
+    "email": "senhoraaparecida84@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania II – Nossa Senhora Aparecida"
+  },
+  {
+    "nome": "Paróquia Santíssima Trindade",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:46:50.624777",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua A, 76 D – Conjunto Feira X | CEP 44085-000",
+      "logradouro": "Rua A",
+      "numero": "76",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "D – Conjunto Feira X | CEP",
+      "uf": "",
+      "cep": "44085-000",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3623-6638",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiasstrindade10@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania II – Nossa Senhora Aparecida",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania II – Nossa Senhora Aparecida"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Pedro Moraes Brito JúniorFeira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia Santíssima Trindade",
+      "endereco": "Rua A, 76 D – Conjunto Feira X | CEP 44085-000",
+      "telefone": "(75) 3623-6638",
+      "email": "paroquiasstrindade10@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania II – Nossa Senhora Aparecida",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Rua A, 76 D – Conjunto Feira X | CEP 44085-000",
+    "telefone": "(75) 3623-6638",
+    "email": "paroquiasstrindade10@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania II – Nossa Senhora Aparecida"
+  },
+  {
+    "nome": "Paróquia Imaculada Conceição",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:46:56.650334",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Calamar, 531 – Conceição I | CEP 44040-160",
+      "logradouro": "Rua Calamar",
+      "numero": "531",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Conceição I | CEP",
+      "uf": "",
+      "cep": "44040-160",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3487-7105",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "imaculadaconceicaofsa@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania III – São Pedro e São Paulo",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania III – São Pedro e São Paulo"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Márcio Brito da SilvaFeira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia Imaculada Conceição",
+      "endereco": "Rua Calamar, 531 – Conceição I | CEP 44040-160",
+      "telefone": "(75) 3487-7105",
+      "email": "imaculadaconceicaofsa@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania III – São Pedro e São Paulo",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Rua Calamar, 531 – Conceição I | CEP 44040-160",
+    "telefone": "(75) 3487-7105",
+    "email": "imaculadaconceicaofsa@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia São José Operário",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:47:02.711415",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Duque de Caxias, s/n – Campo Limpo | CEP 44023-110",
+      "logradouro": "Praça Duque de Caxias",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Campo Limpo | CEP",
+      "uf": "",
+      "cep": "44023-110",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 8844-5456",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "psjoperario@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania III – São Pedro e São Paulo",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania III – São Pedro e São Paulo"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Márcio Brito da SilvaFeira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia São José Operário",
+      "endereco": "Praça Duque de Caxias, s/n – Campo Limpo | CEP 44023-110",
+      "telefone": "(75) 8844-5456",
+      "email": "psjoperario@hotmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania III – São Pedro e São Paulo",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça Duque de Caxias, s/n – Campo Limpo | CEP 44023-110",
+    "telefone": "(75) 8844-5456",
+    "email": "psjoperario@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora das Graças",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:47:08.833400",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Pelé, s/n – Cidade Nova | CEP 44032-539",
+      "logradouro": "Rua Pelé",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Cidade Nova | CEP",
+      "uf": "",
+      "cep": "44032-539",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3224-1436",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "p.nsg@ig.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania III – São Pedro e São Paulo",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania III – São Pedro e São Paulo"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Márcio Brito da SilvaFeira de Santana – BA | www.senhoradasgracas.com.br | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora das Graças",
+      "endereco": "Rua Pelé, s/n – Cidade Nova | CEP 44032-539",
+      "telefone": "(75) 3224-1436",
+      "email": "p.nsg@ig.com.br",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania III – São Pedro e São Paulo",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Rua Pelé, s/n – Cidade Nova | CEP 44032-539",
+    "telefone": "(75) 3224-1436",
+    "email": "p.nsg@ig.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia Santa Dulce dos Pobres",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:47:14.883305",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Joana Pereira, 60 – Pampalona | CEP 44031-095",
+      "logradouro": "Rua Joana Pereira",
+      "numero": "60",
+      "complemento": "",
+      "bairro": "Pampalona",
+      "cidade": "– Pampalona | CEP",
+      "uf": "BA",
+      "cep": "44031-095",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania III – São Pedro e São Paulo",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania III – São Pedro e São Paulo"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Márcio Brito da SilvaFeira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia Santa Dulce dos Pobres",
+      "endereco": "Rua Joana Pereira, 60 – Pampalona | CEP 44031-095",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania III – São Pedro e São Paulo",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Rua Joana Pereira, 60 – Pampalona | CEP 44031-095",
+    "telefone": "",
+    "email": "",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora de Guadalupe",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:47:20.966206",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "",
+      "logradouro": "",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [
+        {
+          "valor": "paroquiansguadalupefsa@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania III – São Pedro e São Paulo",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania III – São Pedro e São Paulo"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Márcio Brito da SilvaDistrito de Jaíba | Feira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora de Guadalupe",
+      "endereco": null,
+      "telefone": null,
+      "email": "paroquiansguadalupefsa@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania III – São Pedro e São Paulo",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "",
+    "telefone": "",
+    "email": "paroquiansguadalupefsa@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia São Francisco de Assis",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:47:20.966236",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Cavalo de Aço, 30 – Bairro Gabriela | CEP 44022-230",
+      "logradouro": "Rua Cavalo de Aço",
+      "numero": "30",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Bairro Gabriela | CEP",
+      "uf": "",
+      "cep": "44022-230",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "celular",
+          "valor": "(75) 98341-6050",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "psfassis@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania III – São Pedro e São Paulo",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania III – São Pedro e São Paulo"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Márcio Brito da SilvaFeira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia São Francisco de Assis",
+      "endereco": "Rua Cavalo de Aço, 30 – Bairro Gabriela | CEP 44022-230",
+      "telefone": "(75) 98341-6050",
+      "email": "psfassis@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania III – São Pedro e São Paulo",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Rua Cavalo de Aço, 30 – Bairro Gabriela | CEP 44022-230",
+    "telefone": "(75) 98341-6050",
+    "email": "psfassis@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia São João Paulo II",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:47:27.028134",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua O, s/n – conj. João Paulo II – Mangabeira | CEP 44056-568",
+      "logradouro": "Rua O",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "Mangabeira",
+      "cidade": "– conj. João Paulo II – Mangabeira | CEP",
+      "uf": "BA",
+      "cep": "44056-568",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3021-3955",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "saojoaopauloiiparoquia@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania III – São Pedro e São Paulo",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania III – São Pedro e São Paulo"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Márcio Brito da SilvaFeira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia São João Paulo II",
+      "endereco": "Rua O, s/n – conj. João Paulo II – Mangabeira | CEP 44056-568",
+      "telefone": "(75) 3021-3955",
+      "email": "saojoaopauloiiparoquia@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania III – São Pedro e São Paulo",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Rua O, s/n – conj. João Paulo II – Mangabeira | CEP 44056-568",
+    "telefone": "(75) 3021-3955",
+    "email": "saojoaopauloiiparoquia@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia Todos os Santos",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:47:33.116337",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Bahia, 185 – Queimadinha | CEP 44031-440",
+      "logradouro": "Av. Bahia",
+      "numero": "185",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Queimadinha | CEP",
+      "uf": "",
+      "cep": "44031-440",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3021-3383",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiatos@bol.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania III – São Pedro e São Paulo",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania III – São Pedro e São Paulo"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Márcio Brito da SilvaFeira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia Todos os Santos",
+      "endereco": "Av. Bahia, 185 – Queimadinha | CEP 44031-440",
+      "telefone": "(75) 3021-3383",
+      "email": "paroquiatos@bol.com.br",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania III – São Pedro e São Paulo",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Av. Bahia, 185 – Queimadinha | CEP 44031-440",
+    "telefone": "(75) 3021-3383",
+    "email": "paroquiatos@bol.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora do Resgate das Umburanas",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:47:39.365785",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n | CEP 44180-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44180-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75)8712-0500",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquia.nsu.ac22@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania IV – São Mateus",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania IV – São Mateus"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Reinaldo Gomes dos SantosAntônio Cardoso – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora do Resgate das Umburanas",
+      "endereco": "Praça da Matriz, s/n | CEP 44180-000",
+      "telefone": "(75)8712-0500",
+      "email": "paroquia.nsu.ac22@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania IV – São Mateus",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça da Matriz, s/n | CEP 44180-000",
+    "telefone": "(75)8712-0500",
+    "email": "paroquia.nsu.ac22@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora da Conceição",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:47:45.378449",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Artur Vieira, s/n | CEP 44670-000",
+      "logradouro": "Praça Artur Vieira",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "| CEP",
+      "uf": "",
+      "cep": "44670-000",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3239-2123",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paanguera@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania IV – São Mateus",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania IV – São Mateus"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Reinaldo Gomes dos SantosAnguera – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora da Conceição",
+      "endereco": "Praça Artur Vieira, s/n | CEP 44670-000",
+      "telefone": "(75) 3239-2123",
+      "email": "paanguera@hotmail.com;",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania IV – São Mateus",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça Artur Vieira, s/n | CEP 44670-000",
+    "telefone": "(75) 3239-2123",
+    "email": "paanguera@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora de Lourdes",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:47:51.397033",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça 19 de Julho, s/n – Centro | CEP 44680-000",
+      "logradouro": "Praça 19 de Julho",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Centro | CEP",
+      "uf": "BA",
+      "cep": "44680-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania IV – São Mateus",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania IV – São Mateus"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Reinaldo Gomes dos SantosIpecaetá – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora de Lourdes",
+      "endereco": "Praça 19 de Julho, s/n – Centro | CEP 44680-000",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania IV – São Mateus",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça 19 de Julho, s/n – Centro | CEP 44680-000",
+    "telefone": "",
+    "email": "",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia Santo Estevão",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:47:57.394532",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n – Centro | CEP 44190-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Centro | CEP",
+      "uf": "BA",
+      "cep": "44190-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3245-2880",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquia_sto_estevao@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania IV – São Mateus",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania IV – São Mateus"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Reinaldo Gomes dos SantosSanto Estevão – BA | ",
+    "raw": {
+      "nome": "Paróquia Santo Estevão",
+      "endereco": "Praça da Matriz, s/n – Centro | CEP 44190-000",
+      "telefone": "(75) 3245-2880",
+      "email": "paroquia_sto_estevao@yahoo.com.br",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania IV – São Mateus",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça da Matriz, s/n – Centro | CEP 44190-000",
+    "telefone": "(75) 3245-2880",
+    "email": "paroquia_sto_estevao@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora do Bom Conselho",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:48:03.425337",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, 12 | CEP 44660-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "12",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44660-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3609-1470",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiaserrapreta@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania IV – São Mateus",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania IV – São Mateus"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Reinaldo Gomes dos SantosSerra Preta – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora do Bom Conselho",
+      "endereco": "Praça da Matriz, 12 | CEP 44660-000",
+      "telefone": "(75) 3609-1470",
+      "email": "paroquiaserrapreta@hotmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania IV – São Mateus",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça da Matriz, 12 | CEP 44660-000",
+    "telefone": "(75) 3609-1470",
+    "email": "paroquiaserrapreta@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia Senhor do Bonfim",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:48:09.435244",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Cupertino Lacerda, s/n | CEP 44120-000",
+      "logradouro": "Praça Cupertino Lacerda",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "Bonfim da Feira",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44120-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3021-3955",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "contato@paroquiasenhordobonfim.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania IV – São Mateus",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania IV – São Mateus"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Reinaldo Gomes dos SantosBonfim de Feira | Feira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia Senhor do Bonfim",
+      "endereco": "Praça Cupertino Lacerda, s/n | CEP 44120-000",
+      "telefone": "(75) 3021-3955",
+      "email": "contato@paroquiasenhordobonfim.com.br",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania IV – São Mateus",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça Cupertino Lacerda, s/n | CEP 44120-000",
+    "telefone": "(75) 3021-3955",
+    "email": "contato@paroquiasenhordobonfim.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora dos Remédios",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:48:15.451343",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n – Gameleira | CEP 44130-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "Governador João Durval Carneiro",
+      "cidade": "– Gameleira | CEP",
+      "uf": "BA",
+      "cep": "44130-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3021-3383",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiansr1610@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania IV – São Mateus",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania IV – São Mateus"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Reinaldo Gomes dos SantosDistrito de Ipuaçu | Feira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora dos Remédios",
+      "endereco": "Praça da Matriz, s/n – Gameleira | CEP 44130-000",
+      "telefone": "(75) 3021-3383",
+      "email": "paroquiansr1610@hotmail.com;",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania IV – São Mateus",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça da Matriz, s/n – Gameleira | CEP 44130-000",
+    "telefone": "(75) 3021-3383",
+    "email": "paroquiansr1610@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia São Gonçalo do Amarante",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:48:21.512819",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "CEP 44330-000",
+      "logradouro": "CEP",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "São Gonçalo dos Campos",
+      "uf": "BA",
+      "cep": "44330-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3246-1440",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "saogoncalo1696@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Praça Padre Bráulio Seixas, 09 – Centro",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "Praça Padre Bráulio Seixas, 09 – Centro"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania V – São Marcos",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania V – São Marcos"
+    },
+    "observacoes": "Vigário Forâneo: Pe. José Ribeiro OliveiraSão Gonçalo dos Campos – BA | ",
+    "raw": {
+      "nome": "Paróquia São Gonçalo do Amarante",
+      "endereco": "CEP 44330-000",
+      "telefone": "(75) 3246-1440",
+      "email": "saogoncalo1696@hotmail.com",
+      "clero": "Praça Padre Bráulio Seixas, 09 – Centro",
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania V – São Marcos",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "CEP 44330-000",
+    "telefone": "(75) 3246-1440",
+    "email": "saogoncalo1696@hotmail.com",
+    "clero_original": "Praça Padre Bráulio Seixas, 09 – Centro",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania V – São Marcos"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora da Conceição",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:48:27.514813",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Bandeira, s/n | CEP 44320-000",
+      "logradouro": "Praça da Bandeira",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44320-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3244-2155",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "pnsconceicaodafeira@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania V – São Marcos",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania V – São Marcos"
+    },
+    "observacoes": "Vigário Forâneo: Pe. José Ribeiro OliveiraConceição da Feira – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora da Conceição",
+      "endereco": "Praça da Bandeira, s/n | CEP 44320-000",
+      "telefone": "(75) 3244-2155",
+      "email": "pnsconceicaodafeira@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania V – São Marcos",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça da Bandeira, s/n | CEP 44320-000",
+    "telefone": "(75) 3244-2155",
+    "email": "pnsconceicaodafeira@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania V – São Marcos"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora da Lapa",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:48:33.544520",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n | CEP 44230-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44230-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3242-2103",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquianossasenhoradalapa@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania V – São Marcos",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania V – São Marcos"
+    },
+    "observacoes": "Vigário Forâneo: Pe. José Ribeiro OliveiraAmélia Rodrigues – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora da Lapa",
+      "endereco": "Praça da Matriz, s/n | CEP 44230-000",
+      "telefone": "(75) 3242-2103",
+      "email": "paroquianossasenhoradalapa@hotmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania V – São Marcos",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça da Matriz, s/n | CEP 44230-000",
+    "telefone": "(75) 3242-2103",
+    "email": "paroquianossasenhoradalapa@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania V – São Marcos"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora da Conceição",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:48:39.581502",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Manuel Teixeira de Freitas, s/n | CEP 44245-000",
+      "logradouro": "Praça Manuel Teixeira de Freitas",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44245-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3243-2002",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "conceicaodojacuipe@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania V – São Marcos",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania V – São Marcos"
+    },
+    "observacoes": "Vigário Forâneo: Pe. José Ribeiro OliveiraConceição do Jacuípe – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora da Conceição",
+      "endereco": "Praça Manuel Teixeira de Freitas, s/n | CEP 44245-000",
+      "telefone": "(75) 3243-2002",
+      "email": "conceicaodojacuipe@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania V – São Marcos",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça Manuel Teixeira de Freitas, s/n | CEP 44245-000",
+    "telefone": "(75) 3243-2002",
+    "email": "conceicaodojacuipe@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania V – São Marcos"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora dos Humildes",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:48:45.584228",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n | CEP 44135-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "Humildes",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44135-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3683-1501",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "phumildes@yahoo.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania V – São Marcos",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania V – São Marcos"
+    },
+    "observacoes": "Vigário Forâneo: Pe. José Ribeiro OliveiraDistrito de Humildes | Feira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora dos Humildes",
+      "endereco": "Praça da Matriz, s/n | CEP 44135-000",
+      "telefone": "(75) 3683-1501",
+      "email": "phumildes@yahoo.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania V – São Marcos",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça da Matriz, s/n | CEP 44135-000",
+    "telefone": "(75) 3683-1501",
+    "email": "phumildes@yahoo.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania V – São Marcos"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora da Purificação dos Campos",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:48:51.593863",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça. Pedro Nogueira, s/n – Centro | CEP 44255-000",
+      "logradouro": "Praça. Pedro Nogueira",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Centro | CEP",
+      "uf": "BA",
+      "cep": "44255-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "celular",
+          "valor": "(75) 98216-5542",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "pnsdpi@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VI – São Lucas",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VI – São Lucas"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Edson Porcino de AlmeidaIrará – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora da Purificação dos Campos",
+      "endereco": "Praça. Pedro Nogueira, s/n – Centro | CEP 44255-000",
+      "telefone": "(75) 98216-5542",
+      "email": "pnsdpi@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VI – São Lucas",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça. Pedro Nogueira, s/n – Centro | CEP 44255-000",
+    "telefone": "(75) 98216-5542",
+    "email": "pnsdpi@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VI – São Lucas"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora da Imaculada Conceição",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:48:57.588529",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Cônego Estrela s/n | CEP 48150-000",
+      "logradouro": "Praça Cônego Estrela s/n | CEP",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Ouriçangas",
+      "uf": "BA",
+      "cep": "48150-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3447-2134",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "nossaigreja2011@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VI – São Lucas",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VI – São Lucas"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Edson Porcino de AlmeidaOuriçangas – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora da Imaculada Conceição",
+      "endereco": "Praça Cônego Estrela s/n | CEP 48150-000",
+      "telefone": "(75) 3447-2134",
+      "email": "nossaigreja2011@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VI – São Lucas",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça Cônego Estrela s/n | CEP 48150-000",
+    "telefone": "(75) 3447-2134",
+    "email": "nossaigreja2011@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VI – São Lucas"
+  },
+  {
+    "nome": "Paróquia São João Batista",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:49:05.733196",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n – Centro | CEP 48170-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Centro | CEP",
+      "uf": "BA",
+      "cep": "48170-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "celular",
+          "valor": "(75) 98371-4057",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiasaojoaobatista17@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VI – São Lucas",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VI – São Lucas"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Edson Porcino de AlmeidaÁgua Fria – BA | ",
+    "raw": {
+      "nome": "Paróquia São João Batista",
+      "endereco": "Praça da Matriz, s/n – Centro | CEP 48170-000",
+      "telefone": "(75) 98371-4057",
+      "email": "paroquiasaojoaobatista17@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VI – São Lucas",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça da Matriz, s/n – Centro | CEP 48170-000",
+    "telefone": "(75) 98371-4057",
+    "email": "paroquiasaojoaobatista17@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VI – São Lucas"
+  },
+  {
+    "nome": "Paróquia Santíssimo Coração de Maria",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:49:12.767921",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Dr. Araújo Pinho, 406 | CEP 44250-000",
+      "logradouro": "Praça Dr. Araújo Pinho",
+      "numero": "406",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44250-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3248-2121",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiasagradocoracaodemaria@outlook.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VI – São Lucas",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VI – São Lucas"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Edson Porcino de AlmeidaCoração de Maria – BA | ",
+    "raw": {
+      "nome": "Paróquia Santíssimo Coração de Maria",
+      "endereco": "Praça Dr. Araújo Pinho, 406 | CEP 44250-000",
+      "telefone": "(75) 3248-2121",
+      "email": "paroquiasagradocoracaodemaria@outlook.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VI – São Lucas",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça Dr. Araújo Pinho, 406 | CEP 44250-000",
+    "telefone": "(75) 3248-2121",
+    "email": "paroquiasagradocoracaodemaria@outlook.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VI – São Lucas"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora das Dores",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:49:18.783837",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "CEP 44250-000",
+      "logradouro": "CEP",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Coração de Maria",
+      "uf": "BA",
+      "cep": "44250-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "celular",
+          "valor": "(75) 99704-1480",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiansdretiro@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Praça Padre Caetano Aragão, s/n",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "Praça Padre Caetano Aragão, s/n"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VI – São Lucas",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VI – São Lucas"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Edson Porcino de AlmeidaDistrito de Retiro | Coração de Maria – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora das Dores",
+      "endereco": "CEP 44250-000",
+      "telefone": "(75) 99704-1480",
+      "email": "paroquiansdretiro@gmail.com",
+      "clero": "Praça Padre Caetano Aragão, s/n",
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VI – São Lucas",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "CEP 44250-000",
+    "telefone": "(75) 99704-1480",
+    "email": "paroquiansdretiro@gmail.com",
+    "clero_original": "Praça Padre Caetano Aragão, s/n",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VI – São Lucas"
+  },
+  {
+    "nome": "Paróquia Sagrado Coração de Jesus",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:49:24.806104",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Álvaro Ribeiro Lima, 110 – Centro | CEP 48140-000",
+      "logradouro": "Rua Álvaro Ribeiro Lima",
+      "numero": "110",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Centro | CEP",
+      "uf": "BA",
+      "cep": "48140-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [
+        {
+          "valor": "sec.daparoquia2014@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VI – São Lucas",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VI – São Lucas"
+    },
+    "observacoes": "Vigário Forâneo: Pe. Edson Porcino de AlmeidaPedrão – BA | ",
+    "raw": {
+      "nome": "Paróquia Sagrado Coração de Jesus",
+      "endereco": "Rua Álvaro Ribeiro Lima, 110 – Centro | CEP 48140-000",
+      "telefone": null,
+      "email": "sec.daparoquia2014@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VI – São Lucas",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Rua Álvaro Ribeiro Lima, 110 – Centro | CEP 48140-000",
+    "telefone": "",
+    "email": "sec.daparoquia2014@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VI – São Lucas"
+  },
+  {
+    "nome": "Paróquia Senhor do Bonfim",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:49:30.842083",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Senhor do Bonfim, S/N | CEP 48710-000",
+      "logradouro": "Praça Senhor do Bonfim",
+      "numero": "S/N",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "48710-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "celular",
+          "valor": "(75) 98363-3440",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiabonfim.candeal@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar FernandesCandeal – BA | ",
+    "raw": {
+      "nome": "Paróquia Senhor do Bonfim",
+      "endereco": "Praça Senhor do Bonfim, S/N | CEP 48710-000",
+      "telefone": "(75) 98363-3440",
+      "email": "paroquiabonfim.candeal@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça Senhor do Bonfim, S/N | CEP 48710-000",
+    "telefone": "(75) 98363-3440",
+    "email": "paroquiabonfim.candeal@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia Santa",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:49:36.857291",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n – Centro | CEP 44150-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Centro | CEP",
+      "uf": "BA",
+      "cep": "44150-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3236-1207",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiasantabarbara2017@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar FernandesBárbara | Santa Bárbara – BA | ",
+    "raw": {
+      "nome": "Paróquia Santa",
+      "endereco": "Praça da Matriz, s/n – Centro | CEP 44150-000",
+      "telefone": "(75) 3236-1207",
+      "email": "paroquiasantabarbara2017@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça da Matriz, s/n – Centro | CEP 44150-000",
+    "telefone": "(75) 3236-1207",
+    "email": "paroquiasantabarbara2017@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia Senhor do Bomfim",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:49:42.886056",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça João Nery, 14 – Centro | CEP 44260-000",
+      "logradouro": "Praça João Nery",
+      "numero": "14",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "– Centro | CEP",
+      "uf": "BA",
+      "cep": "44260-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [
+        {
+          "valor": "paroquiasrdobonfimsantanopolis@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar FernandesSantanópolis - BA | ",
+    "raw": {
+      "nome": "Paróquia Senhor do Bomfim",
+      "endereco": "Praça João Nery, 14 – Centro | CEP 44260-000",
+      "telefone": null,
+      "email": "paroquiasrdobonfimsantanopolis@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça João Nery, 14 – Centro | CEP 44260-000",
+    "telefone": "",
+    "email": "paroquiasrdobonfimsantanopolis@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia Santo Antônio",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:49:48.900907",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Quatorze de Agosto, 08 | CEP 44160-000",
+      "logradouro": "Rua Quatorze de Agosto",
+      "numero": "08",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44160-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3249-2198",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiasantoantonio.tanquinho@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar FernandesTanquinho – BA | ",
+    "raw": {
+      "nome": "Paróquia Santo Antônio",
+      "endereco": "Rua Quatorze de Agosto, 08 | CEP 44160-000",
+      "telefone": "(75) 3249-2198",
+      "email": "paroquiasantoantonio.tanquinho@hotmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Rua Quatorze de Agosto, 08 | CEP 44160-000",
+    "telefone": "(75) 3249-2198",
+    "email": "paroquiasantoantonio.tanquinho@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia São José das Itapororocas",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:49:54.889258",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça São José, s/n | CEP 44110-000",
+      "logradouro": "Praça São José",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "Maria Quitéria",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44110-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(75) 3204-7084",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "itapororocas@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar FernandesMaria Quitéria | Feira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia São José das Itapororocas",
+      "endereco": "Praça São José, s/n | CEP 44110-000",
+      "telefone": "(75) 3204-7084",
+      "email": "itapororocas@hotmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça São José, s/n | CEP 44110-000",
+    "telefone": "(75) 3204-7084",
+    "email": "itapororocas@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora do Carmo",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:50:00.941924",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Largo da Matriz, s/n | CEP 44125-000",
+      "logradouro": "Largo da Matriz",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "Jaguara",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44125-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [
+        {
+          "valor": "pnscjaguara@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar FernandesDistrito de Jaguara | Feira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora do Carmo",
+      "endereco": "Largo da Matriz, s/n | CEP 44125-000",
+      "telefone": null,
+      "email": "pnscjaguara@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Largo da Matriz, s/n | CEP 44125-000",
+    "telefone": "",
+    "email": "pnscjaguara@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia São Vicente Ferrer",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:50:07.035987",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz São Vicente, s/n | CEP 44140-000",
+      "logradouro": "Praça da Matriz São Vicente",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "Tiquaruçu",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44140-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [
+        {
+          "valor": "paroquiasvferrer2019@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar FernandesDistrito de Tiquaruçu | Feira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia São Vicente Ferrer",
+      "endereco": "Praça da Matriz São Vicente, s/n | CEP 44140-000",
+      "telefone": null,
+      "email": "paroquiasvferrer2019@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça da Matriz São Vicente, s/n | CEP 44140-000",
+    "telefone": "",
+    "email": "paroquiasvferrer2019@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia São Roque",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
+      "url": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
+      "data_coleta": "2026-05-24T11:50:13.112434",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matinha, s/n | CEP 44118-000",
+      "logradouro": "Praça da Matinha",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "Matinha",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44118-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar FernandesDistrito de Matinha | Feira de Santana – BA | ",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "novo",
+    "curado": false,
+    "data_criacao": "2026-05-24T11:50:19.122457",
+    "ultima_atualizacao": "2026-05-24T11:50:19.122457",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000",
+    "telefone": "",
+    "email": "",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": "Forania VII – São João"
+  }
+]

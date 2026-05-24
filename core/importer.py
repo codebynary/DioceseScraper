@@ -2,7 +2,7 @@ import os
 from core.md_parser import parse_markdown_file
 from core import config_manager
 
-def import_markdown_file(filepath):
+def import_markdown_file(filepath, custom_diocese_name=None):
     """
     Processa um único arquivo markdown e importa os dados como uma nova configuração de Diocese.
     Retorna uma tupla (sucesso: bool, mensagem: str, dados_config: dict_ou_none)
@@ -10,7 +10,7 @@ def import_markdown_file(filepath):
     filename = os.path.basename(filepath)
     
     try:
-        diocese_name, enriched_results = parse_markdown_file(filepath)
+        diocese_name, enriched_results = parse_markdown_file(filepath, custom_diocese_name)
         
         if not enriched_results:
             return False, f"Nenhuma paróquia identificada em '{filename}'.", None

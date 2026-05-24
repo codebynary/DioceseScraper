@@ -64,6 +64,7 @@
                 <div class="panel-card import-md-card">
                     <h2>Importar via Arquivo</h2>
                     <p>Faça upload de arquivos Markdown (.md) para processamento.</p>
+                    <input type="text" id="input-md-diocese-name" placeholder="Nome da Diocese (Opcional)" class="form-control" style="margin-bottom: 0.5rem; background: rgba(0,0,0,0.2); border: 1px solid var(--border-color); color: var(--text-color); padding: 0.5rem; border-radius: 6px; width: 100%;">
                     <input type="file" id="input-md-files" accept=".md" multiple style="display: none;">
                     <button id="btn-upload-md" class="btn btn-secondary btn-block" style="border: 1px dashed var(--accent);">
                         <i class="fa-solid fa-file-arrow-up"></i> Selecionar Arquivos .md
@@ -114,20 +115,23 @@
 
                 <!-- Parish Data Viewer Panel -->
                 <div id="data-viewer-panel" class="panel-card hidden">
-                    <div class="panel-header">
+                    <div class="panel-header" style="flex-direction: column; align-items: flex-start; gap: 1rem;">
                         <div>
                             <h3 id="viewer-diocese-name">Paróquias Extraídas</h3>
                             <p id="viewer-stats">0 paróquias catalogadas</p>
                         </div>
-                        <div class="header-actions">
-                            <button id="btn-re-map" class="btn btn-secondary btn-sm" style="margin-right: 0.5rem;">
+                        <div class="header-actions" style="width: 100%; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                            <button id="btn-re-map" class="btn btn-secondary btn-sm">
                                 <i class="fa-solid fa-robot"></i> Re-mapear Estrutura
                             </button>
-                            <button id="btn-re-scrape" class="btn btn-primary btn-sm" style="margin-right: 0.5rem;">
+                            <button id="btn-re-scrape" class="btn btn-primary btn-sm">
                                 <i class="fa-solid fa-rotate"></i> Rodar Novamente
                             </button>
                             <button id="btn-export-json" class="btn btn-success btn-sm">
                                 <i class="fa-solid fa-download"></i> Baixar JSON
+                            </button>
+                            <button id="btn-delete-diocese" class="btn btn-sm" style="background-color: var(--error-color); color: white; border: none;">
+                                <i class="fa-solid fa-trash"></i> Excluir
                             </button>
                         </div>
                     </div>
@@ -441,6 +445,6 @@
         </div>
     </div>
 
-    <script src="/static/script.js?v=7"></script>
+    <script src="/static/script.js?v=8"></script>
 </body>
 </html>

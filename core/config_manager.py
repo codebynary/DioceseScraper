@@ -80,6 +80,32 @@ def get_diocese_config(config_id):
             pass
     return None
 
+def delete_diocese_config(config_id):
+    """Deletes a diocese configuration and its associated scraped data."""
+    config = get_diocese_config(config_id)
+    if not config:
+        return False
+        
+    config_path = os.path.join(CONFIGS_DIR, f"{config_id}.json")
+    if os.path.exists(config_path):
+        try:
+            os.remove(config_path)
+        except OSError:
+            pass
+            
+    # Delete data folder if exists
+    name = config.get('nome')
+    if name:
+        data_path = get_diocese_data_path(name)
+        data_dir = os.path.dirname(data_path)
+        if os.path.exists(data_dir):
+            import shutil
+            try:
+                shutil.rmtree(data_dir)
+            except OSError:
+                pass
+    return True
+
 def get_diocese_data_path(name):
     """Gets the path where a diocese's scraped data should be saved."""
     ensure_dirs()

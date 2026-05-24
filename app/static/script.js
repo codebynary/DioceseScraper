@@ -123,15 +123,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const terminalBody = document.getElementById('terminal-body');
     const btnClearTerminal = document.getElementById('btn-clear-terminal');
     
-    // Data Viewer elements
+    // UI Elements - Viewer Panel
     const dataViewerPanel = document.getElementById('data-viewer-panel');
     const viewerDioceseName = document.getElementById('viewer-diocese-name');
     const viewerStats = document.getElementById('viewer-stats');
+    const btnReMap = document.getElementById('btn-re-map');
+    const btnReScrape = document.getElementById('btn-re-scrape');
+    const btnExportJson = document.getElementById('btn-export-json');
+    const btnDeleteDiocese = document.getElementById('btn-delete-diocese');
     const searchParishes = document.getElementById('search-parishes');
     const parishesTableBody = document.getElementById('parishes-table-body');
-    const btnReScrape = document.getElementById('btn-re-scrape');
-    const btnReMap = document.getElementById('btn-re-map');
-    const btnExportJson = document.getElementById('btn-export-json');
     
     // Import MD Elements
     const inputMdFiles = document.getElementById('input-md-files');
@@ -1277,6 +1278,25 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = `/api/export-json/${activeDioceseId}`;
     });
 
+    btnDeleteDiocese.addEventListener('click', () => {
+        if (!activeDioceseId || !activeDioceseName) return;
+        if (confirm(`Tem certeza absoluta que deseja excluir a configuração e todos os dados salvos da "${activeDioceseName}"? Essa ação não pode ser desfeita.`)) {
+            fetch(`/api/dioceses/${activeDioceseId}`, { method: 'DELETE' })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.success) {
+                        dataViewerPanel.classList.add('hidden');
+                        activeDioceseId = null;
+                        activeDioceseName = null;
+                        loadDiocesesList();
+                    } else {
+                        alert('Erro ao excluir a diocese.');
+                    }
+                })
+                .catch(() => alert('Erro de rede ao tentar excluir.'));
+        }
+    });
+
     // ==========================================
     // SCRAPING / SSE
     // ==========================================
@@ -1288,6 +1308,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!inputMdFiles.files || inputMdFiles.files.length === 0) return;
         
         const formData = new FormData();
+        const customName = document.getElementById('input-md-diocese-name').value;
+        if (customName && customName.trim() !== '') {
+            formData.append('diocese_name', customName.trim());
+        }
+        
         for (let i = 0; i < inputMdFiles.files.length; i++) {
             formData.append('files', inputMdFiles.files[i]);
         }

@@ -233,6 +233,13 @@ def stream_scrape(config_id):
     response.headers['Connection'] = 'keep-alive'
     return response
 
+@app.route('/api/dioceses/<config_id>', methods=['DELETE'])
+def delete_diocese(config_id):
+    success = config_manager.delete_diocese_config(config_id)
+    if success:
+        return jsonify({'success': True})
+    return jsonify({'success': False}), 404
+
 @app.route('/api/data/<config_id>', methods=['GET'])
 def get_data(config_id):
     config = config_manager.get_diocese_config(config_id)
@@ -309,7 +316,8 @@ def upload_md():
             file.save(filepath)
             
             # Process the markdown file
-            success, message, config_data = importer.import_markdown_file(filepath)
+            diocese_name = request.form.get('diocese_name')
+            success, message, config_data = importer.import_markdown_file(filepath, custom_diocese_name=diocese_name)
             
             results.append({
                 'filename': filename,
