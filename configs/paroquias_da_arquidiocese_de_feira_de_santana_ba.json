@@ -1,9 +1,0 @@
-{
-  "nome": "Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA",
-  "url_base": "importacao_md/Paroquias_da_Arquidiocese_de_Feira_de_Santana_BA.md",
-  "is_sitexpresso": false,
-  "paginacao": {
-    "tipo": "single_page"
-  },
-  "observacao": "Paróquias importadas via arquivo Markdown."
-}
