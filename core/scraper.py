@@ -314,6 +314,7 @@ def _extract_blind_regex_fallback(soup, result):
     tels = []
     emails = []
     enderecos = []
+    clero = []
     
     for line in lines:
         # Match email
@@ -337,12 +338,19 @@ def _extract_blind_regex_fallback(soup, result):
             clean_addr = re.sub(r'^(?:Endereço|End):?\s*', '', line, flags=re.IGNORECASE)
             enderecos.append(clean_addr)
             
+        # Match Clero (Pároco, Vigário, Padre, Diácono)
+        clero_match = re.search(r'(?:Pároco|Vigário|Diácono|Padre|Pe\.|Frei|Dom)\s*[:\-]?\s*([a-zA-ZÀ-ÿ\s\.]+)', line, flags=re.IGNORECASE)
+        if clero_match and len(line) < 150: # Avoid grabbing huge paragraphs
+            clero.append(line.strip())
+            
     if not result.get('telefone') and tels:
         result['telefone'] = " / ".join(list(set(tels)))
     if not result.get('email') and emails:
         result['email'] = emails[0]
     if not result.get('endereco') and enderecos:
         result['endereco'] = "\n".join(enderecos)
+    if not result.get('clero') and clero:
+        result['clero'] = "\n".join(clero)
         
     return result
 
@@ -497,6 +505,20 @@ def scrape_single_parish(url, config):
     social_selector = details_cfg.get("social_selector")
     if social_selector:
         result['redes_sociais'] = extract_social_media(soup, social_selector)
+        
+    # Sanity Check for Garbage Selectors (e.g. Wix rich text matching the last element)
+    check_fields = ['endereco', 'telefone', 'email', 'setor', 'funcionamento_secretaria']
+    val_counts = {}
+    for f in check_fields:
+        v = result.get(f)
+        if v and len(v) > 5:
+            val_counts[v] = val_counts.get(v, 0) + 1
+            
+    # If 2 or more fields have the exact same value, the selector matched a generic element 
+    if any(count >= 2 for count in val_counts.values()):
+        # Clear all to force fallback
+        for f in check_fields + ['clero', 'horarios_missa_texto']:
+            result[f] = None
         
     # 4. Fallback Extraction (Blind Regex) if everything failed
     core_fields_empty = not any([result['endereco'], result['telefone'], result['email'], result['clero']])
