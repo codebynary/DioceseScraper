@@ -137,9 +137,16 @@
                             </button>
                         </div>
                     </div>
-                    <div class="search-bar-container">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <input type="text" id="search-parishes" placeholder="Filtrar paróquias por nome, clero, setor ou e-mail...">
+                    <div class="search-bar-container" style="display: flex; gap: 10px;">
+                        <div style="position: relative; flex: 1;">
+                            <i class="fa-solid fa-magnifying-glass" style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: var(--text-muted);"></i>
+                            <input type="text" id="search-parishes" placeholder="Filtrar paróquias por nome, clero, setor ou e-mail..." style="width: 100%; padding-left: 40px;">
+                        </div>
+                        <select id="filter-curation" style="padding: 10px; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(0, 0, 0, 0.2); color: var(--text-color); outline: none;">
+                            <option value="todos">Todas</option>
+                            <option value="nao_curados">Não Curadas</option>
+                            <option value="curados">Curadas</option>
+                        </select>
                     </div>
                     <div class="table-container">
                         <table class="data-table">
@@ -275,9 +282,13 @@
                     <div id="detail-avatar" class="detail-avatar">
                         <i class="fa-solid fa-church"></i>
                     </div>
-                    <div>
-                        <h2 id="detail-nome">Nome da Paróquia</h2>
-                        <a id="detail-url-link" href="#" target="_blank" class="detail-url-link">
+                    <div style="display: flex; flex-direction: column; justify-content: center;">
+                        <div style="display: flex; align-items: center; gap: 8px;">
+                            <h2 id="detail-nome" style="margin: 0;">Nome da Paróquia</h2>
+                            <button id="btn-edit-nome" class="btn btn-secondary btn-sm" style="padding: 2px 6px; border-radius: 4px; background: rgba(255,255,255,0.1); border: none;" title="Editar Nome"><i class="fa-solid fa-pencil"></i></button>
+                        </div>
+                        <input type="text" id="input-detail-nome" class="curation-input" style="display: none; margin-bottom: 4px; font-size: 1.2rem; font-weight: bold; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.2); color: #fff; padding: 4px 8px; border-radius: 4px;">
+                        <a id="detail-url-link" href="#" target="_blank" class="detail-url-link" style="margin-top: 4px;">
                             <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver página original
                         </a>
                     </div>
@@ -475,6 +486,6 @@
         </div>
     </div>
 
-    <script src="/static/script.js?v=10"></script>
+    <script src="/static/script.js?v=11"></script>
 </body>
 </html>

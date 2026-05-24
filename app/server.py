@@ -47,6 +47,9 @@ def list_dioceses():
     for c in configs:
         scraped = config_manager.get_scraped_data(c['nome'])
         c['total_paroquias'] = len(scraped)
+        active_parishes = [p for p in scraped if p.get('status') != 'removido']
+        c['total_ativas'] = len(active_parishes)
+        c['total_curadas'] = sum(1 for p in active_parishes if p.get('curado'))
     return jsonify(configs)
 
 @app.route('/api/analyze', methods=['POST'])

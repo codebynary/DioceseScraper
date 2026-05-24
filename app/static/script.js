@@ -266,6 +266,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const total = diocese.total_paroquias || 0;
             const paginationTypeLabel = getPaginationTypeLabel(diocese.config.paginacao.tipo);
+            const isFullyCurated = diocese.total_ativas > 0 && diocese.total_ativas === diocese.total_curadas;
+            const curatedBadgeHTML = isFullyCurated ? `<span class="curado-badge" style="display:inline-flex; font-size:0.7rem; margin-left: 8px;"><i class="fa-solid fa-circle-check"></i> Curada</span>` : '';
 
             item.innerHTML = `
                 <div class="diocese-item-header">
@@ -275,7 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <span class="diocese-item-url">${diocese.url_base}</span>
                 <div class="diocese-item-footer">
                     <span class="diocese-item-stats">
-                        <i class="fa-solid fa-circle-info"></i> ${total} paróquia(s) salva(s)
+                        <i class="fa-solid fa-circle-info"></i> ${total} paróquia(s) salva(s) ${curatedBadgeHTML}
                     </span>
                     <i class="fa-solid fa-chevron-right text-muted" style="font-size: 0.75rem;"></i>
                 </div>
@@ -493,31 +495,38 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // Filter parishes in search bar
-    searchParishes.addEventListener('input', (e) => {
-        const query = e.target.value.toLowerCase().trim();
-        if (!query) {
-            renderParishTable(parishDataCached);
-            return;
-        }
+    function applyFilters() {
+        const query = searchParishes.value.toLowerCase().trim();
+        const filterCuration = document.getElementById('filter-curation').value;
 
         const filtered = parishDataCached.filter(p => {
+            // Check curation status
+            if (filterCuration === 'curados' && !p.curado) return false;
+            if (filterCuration === 'nao_curados' && p.curado) return false;
+
+            // Check text query
+            if (!query) return true;
+            
             const name = (p.nome || '').toLowerCase();
             const sector = (p.setor || '').toLowerCase();
             const clero = getFlatClero(p).toLowerCase();
             const email = (p.email || '').toLowerCase();
             const tel = (p.telefone || '').toLowerCase();
             const addr = getFlatEndereco(p).toLowerCase();
-            
-            return name.includes(query) || 
-                   sector.includes(query) || 
-                   clero.includes(query) || 
-                   email.includes(query) || 
-                   tel.includes(query) || 
-                   addr.includes(query);
+
+            return name.includes(query) || sector.includes(query) || 
+                   clero.includes(query) || email.includes(query) || 
+                   tel.includes(query) || addr.includes(query);
         });
 
         renderParishTable(filtered);
-    });
+    }
+
+    searchParishes.addEventListener('input', applyFilters);
+    const filterCurationEl = document.getElementById('filter-curation');
+    if (filterCurationEl) {
+        filterCurationEl.addEventListener('change', applyFilters);
+    }
 
     // ==========================================
     // AI LAYOUT ANALYSIS (ADD NEW SITE)
@@ -937,6 +946,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const detailFields = {
         nome: document.getElementById('detail-nome'),
+        btnEditNome: document.getElementById('btn-edit-nome'),
+        inputNome: document.getElementById('input-detail-nome'),
         urlLink: document.getElementById('detail-url-link'),
         avatar: document.getElementById('detail-avatar'),
         clero: document.getElementById('detail-clero'),
@@ -989,6 +1000,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Header
         detailFields.nome.textContent = p.nome || 'Paróquia sem nome';
+        detailFields.inputNome.value = p.nome || '';
+        detailFields.nome.style.display = 'block';
+        detailFields.btnEditNome.style.display = 'block';
+        detailFields.inputNome.style.display = 'none';
         detailFields.urlLink.href = p.url || '#';
 
         // Avatar
@@ -1104,6 +1119,14 @@ document.addEventListener('DOMContentLoaded', () => {
         if (el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA')) {
             el.addEventListener('input', updateFieldStatuses);
         }
+    });
+
+    // Edit Title
+    detailFields.btnEditNome.addEventListener('click', () => {
+        detailFields.nome.style.display = 'none';
+        detailFields.btnEditNome.style.display = 'none';
+        detailFields.inputNome.style.display = 'block';
+        detailFields.inputNome.focus();
     });
 
     // Navigation
@@ -1276,7 +1299,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!p) return;
 
         const payload = {
-            nome: detailFields.clero.closest('.modal-content').querySelector('#detail-nome') ? p.nome : p.nome,
+            nome: detailFields.inputNome.value.trim() || p.nome,
             clero: detailFields.clero.value.trim() || null,
             setor: detailFields.setor.value.trim() || null,
             telefone: detailFields.telefone.value.trim() || null,
@@ -1319,9 +1342,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     parishDataCached[currentParishIndex].curado = true;
                 }
                 detailFields.curadoBadge.classList.remove('hidden');
+                detailFields.nome.textContent = data.parish ? data.parish.nome : payload.nome;
+                detailFields.nome.style.display = 'block';
+                detailFields.btnEditNome.style.display = 'block';
+                detailFields.inputNome.style.display = 'none';
                 showFeedback(detailSaveFeedback, '✓ Dados salvos com sucesso!', 'success');
-                // Refresh table row
-                renderParishTable(parishDataCached);
+                // Refresh table row and filters
+                applyFilters();
+                // Refresh diocese list to update curated badge if necessary
+                loadDioceses();
             } else {
                 showFeedback(detailSaveFeedback, data.message || 'Erro ao salvar.', 'error');
             }
