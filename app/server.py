@@ -100,31 +100,32 @@ def analyze_diocese():
                 detail_url = f"{parsed.scheme}://{parsed.netloc}/?ajax=get&comp={comp_val}"
         else:
             # 2. Try to find at least one link to a parish details page
-            # Let's inspect all anchors. We look for anchors that contain '/paroquias/' or look like subpaths.
             all_anchors = list_soup.find_all('a', href=True)
+            domain_url = f"{parsed.scheme}://{parsed.netloc}"
             
             for a in all_anchors:
                 href = a['href']
                 # Resolve relative URL
                 full_url = scraper.resolve_url(url_base, href)
                 # Avoid the main base URL, categories, feed, or page URLs
-                if (full_url.startswith(url_base) and 
+                if (full_url.startswith(domain_url) and 
                     full_url != url_base and 
+                    full_url != domain_url and
+                    full_url != domain_url + '/' and
                     '/page/' not in full_url and 
                     '/categoria/' not in full_url and 
                     '/feed/' not in full_url and
                     '?' not in full_url):
-                    detail_url = full_url
-                    break
                     
-            if not detail_url:
-                # Fallback: search for any anchor in body
-                for a in all_anchors:
-                    href = a['href']
-                    full_url = scraper.resolve_url(url_base, href)
-                    if full_url.startswith(url_base) and full_url != url_base:
+                    # We prefer links that look like parishes if possible
+                    unquoted_full = urllib.parse.unquote(full_url).lower()
+                    if 'paroquia' in unquoted_full or 'paróquia' in unquoted_full or 'paroq' in unquoted_full:
                         detail_url = full_url
                         break
+                    
+                    # Se ainda não encontrou, salva como fallback
+                    if not detail_url:
+                        detail_url = full_url
                         
         if not detail_url:
             return jsonify({'success': False, 'message': 'Não foi possível detectar links de paróquias na página de listagem. Verifique se a URL está correta.'}), 400
