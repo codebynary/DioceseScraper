@@ -11,7 +11,7 @@
     <!-- FontAwesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom Vanilla CSS -->
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/style.css?v=2">
 </head>
 <body>
     <!-- Background glow elements for rich aesthetic -->
@@ -59,6 +59,16 @@
                     <button id="btn-new-scrape" class="btn btn-primary btn-block">
                         <i class="fa-solid fa-plus"></i> Analisar Novo Site
                     </button>
+                </div>
+
+                <div class="panel-card import-md-card">
+                    <h2>Importar via Arquivo</h2>
+                    <p>Faça upload de arquivos Markdown (.md) para processamento.</p>
+                    <input type="file" id="input-md-files" accept=".md" multiple style="display: none;">
+                    <button id="btn-upload-md" class="btn btn-secondary btn-block" style="border: 1px dashed var(--accent);">
+                        <i class="fa-solid fa-file-arrow-up"></i> Selecionar Arquivos .md
+                    </button>
+                    <div id="upload-feedback" class="form-feedback hidden" style="margin-top: 1rem; font-size: 0.85rem;"></div>
                 </div>
 
                 <div class="panel-card dioceses-list-card">
@@ -110,8 +120,14 @@
                             <p id="viewer-stats">0 paróquias catalogadas</p>
                         </div>
                         <div class="header-actions">
-                            <button id="btn-re-scrape" class="btn btn-secondary btn-sm">
+                            <button id="btn-re-map" class="btn btn-secondary btn-sm" style="margin-right: 0.5rem;">
+                                <i class="fa-solid fa-robot"></i> Re-mapear Estrutura
+                            </button>
+                            <button id="btn-re-scrape" class="btn btn-primary btn-sm" style="margin-right: 0.5rem;">
                                 <i class="fa-solid fa-rotate"></i> Rodar Novamente
+                            </button>
+                            <button id="btn-export-json" class="btn btn-success btn-sm">
+                                <i class="fa-solid fa-download"></i> Baixar JSON
                             </button>
                         </div>
                     </div>
@@ -245,6 +261,186 @@
         </div>
     </div>
     
-    <script src="/static/script.js"></script>
+    <!-- MODAL: Parish Curation Detail -->
+    <div id="modal-parish-detail" class="modal">
+        <div class="modal-content card-glass modal-xl">
+            <div class="modal-header">
+                <div class="modal-parish-title-area">
+                    <div id="detail-avatar" class="detail-avatar">
+                        <i class="fa-solid fa-church"></i>
+                    </div>
+                    <div>
+                        <h2 id="detail-nome">Nome da Paróquia</h2>
+                        <a id="detail-url-link" href="#" target="_blank" class="detail-url-link">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> Ver página original
+                        </a>
+                    </div>
+                </div>
+                <div class="detail-header-actions">
+                    <span id="detail-curado-badge" class="curado-badge hidden"><i class="fa-solid fa-circle-check"></i> Curado</span>
+                    <div class="detail-nav-btns">
+                        <button id="btn-detail-prev" class="btn btn-secondary btn-sm" title="Paróquia anterior">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <span id="detail-nav-counter" class="detail-nav-counter">1 / 45</span>
+                        <button id="btn-detail-next" class="btn btn-secondary btn-sm" title="Próxima paróquia">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                    <button class="modal-close btn-icon"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="curation-grid">
+                    <!-- Clero -->
+                    <div class="curation-field" id="cf-clero">
+                        <label class="curation-label">
+                            <i class="fa-solid fa-person-praying"></i> Clero / Pároco
+                            <span class="field-status-dot"></span>
+                        </label>
+                        <input type="text" id="detail-clero" class="curation-input" placeholder="Ex: Pe. João Silva">
+                    </div>
+                    <!-- Setor -->
+                    <div class="curation-field" id="cf-setor">
+                        <label class="curation-label">
+                            <i class="fa-solid fa-map-location-dot"></i> Setor / Vicariato
+                            <span class="field-status-dot"></span>
+                        </label>
+                        <input type="text" id="detail-setor" class="curation-input" placeholder="Ex: Setor Norte">
+                    </div>
+                    <!-- Telefone -->
+                    <div class="curation-field" id="cf-telefone">
+                        <label class="curation-label">
+                            <i class="fa-solid fa-phone"></i> Telefone
+                            <span class="field-status-dot"></span>
+                        </label>
+                        <input type="text" id="detail-telefone" class="curation-input" placeholder="Ex: (49) 3322-0000">
+                    </div>
+                    <!-- E-mail -->
+                    <div class="curation-field" id="cf-email">
+                        <label class="curation-label">
+                            <i class="fa-solid fa-envelope"></i> E-mail
+                            <span class="field-status-dot"></span>
+                        </label>
+                        <input type="email" id="detail-email" class="curation-input" placeholder="Ex: paroquia@diocese.org.br">
+                    </div>
+                    <!-- Endereço -->
+                    <div class="curation-field curation-field-wide" id="cf-endereco">
+                        <label class="curation-label">
+                            <i class="fa-solid fa-location-dot"></i> Endereço
+                            <span class="field-status-dot"></span>
+                        </label>
+                        <input type="text" id="detail-endereco-original" class="curation-input hidden" placeholder="Texto Original do Endereço (Desestruturado)" style="display: none; margin-bottom: 0.5rem; font-style: italic;" readonly>
+                        <div style="display: grid; grid-template-columns: 3fr 1fr 2fr; gap: 0.5rem; margin-bottom: 0.5rem;">
+                            <input type="text" id="detail-endereco-logradouro" class="curation-input" placeholder="Rua / Logradouro">
+                            <input type="text" id="detail-endereco-numero" class="curation-input" placeholder="Número">
+                            <input type="text" id="detail-endereco-bairro" class="curation-input" placeholder="Bairro">
+                        </div>
+                        <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 0.5rem;">
+                            <input type="text" id="detail-endereco-cidade" class="curation-input" placeholder="Cidade">
+                            <input type="text" id="detail-endereco-uf" class="curation-input" placeholder="UF (Ex: SP)">
+                            <div style="display: flex; gap: 0.25rem;">
+                                <input type="text" id="detail-endereco-cep" class="curation-input" placeholder="CEP" style="flex: 1;">
+                                <button id="btn-viacep-sync" class="btn btn-sm btn-outline-secondary" title="Sincronizar com ViaCEP" style="padding: 0 0.5rem;"><i class="fa-solid fa-rotate"></i></button>
+                            </div>
+                        </div>
+                        
+                        <!-- Comparador ViaCEP -->
+                        <div id="viacep-comparison" class="hidden" style="margin-top: 1rem; border: 1px solid var(--border-color); border-radius: 8px; padding: 1rem; background: rgba(0,0,0,0.2);">
+                            <h4 style="margin-top:0; font-size: 0.9rem; margin-bottom: 0.8rem; color: var(--primary-color);"><i class="fa-solid fa-code-compare"></i> Comparação ViaCEP</h4>
+                            <div style="overflow-x: auto;">
+                                <table style="width: 100%; border-collapse: collapse; font-size: 0.85rem; text-align: left;">
+                                    <thead>
+                                        <tr style="border-bottom: 1px solid var(--border-color);">
+                                            <th style="padding: 6px 4px;">Campo</th>
+                                            <th style="padding: 6px 4px; opacity: 0.7;">Atual</th>
+                                            <th style="padding: 6px 4px; color: #4ade80;">ViaCEP</th>
+                                            <th style="padding: 6px 4px; text-align: center;">Atualizar?</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="viacep-comparison-body">
+                                        <!-- JS injected -->
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div style="margin-top: 1rem; display: flex; justify-content: flex-end; gap: 0.5rem;">
+                                <button id="btn-viacep-cancel" class="btn btn-sm btn-secondary">Cancelar</button>
+                                <button id="btn-viacep-apply" class="btn btn-sm btn-success"><i class="fa-solid fa-check"></i> Aplicar e Salvar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Secretaria -->
+                    <div class="curation-field curation-field-wide" id="cf-secretaria">
+                        <label class="curation-label">
+                            <i class="fa-solid fa-clock"></i> Funcionamento da Secretaria
+                            <span class="field-status-dot"></span>
+                        </label>
+                        <input type="text" id="detail-secretaria" class="curation-input" placeholder="Ex: Seg-Sex: 8h-12h / 14h-18h">
+                    </div>
+                    <!-- Horários Missa -->
+                    <div class="curation-field curation-field-full" id="cf-missas">
+                        <label class="curation-label">
+                            <i class="fa-solid fa-calendar-days"></i> Horários de Missa
+                            <span class="field-status-dot"></span>
+                        </label>
+                        <textarea id="detail-missas" class="curation-textarea" rows="3" placeholder="Ex: Dom 8h, 10h e 19h / Sáb 18h30"></textarea>
+                    </div>
+                    <!-- Redes Sociais -->
+                    <div class="curation-field curation-field-full" id="cf-redes">
+                        <label class="curation-label">
+                            <i class="fa-solid fa-share-nodes"></i> Redes Sociais
+                            <span class="field-status-dot"></span>
+                        </label>
+                        <div class="social-curation-grid">
+                            <div class="social-input-item">
+                                <span class="social-input-icon facebook"><i class="fa-brands fa-facebook-f"></i></span>
+                                <input type="url" id="detail-facebook" class="curation-input" placeholder="https://facebook.com/paroquia">
+                            </div>
+                            <div class="social-input-item">
+                                <span class="social-input-icon instagram"><i class="fa-brands fa-instagram"></i></span>
+                                <input type="url" id="detail-instagram" class="curation-input" placeholder="https://instagram.com/paroquia">
+                            </div>
+                            <div class="social-input-item">
+                                <span class="social-input-icon youtube"><i class="fa-brands fa-youtube"></i></span>
+                                <input type="url" id="detail-youtube" class="curation-input" placeholder="https://youtube.com/@paroquia">
+                            </div>
+                            <div class="social-input-item">
+                                <span class="social-input-icon whatsapp"><i class="fa-brands fa-whatsapp"></i></span>
+                                <input type="url" id="detail-whatsapp" class="curation-input" placeholder="https://wa.me/5549...">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Capelas e Comunidades -->
+                    <div class="curation-field curation-field-full" id="cf-locais">
+                        <label class="curation-label">
+                            <i class="fa-solid fa-place-of-worship"></i> Capelas e Comunidades
+                            <span class="field-status-dot"></span>
+                        </label>
+                        <div id="detail-locais" class="locais-list-container" style="display: flex; flex-direction: column; gap: 0.5rem; max-height: 300px; overflow-y: auto;">
+                        </div>
+                    </div>
+                </div>
+                <!-- Completeness bar -->
+                <div class="completeness-bar-area">
+                    <div class="completeness-label">
+                        <span>Completude dos dados</span>
+                        <span id="detail-completeness-pct">0%</span>
+                    </div>
+                    <div class="completeness-track">
+                        <div id="detail-completeness-fill" class="completeness-fill" style="width:0%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div id="detail-save-feedback" class="feedback-msg" style="flex:1; text-align:left;"></div>
+                <button class="btn btn-secondary modal-close-btn">Fechar</button>
+                <button id="btn-save-curation" class="btn btn-success">
+                    <i class="fa-solid fa-floppy-disk"></i> Salvar Curadoria
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js?v=6"></script>
 </body>
 </html>

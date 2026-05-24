@@ -1,0 +1,35 @@
+{
+  "detalhes": {
+    "campos_labels": {
+      "clero": null,
+      "email": null,
+      "endereco": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "telefone": null
+    },
+    "campos_seletores": {
+      "clero": ".wp-parresia-register-single div.bg-\\[\\#F9FAFB\\]:not(#wp-parresia-register-single-horarys) a",
+      "email": "#institution-email-field a",
+      "endereco": "#institution-address-field span",
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "telefone": "#institution-phone-field span"
+    },
+    "horarios_missa_seletor": "#wp-parresia-register-single-horarys",
+    "social_selector": ".elementor-widget-social-icons a",
+    "tipo_layout": "selector"
+  },
+  "listagem": {
+    "imagem_selector": "img",
+    "item_selector": "div.flex.flex-col.justify-between.bg-white",
+    "link_selector": "a[href*=\"/paroquia/\"]"
+  },
+  "nome": "Diocese de São Carlos do Pinhal",
+  "paginacao": {
+    "next_selector": null,
+    "tipo": "url_page",
+    "url_pattern": "https://www.diocesesaocarlos.org.br/paroquias/page/{page}/"
+  },
+  "url_base": "https://www.diocesesaocarlos.org.br/paroquias/"
+}

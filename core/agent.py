@@ -62,7 +62,7 @@ def clean_html(html_str):
     html_str = re.sub(r'<!--.*?-->', '', html_str, flags=re.DOTALL)
     # Collapse multiple whitespaces
     html_str = re.sub(r'\s+', ' ', html_str)
-    return html_str[:12000] # Limit size to fit within flash context comfortably
+    return html_str[:100000] # Increased size to fit large Elementor pages
 
 def validate_gemini_key(api_key):
     """Tests connection to Gemini API with the provided key.

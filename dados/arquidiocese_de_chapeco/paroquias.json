@@ -1,0 +1,5261 @@
+[
+  {
+    "nome": "Paróquia São Sebastião",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xLmdyb3VwLjI=",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1817716/6a51df4f4382e0588d3f35979c1a13b5",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285128",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Frei Bruno, 257 - Cx. P. 16, Cep: 89830-000, Abelardo Luz/SC",
+      "logradouro": "Rua Frei Bruno",
+      "numero": "257",
+      "complemento": "Cep",
+      "bairro": "",
+      "cidade": "Abelardo Luz",
+      "uf": "SC",
+      "cep": "89830-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3445-4134",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "pssebastiaoabluz@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xLmdyb3VwLjI=",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Sérgio Melz",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Sérgio Melz - Pároco"
+      },
+      {
+        "nome": "Genuíno João Begnini",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Genuíno João Begnini - Vigário Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Sebastião",
+      "endereco": "",
+      "telefone": "(49) 3445-4134",
+      "email": "pssebastiaoabluz@gmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3445-4134",
+    "email": "pssebastiaoabluz@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Santa Lúcia",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4zLmdyb3VwLjI=",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1817717/cbb546cdccc929844aa6592b147daf6a",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285188",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Olímpio Dal Magro, 468, Cep: 89970-000, Anchieta/SC",
+      "logradouro": "Rua Olímpio Dal Magro",
+      "numero": "468",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Anchieta",
+      "uf": "SC",
+      "cep": "89970-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3653-0114",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiaanchieta@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4zLmdyb3VwLjI=",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Anselmo Camilo Spies",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Anselmo Camilo Spies - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Santa Lúcia",
+      "endereco": "",
+      "telefone": "(49) 3653-0114",
+      "email": "paroquiaanchieta@yahoo.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3653-0114",
+    "email": "paroquiaanchieta@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Domingos",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40Lmdyb3VwLjI=",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/581510/d2e66fba4f70665678ac8493fefbd718",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285223",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Salgado Filho, 631 - Cx. P. 08, Cep: 89888-000, Caibi/SC",
+      "logradouro": "Rua Salgado Filho",
+      "numero": "631",
+      "complemento": "Cep",
+      "bairro": "",
+      "cidade": "Caibi",
+      "uf": "SC",
+      "cep": "89888-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3648-0136",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiac@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40Lmdyb3VwLjI=",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Otávio Foerster",
+        "titulo": "Pe.",
+        "cargo": "Administrador Paroquial",
+        "texto_original": "Pe. Otávio Foerster - Administrador Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Domingos",
+      "endereco": "",
+      "telefone": "(49) 3648-0136",
+      "email": "paroquiac@yahoo.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3648-0136",
+    "email": "paroquiac@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Sagrado Coração de Jesus",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41Lmdyb3VwLjI=",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/2785729/c4849abdf8747c06662ea8d535d78f04",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285257",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Giácomo Cassol, 228, Cep: 89980-000, Campo Erê/SC",
+      "logradouro": "Rua Giácomo Cassol",
+      "numero": "228",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Campo Erê",
+      "uf": "SC",
+      "cep": "89980-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3655-1229",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "scjcampoere@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41Lmdyb3VwLjI=",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Rogério Luiz Zanini",
+        "titulo": "Pe.",
+        "cargo": "Administrador Paroquial",
+        "texto_original": "Pe. Rogério Luiz Zanini - Administrador Paroquial"
+      },
+      {
+        "nome": "Reneu Zortea",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Reneu Zortea - Vigário"
+      },
+      {
+        "nome": "Casas Religiosas Femininas:",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "Casas Religiosas Femininas:"
+      },
+      {
+        "nome": "Irmãs Franciscanas de Cristo Rei",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "Irmãs Franciscanas de Cristo Rei"
+      },
+      {
+        "nome": "Rua Giácomo Cassol, 228 - Cx. P. 2 - CEP: 89980-000",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "Rua Giácomo Cassol, 228 - Cx. P. 2 - CEP: 89980-000"
+      },
+      {
+        "nome": "Fone: (49) 33655-1229",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "Fone: (49) 33655-1229"
+      },
+      {
+        "nome": "E-mail: franciscanasdecristorei@yahoo.com.br",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "E-mail: franciscanasdecristorei@yahoo.com.br"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Sagrado Coração de Jesus",
+      "endereco": "",
+      "telefone": "(49) 3655-1229",
+      "email": "scjcampoere@gmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3655-1229",
+    "email": "scjcampoere@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Jerônimo",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC43Lmdyb3VwLjI=",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/2742447/591c5ad69c3617c48af3936b111c30f4",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285298",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Pe. Luis Heinem, 18 - Cx. P. 15, Cep: 89880-000, Caxambu do Sul/SC",
+      "logradouro": "Rua Pe. Luis Heinem",
+      "numero": "18",
+      "complemento": "Cep",
+      "bairro": "",
+      "cidade": "Caxambu do Sul",
+      "uf": "SC",
+      "cep": "89880-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3326-0122",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "psjcaxsul@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC43Lmdyb3VwLjI=",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Cristiano Menegat",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Cristiano Menegat - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Jerônimo",
+      "endereco": "",
+      "telefone": "(49) 3326-0122",
+      "email": "psjcaxsul@yahoo.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3326-0122",
+    "email": "psjcaxsul@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Santo Antônio - Catedral",
+    "tipo": "Catedral",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC44Lmdyb3VwLjI=",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1537555/59d97563fae75de8f273dfc8a505e3c0",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285327",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Getúlio Vargas, 93 S - Cx. P. 25, Cep: 89801-001 | Chapecó/SC",
+      "logradouro": "Av. Getúlio Vargas",
+      "numero": "93",
+      "complemento": "Cx. P. 25",
+      "bairro": "Centro",
+      "cidade": "Chapecó",
+      "uf": "SC",
+      "cep": "89801-001",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3322-2278",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "catedral@catedralchapeco.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC44Lmdyb3VwLjI=",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "José Tarcizio Hentz",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. José Tarcizio Hentz - Pároco"
+      },
+      {
+        "nome": "João Inácio Kolling",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. João Inácio Kolling - Vigário Paroquial"
+      },
+      {
+        "nome": "Jandir Luiz Hess",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Jandir Luiz Hess - Vigário Paroquial"
+      },
+      {
+        "nome": "Alcido Luiz Kunzler",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Alcido Luiz Kunzler - Vigário Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Santo Antônio - Catedral",
+      "endereco": "",
+      "telefone": "(49) 3322-2278",
+      "email": "catedral@catedralchapeco.org.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3322-2278",
+    "email": "catedral@catedralchapeco.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41OC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/872954/c8afcbdf967e02d2658f50c259c7091c/sm",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285356",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "BR 282, Comunidade Colônia Cella, CEP: 89819-000, Chapecó-SC",
+      "logradouro": "BR",
+      "numero": "282",
+      "complemento": "CEP",
+      "bairro": "",
+      "cidade": "Cordilheira Alta",
+      "uf": "SC",
+      "cep": "89819-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "49 3199-2733",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41OC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Ivo Pedro Oro",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Ivo Pedro Oro - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora do Perpétuo Socorro",
+      "endereco": "",
+      "telefone": "49 3199-2733",
+      "email": "",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "49 3199-2733",
+    "email": "",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Paulo Apóstolo",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41Ni5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1817734/41925e2940989c1b5d0e261646647a7f/sm",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285380",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Avenida Irineu Bornhausen, 507 E, Bairro Palmital, CEP: 89814-550, Chapecó-SC",
+      "logradouro": "Avenida Irineu Bornhausen",
+      "numero": "507",
+      "complemento": "Bairro Palmital, CEP",
+      "bairro": "Palmital",
+      "cidade": "Chapecó",
+      "uf": "SC",
+      "cep": "89814-550",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3329-3034",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "rpsudeste@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41Ni5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Dorvalino Belegante",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Dorvalino Belegante - Pároco"
+      },
+      {
+        "nome": "Anélio Antônio Cantoni - Ajuda Pastoral",
+        "titulo": "Pe.",
+        "cargo": "",
+        "texto_original": "Pe. Anélio Antônio Cantoni - Ajuda Pastoral"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Paulo Apóstolo",
+      "endereco": "",
+      "telefone": "(49) 3329-3034",
+      "email": "rpsudeste@hotmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3329-3034",
+    "email": "rpsudeste@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Francisco de Assis",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41NS5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1990628/1433da81c28eaab064bdbad295f59463/sm",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285404",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua 14 de Agosto, 2190 E, Bairro Passo dos Fortes, CEP: 89805-700, Chapecó-SC",
+      "logradouro": "Rua 14 de Agosto",
+      "numero": "2190",
+      "complemento": "Bairro Passo dos Fortes, CEP",
+      "bairro": "Passo dos Fortes",
+      "cidade": "Chapecó",
+      "uf": "SC",
+      "cep": "89805-700",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3323-5139",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiasaofrancisco2021@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41NS5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Valmor Tomasi",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Valmor Tomasi - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Francisco de Assis",
+      "endereco": "",
+      "telefone": "(49) 3323-5139",
+      "email": "paroquiasaofrancisco2021@gmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3323-5139",
+    "email": "paroquiasaofrancisco2021@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Santa Dulce dos Pobres",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41NC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1990676/51ee317ee90c8f804e9cb1caf8c00581/sm",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285430",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Dionísio Cerqueira, 310 E, Cep: 89809-530, Loteamento Colatto / Bairro Efapi, Chapecó-SC",
+      "logradouro": "Rua Dionísio Cerqueira",
+      "numero": "310",
+      "complemento": "Cep:, Loteamento Colatto / Bairro Efapi",
+      "bairro": "Efapi",
+      "cidade": "Chapecó",
+      "uf": "SC",
+      "cep": "89809-530",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3199-4041",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "rp.oeste@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41NC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Clair José Lovera",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Clair José Lovera - Pároco"
+      },
+      {
+        "nome": "Egídio Balbinot",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Egídio Balbinot - Vigário Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Santa Dulce dos Pobres",
+      "endereco": "",
+      "telefone": "(49) 3199-4041",
+      "email": "rp.oeste@yahoo.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3199-4041",
+    "email": "rp.oeste@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Cristóvão",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC45Lmdyb3VwLjI=",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/956414/c91d34ff26f12f133b78352ea8466721",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285454",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Carlos Gomes, 950 E, Bairro São Cristóvão, Cep: 89803-310, Chapecó/SC",
+      "logradouro": "Rua Carlos Gomes",
+      "numero": "950",
+      "complemento": "Bairro São Cristóvão, Cep",
+      "bairro": "São Cristóvão",
+      "cidade": "Chapecó",
+      "uf": "SC",
+      "cep": "89803-310",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3322-1400",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "pastoralsaocristovao@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC45Lmdyb3VwLjI=",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Claudir Meoti",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Claudir Meoti - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Cristóvão",
+      "endereco": "",
+      "telefone": "(49) 3322-1400",
+      "email": "pastoralsaocristovao@gmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3322-1400",
+    "email": "pastoralsaocristovao@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São José do Patrocínio",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xMC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/2037513/248bc488f60d384e4a7595fe43d70bc6",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285478",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Santa Catarina, 1043, Cep: 89840-000, Coronel Freitas/SC",
+      "logradouro": "Av. Santa Catarina",
+      "numero": "1043",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Coronel Freitas",
+      "uf": "SC",
+      "cep": "89840-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3347-0236",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "pcoronelfreitas@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xMC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Alisson Luís Zanetti, OFM",
+        "titulo": "Frei",
+        "cargo": "Pároco",
+        "texto_original": "Frei Alisson Luís Zanetti, OFM - Pároco"
+      },
+      {
+        "nome": "Rubens Luiz de Carvalho, OFM",
+        "titulo": "Frei",
+        "cargo": "Vigário",
+        "texto_original": "Frei Rubens Luiz de Carvalho, OFM - Vigário Paroquial"
+      },
+      {
+        "nome": "Mário Stein, OFM",
+        "titulo": "Frei",
+        "cargo": "Vigário",
+        "texto_original": "Frei Mário Stein, OFM - Vigário Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São José do Patrocínio",
+      "endereco": "",
+      "telefone": "(49) 3347-0236",
+      "email": "pcoronelfreitas@yahoo.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3347-0236",
+    "email": "pcoronelfreitas@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Nossa Senhora de Lourdes",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xMS5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1989580/a8f2b7304726e9170f8658d75c5744e4",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285505",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Moura Brasil, 1508, Cep: 89890-000, Cunha Porã/SC",
+      "logradouro": "Rua Moura Brasil",
+      "numero": "1508",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Cunha Porã",
+      "uf": "SC",
+      "cep": "89890-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3646-0174",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiacunhapora@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xMS5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Edomar Carpeggiani",
+        "titulo": "Pe.",
+        "cargo": "Administrador paroquial",
+        "texto_original": "Pe. Edomar Carpeggiani - Administrador paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora de Lourdes",
+      "endereco": "",
+      "telefone": "(49) 3646-0174",
+      "email": "paroquiacunhapora@hotmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3646-0174",
+    "email": "paroquiacunhapora@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Santo Estanislau Kostka",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xMy5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1817739/3be20ff85d8e45ca3d30c4049d4a50bc",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285530",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Paróquia Santo Estanislau Kostka, Rua Thomas Kopróski, 333 - Cx. P. 6, Cep: 89910-000 | Descanso/SC",
+      "logradouro": "Paróquia Santo Estanislau Kostka",
+      "numero": "",
+      "complemento": "333, Cx. P. 6",
+      "bairro": "",
+      "cidade": "Descanso",
+      "uf": "SC",
+      "cep": "89910-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3623-0031",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiadedescanso@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xMy5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Cildo Inácio Rochemback",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Cildo Inácio Rochemback - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Santo Estanislau Kostka",
+      "endereco": "",
+      "telefone": "(49) 3623-0031",
+      "email": "paroquiadedescanso@gmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3623-0031",
+    "email": "paroquiadedescanso@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Divino Espírito Santo",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xNC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1817705/5cb070147b1e96da8721b16288be9dc7",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285553",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Nereu Ramos, 255 - Cx. P. 17, Cep: 89950-000, Dionísio Cerqueira/SC",
+      "logradouro": "Rua Nereu Ramos",
+      "numero": "255",
+      "complemento": "Cep",
+      "bairro": "",
+      "cidade": "Dionísio Cerqueira",
+      "uf": "SC",
+      "cep": "89950-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3644-1270",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquia.des@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xNC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Silvestre Selunk",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Silvestre Selunk - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Divino Espírito Santo",
+      "endereco": "",
+      "telefone": "(49) 3644-1270",
+      "email": "paroquia.des@hotmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3644-1270",
+    "email": "paroquia.des@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São João Batista",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xNS5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1898826/8b1eb02e29a2349b0814a32396065388",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285579",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Rio Grande do Sul, 501 - Centro, Cep: 89694-000, Faxinal dos Guedes/SC",
+      "logradouro": "Av. Rio Grande do Sul",
+      "numero": "501",
+      "complemento": "Cep",
+      "bairro": "",
+      "cidade": "Faxinal dos Guedes",
+      "uf": "SC",
+      "cep": "89694-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3436-0192",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiafg@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xNS5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Genildo Provin",
+        "titulo": "Frei",
+        "cargo": "Administrador Paroquial",
+        "texto_original": "Frei Genildo Provin - Administrador Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São João Batista",
+      "endereco": "",
+      "telefone": "(49) 3436-0192",
+      "email": "paroquiafg@yahoo.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3436-0192",
+    "email": "paroquiafg@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Miguel Arcanjo",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xNi5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/2635050/74ede19a71ef3781360ad7a9cee3c024",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285602",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Sete de Setembro, s/n, Cep: 89838-000 | Galvão/SC",
+      "logradouro": "Av. Sete de Setembro",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Galvão",
+      "uf": "SC",
+      "cep": "89838-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3342-1131",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiagalvao@yahoo.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xNi5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Nilto Tenutti",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Nilto Tenutti - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Miguel Arcanjo",
+      "endereco": "",
+      "telefone": "(49) 3342-1131",
+      "email": "paroquiagalvao@yahoo.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3342-1131",
+    "email": "paroquiagalvao@yahoo.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Nossa Senhora de Fátima",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xNy5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1943016/f4300b18d3021540d4e72f1e6d2b8edd",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285625",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua do Comércio, 671 - Cx. P. 4, Cep: 89920-000, Guaraciaba/SC",
+      "logradouro": "Rua do Comércio",
+      "numero": "671",
+      "complemento": "Cep",
+      "bairro": "",
+      "cidade": "Guaraciaba",
+      "uf": "SC",
+      "cep": "89920-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3645-0130",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiagba@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xNy5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "João Maria dos Santos",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. João Maria dos Santos - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora de Fátima",
+      "endereco": "",
+      "telefone": "(49) 3645-0130",
+      "email": "paroquiagba@yahoo.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3645-0130",
+    "email": "paroquiagba@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Sagrado Coração de Jesus",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xOC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1989577/ba825f389ad9541751de4c2a8e6372d0",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285650",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Maranhão, 200 - Cx. P. 11, Cep: 89940-000, Guarujá do Sul/SC",
+      "logradouro": "Rua Maranhão",
+      "numero": "200",
+      "complemento": "Cep",
+      "bairro": "",
+      "cidade": "Guarujá do Sul",
+      "uf": "SC",
+      "cep": "89940-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3642-0113",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiagdosul@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xOC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Ademir Rubini",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Ademir Rubini - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Sagrado Coração de Jesus",
+      "endereco": "",
+      "telefone": "(49) 3642-0113",
+      "email": "paroquiagdosul@hotmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3642-0113",
+    "email": "paroquiagdosul@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Nossa Senhora das Mercês",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xOS5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1898817/72c7ddf17f697607c51e8689260a01eb",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285674",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua do Engenho, 43 - Cx. P. 17, Cep: 89899-000, Iporã do Oeste/SC",
+      "logradouro": "Rua do Engenho",
+      "numero": "43",
+      "complemento": "Cep",
+      "bairro": "",
+      "cidade": "Iporã do Oeste",
+      "uf": "SC",
+      "cep": "89899-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3634-1135",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquia_nsdasmerces@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4xOS5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Ilton José Goettems",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Ilton José Goettems - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora das Mercês",
+      "endereco": "",
+      "telefone": "(49) 3634-1135",
+      "email": "paroquia_nsdasmerces@yahoo.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3634-1135",
+    "email": "paroquia_nsdasmerces@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Santa Luzia",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC45NC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1990606/a20c3e86c5d6d5365d201e55c9508104",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285699",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Pissetti, 850, Centro, CEP: 89832-000 - Ipuaçu, SC",
+      "logradouro": "Rua Pissetti",
+      "numero": "850",
+      "complemento": "CEP",
+      "bairro": "",
+      "cidade": "Ipuaçu",
+      "uf": "SC",
+      "cep": "89832-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "celular",
+          "valor": "(49) 9 9950-0952",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC45NC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Domingos José Dias",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Domingos José Dias - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Santa Luzia",
+      "endereco": "",
+      "telefone": "(49) 9 9950-0952",
+      "email": "",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 9 9950-0952",
+    "email": "",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Sagrada Família",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yMC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1537553/79ba3b770bec46f3f569d939f579ee3e",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285724",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Sete de Setembro, 28 - Cx. P. 23, Cep: 89790-000, Ipumirim/SC",
+      "logradouro": "Rua Sete de Setembro",
+      "numero": "28",
+      "complemento": "Cep",
+      "bairro": "",
+      "cidade": "Ipumirim",
+      "uf": "SC",
+      "cep": "89790-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3438-1101",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiasagradafamiliaipumirim@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yMC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Luciano Paulo Henkes Gattermann",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Luciano Paulo Henkes Gattermann - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Sagrada Família",
+      "endereco": "",
+      "telefone": "(49) 3438-1101",
+      "email": "paroquiasagradafamiliaipumirim@hotmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3438-1101",
+    "email": "paroquiasagradafamiliaipumirim@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Pedro Apóstolo",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yMS5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/2723004/1a711ce6b8a2699b182ca82ac799720b",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285748",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Tancredo Neves, 5 | Quadra 35, Lote 1 | Cx. P. 19, Cep: 89760-000 | Itá/SC",
+      "logradouro": "Av. Tancredo Neves",
+      "numero": "5",
+      "complemento": "Lote 1 | Cx. P. 19",
+      "bairro": "",
+      "cidade": "Itá",
+      "uf": "SC",
+      "cep": "89760-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3458-1101",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiaita@vupt.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yMS5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Airton Pedro Maltauro",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Airton Pedro Maltauro - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Pedro Apóstolo",
+      "endereco": "",
+      "telefone": "(49) 3458-1101",
+      "email": "paroquiaita@vupt.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3458-1101",
+    "email": "paroquiaita@vupt.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Pedro Canísio",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yMi5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/2726837/f5d1edc72ad1eeca70912f7f1f2aa416",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285771",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua São Bonifácio, 185 - Cx. P. 11, Cep: 89896-000, Itapiranga/SC",
+      "logradouro": "Rua São Bonifácio",
+      "numero": "185",
+      "complemento": "Cep",
+      "bairro": "",
+      "cidade": "Itapiranga",
+      "uf": "SC",
+      "cep": "89896-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3677-0006",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yMi5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Nereu Fank, SJ",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Nereu Fank, SJ - Pároco"
+      },
+      {
+        "nome": "Edilberto Brandão, SJ",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Edilberto Brandão, SJ - Vigário Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "E-mail: secretariaspc@yahoo.com.br  secretariaspcanisio@hotmail.com",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Pedro Canísio",
+      "endereco": "",
+      "telefone": "(49) 3677-0006",
+      "email": "",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3677-0006",
+    "email": "",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São José Operário",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yMy5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/956428/727b64256d8da025a3b4b940f938b051",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285795",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Sul Brasil, 180 | Cep: 89874-000, Maravilha/SC",
+      "logradouro": "Av. Sul Brasil",
+      "numero": "180",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Maravilha",
+      "uf": "SC",
+      "cep": "89874-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3664-0017",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiasjo@mhnet.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yMy5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Celso Both, MSF",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Celso Both, MSF - Pároco"
+      },
+      {
+        "nome": "Olavo Luiz Bremm, MSF",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Olavo Luiz Bremm, MSF - Vigário Paroquial"
+      },
+      {
+        "nome": "Isidoro Ludwig, MSF",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Isidoro Ludwig, MSF - Vigário Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São José Operário",
+      "endereco": "",
+      "telefone": "(49) 3664-0017",
+      "email": "paroquiasjo@mhnet.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3664-0017",
+    "email": "paroquiasjo@mhnet.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São João Bosco",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yNC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1817700/e388c1b1eaf35e432a3bbd9a82c70c09",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285818",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Querência, 143 | Cep: 89872-000, Modelo/SC",
+      "logradouro": "Rua Querência",
+      "numero": "143",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Modelo",
+      "uf": "SC",
+      "cep": "89872-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3365-3185",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiajoaobosco@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yNC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Paulo Cezar Klein",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Paulo Cezar Klein - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São João Bosco",
+      "endereco": "",
+      "telefone": "(49) 3365-3185",
+      "email": "paroquiajoaobosco@gmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3365-3185",
+    "email": "paroquiajoaobosco@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Nossa Senhora dos Navegantes",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yNS5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/2758983/6a314d016f0b8dcac379a1be743ca483",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285841",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Lajú, 31 - Cx. P. 8 | Cep: 89893-000, Mondaí/SC",
+      "logradouro": "Rua Lajú",
+      "numero": "31",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Mondaí",
+      "uf": "SC",
+      "cep": "89893-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3674-3213",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "catolicamd@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yNS5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Ivio Carlos Rabelo",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Ivio Carlos Rabelo - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora dos Navegantes",
+      "endereco": "",
+      "telefone": "(49) 3674-3213",
+      "email": "catolicamd@hotmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3674-3213",
+    "email": "catolicamd@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Santa Terezinha do Menino Jesus",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41My5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1990613/724c023dc96a1346eb0a42f2ec251421/sm",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285867",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua José Marroco, Cep: 89818-000, Nova Itaberaba/SC",
+      "logradouro": "Rua José Marroco",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Nova Itaberaba",
+      "uf": "SC",
+      "cep": "89818-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3327-0320",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "rpnorte@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41My5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "François Cristiano Cousseau",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. François Cristiano Cousseau - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Santa Terezinha do Menino Jesus",
+      "endereco": "",
+      "telefone": "(49) 3327-0320",
+      "email": "rpnorte@yahoo.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3327-0320",
+    "email": "rpnorte@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Nossa Senhora das Graças",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yNi5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1817686/c533e46e9309121f29c18cbe6d84600e",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285890",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Francisco Zanotto, 411 | Cep: 89985-000, Palma Sola/SC",
+      "logradouro": "Rua Francisco Zanotto",
+      "numero": "411",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Palma Sola",
+      "uf": "SC",
+      "cep": "89985-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3652-0111",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquia_ps@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yNi5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Luiz Roberto Sandini",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Luiz Roberto Sandini - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora das Graças",
+      "endereco": "",
+      "telefone": "(49) 3652-0111",
+      "email": "paroquia_ps@hotmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3652-0111",
+    "email": "paroquia_ps@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Judas Tadeu",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yNy5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1817698/5817144cc2bfb1129cfd403e1427af65",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285916",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Almirante Barroso, 178 - Cx. P. 64, Cep: 89887-000 | Palmitos/SC",
+      "logradouro": "Rua Almirante Barroso",
+      "numero": "178",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Palmitos",
+      "uf": "SC",
+      "cep": "89887-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3647-0265",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yNy5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Adilson Juliano Assmann, MSF",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Adilson Juliano Assmann, MSF - Pároco"
+      },
+      {
+        "nome": "Flávio Inácio Heck, MSF",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Flávio Inácio Heck, MSF - Vigário Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "E-mail: secretaria@paroquiapalmitos.com.br",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Judas Tadeu",
+      "endereco": "",
+      "telefone": "(49) 3647-0265",
+      "email": "",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3647-0265",
+    "email": "",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Santo Antônio",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yOC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/2717861/7d71f1e5a5248abb6bf33c57644b0382",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285938",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Avenida Belo Horizonte, 2318, Bairro Santo Antônio, Cep: 89870-000 | Pinhalzinho/SC",
+      "logradouro": "Avenida Belo Horizonte",
+      "numero": "2318",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Pinhalzinho",
+      "uf": "SC",
+      "cep": "89870-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3366-1232",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiapz@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yOC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Inácio Dalla Nora, MSF",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Inácio Dalla Nora, MSF - Pároco"
+      },
+      {
+        "nome": "Wilson Jorge Lamps, MSF",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Wilson Jorge Lamps, MSF - Vigário Paroquial"
+      },
+      {
+        "nome": "Paulo Gatelli, MSF - Ajuda Pastoral",
+        "titulo": "Pe.",
+        "cargo": "",
+        "texto_original": "Pe. Paulo Gatelli, MSF - Ajuda Pastoral"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Santo Antônio",
+      "endereco": "",
+      "telefone": "(49) 3366-1232",
+      "email": "paroquiapz@hotmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3366-1232",
+    "email": "paroquiapz@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Santa Inês",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yOS5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/956437/92599b418be669c461387b33fbda7b71",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285964",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Coronel Bertaso, 1003 - Cx. P. 37, Cep: 89850-000 | Quilombo/SC",
+      "logradouro": "Av. Coronel Bertaso",
+      "numero": "1003",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Quilombo",
+      "uf": "SC",
+      "cep": "89850-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3346-3443",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiaqbo@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4yOS5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Valdemar Scatolin",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Valdemar Scatolin - Pároco"
+      },
+      {
+        "nome": "Diego Isotton",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Diego Isotton - Vigário Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Santa Inês",
+      "endereco": "",
+      "telefone": "(49) 3346-3443",
+      "email": "paroquiaqbo@yahoo.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3346-3443",
+    "email": "paroquiaqbo@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Nossa Senhora da Conceição",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40MS5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1943006/5fc17a0491d3d05944d8c19e200b771c",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.285989",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Brasil, s/n | Cep: 89908-000, Romelândia/SC",
+      "logradouro": "Av. Brasil",
+      "numero": "s/n",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Romelândia",
+      "uf": "SC",
+      "cep": "89908-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3624-0124",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquianic@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40MS5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Valter Fiorentin",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Valter Fiorentin - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora da Conceição",
+      "endereco": "",
+      "telefone": "(49) 3624-0124",
+      "email": "paroquianic@gmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3624-0124",
+    "email": "paroquianic@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Carlos Borromeu",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4zNC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1910360/2261ebbb11a3ef4c3e8ca7b8ae18e131",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.286013",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "",
+      "logradouro": "",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3325-4251",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiasaocarlos1931@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4zNC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Rua Padre Anchieta, 35 - Cx. P. 38",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "Rua Padre Anchieta, 35 - Cx. P. 38"
+      },
+      {
+        "nome": "Cep: 89885-000",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "Cep: 89885-000"
+      },
+      {
+        "nome": "São Carlos/SC",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "São Carlos/SC"
+      },
+      {
+        "nome": "Ricardo Royer Klock, MSF",
+        "titulo": "Pe.",
+        "cargo": "Administrador Paroquial",
+        "texto_original": "Pe. Ricardo Royer Klock, MSF - Administrador Paroquial"
+      },
+      {
+        "nome": "Jean Mickael Andrianome Tsilavozo Amourson, MSF",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Jean Mickael Andrianome Tsilavozo Amourson, MSF - Vigário Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Carlos Borromeu",
+      "endereco": "",
+      "telefone": "(49) 3325-4251",
+      "email": "paroquiasaocarlos1931@gmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3325-4251",
+    "email": "paroquiasaocarlos1931@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Domingos",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4zMC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1990626/310dcd89d7d67d0f59f8849cc1ef82a7",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.286036",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Getúlio Vargas, 911 - Cx. P. 45, Cep: 89835-000, São Domingos/SC",
+      "logradouro": "Rua Getúlio Vargas",
+      "numero": "911",
+      "complemento": "Cep",
+      "bairro": "",
+      "cidade": "São Domingos",
+      "uf": "SC",
+      "cep": "89835-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3443-0168",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "psdgos@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4zMC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Osni de Souza",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Osni de Souza - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Domingos",
+      "endereco": "",
+      "telefone": "(49) 3443-0168",
+      "email": "psdgos@yahoo.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3443-0168",
+    "email": "psdgos@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São João Berchmans",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4zNS5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1817671/1b6b90faec91d8e989438c6776529777",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.286063",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Encantado, 49, Cep: 89897-000, São João do Oeste/SC",
+      "logradouro": "Rua Encantado",
+      "numero": "49",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "São João do Oeste",
+      "uf": "SC",
+      "cep": "89897-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3636-1134",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiasjberchmans@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4zNS5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Hugo José Mentges",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Hugo José Mentges - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São João Berchmans",
+      "endereco": "",
+      "telefone": "(49) 3636-1134",
+      "email": "paroquiasjberchmans@yahoo.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3636-1134",
+    "email": "paroquiasjberchmans@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São José Cedro",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4zMy5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1910361/cb5fd614512f96d7d7d9339028733f07",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.286085",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua São José, 45 - Cx. P. 70, Cep: 89930-000, São José do Cedro/SC",
+      "logradouro": "Rua São José",
+      "numero": "45",
+      "complemento": "Cep",
+      "bairro": "",
+      "cidade": "São José do Cedro",
+      "uf": "SC",
+      "cep": "89930-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3643-0265",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiacedro@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4zMy5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Nelson Ângelo Líbano",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Nelson Ângelo Líbano - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São José Cedro",
+      "endereco": "",
+      "telefone": "(49) 3643-0265",
+      "email": "paroquiacedro@gmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3643-0265",
+    "email": "paroquiacedro@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Lourenço do Mártir",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4zNi5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/582144/a589cd2364ba4c19707969c5b7aeaa26",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.286108",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Coronel Bertaso, 910, Cep: 89990-000, São Lourenço do Oeste/SC",
+      "logradouro": "Rua Coronel Bertaso",
+      "numero": "910",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "São Lourenço do Oeste",
+      "uf": "SC",
+      "cep": "89990-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3344-1492",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC4zNi5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Luzinho Marafon, OFM Cap",
+        "titulo": "Frei",
+        "cargo": "Pároco",
+        "texto_original": "Frei Luzinho Marafon, OFM Cap - Pároco"
+      },
+      {
+        "nome": "Nelvio David Colle, OFM Cap",
+        "titulo": "Frei",
+        "cargo": "Vigário",
+        "texto_original": "Frei Nelvio David Colle, OFM Cap - Vigário"
+      },
+      {
+        "nome": ":",
+        "titulo": "Diácono",
+        "cargo": "",
+        "texto_original": "Diácono:"
+      },
+      {
+        "nome": "Kater Vinicius dos Santos, OFM Cap",
+        "titulo": "Frei",
+        "cargo": "",
+        "texto_original": "Frei Kater Vinicius dos Santos, OFM Cap"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "E-mail: secretariaparoquiaslo@gmail.com",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Lourenço do Mártir",
+      "endereco": "",
+      "telefone": "(49) 3344-1492",
+      "email": "",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3344-1492",
+    "email": "",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Miguel Arcanjo",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40NC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/2717859/0c5c7d8fa357515c54b0b1126bb61ee8",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.286132",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Barão do Rio Branco, 1850",
+      "logradouro": "Rua Barão do Rio Branco",
+      "numero": "1850",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3621-3946",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiasmo@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40NC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Edifício Padre Tedesco- Centro",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "Edifício Padre Tedesco- Centro"
+      },
+      {
+        "nome": "Caixa Postal 68 |  Cep.: 89900-000",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "Caixa Postal 68 |  Cep.: 89900-000"
+      },
+      {
+        "nome": "São Miguel do Oeste/SC",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "São Miguel do Oeste/SC"
+      },
+      {
+        "nome": "Cleto João Stülp",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Cleto João Stülp - Pároco"
+      },
+      {
+        "nome": "Edivandro Luiz Frare",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Edivandro Luiz Frare - Vigário Paroquial"
+      },
+      {
+        "nome": "Marcelo Samaroni Spezia",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Marcelo Samaroni Spezia - Vigário Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Miguel Arcanjo",
+      "endereco": "",
+      "telefone": "(49) 3621-3946",
+      "email": "paroquiasmo@gmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3621-3946",
+    "email": "paroquiasmo@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Sagrada Família",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40Ni5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/956465/d5a56e75adcc3285c7ccf07519d282ec",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.286160",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Brasil, 337, Cep: 89868-000, Saudades/SC",
+      "logradouro": "Av. Brasil",
+      "numero": "337",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Saudades",
+      "uf": "SC",
+      "cep": "89868-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3334-0108",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiasfsaudades@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40Ni5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Jacinto Aloisio Birk, MSF",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Jacinto Aloisio Birk, MSF - Pároco"
+      },
+      {
+        "nome": "Henri Arsene Rasabotsilahy, MSF",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Henri Arsene Rasabotsilahy, MSF - Vigário Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Sagrada Família",
+      "endereco": "",
+      "telefone": "(49) 3334-0108",
+      "email": "paroquiasfsaudades@gmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3334-0108",
+    "email": "paroquiasfsaudades@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Daniel",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40Ny5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/2717857/fc456bce082514d9392af31463a6ed67",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.286182",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Santo Evangelista, 324 - Centro - Cx. P. 14, Cep: 89770-000, Seara/SC",
+      "logradouro": "Rua Santo Evangelista",
+      "numero": "324",
+      "complemento": "Cx. P. 14, Cep",
+      "bairro": "",
+      "cidade": "Seara",
+      "uf": "SC",
+      "cep": "89770-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3452-1242",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "parsaodaniel@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40Ny5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Itamar Antônio Belebom",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Itamar Antônio Belebom - Pároco"
+      },
+      {
+        "nome": "Cleber Pagliochi",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Cleber Pagliochi - Vigário Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Daniel",
+      "endereco": "",
+      "telefone": "(49) 3452-1242",
+      "email": "parsaodaniel@hotmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3452-1242",
+    "email": "parsaodaniel@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Santíssima Trindade",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40OC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1817662/fda7a7bb63b7cd0e9019a28b22ff937c",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.286207",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua da Matriz, 65, Cep: 89898-000, Tunápolis/SC",
+      "logradouro": "Rua da Matriz",
+      "numero": "65",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Tunápolis",
+      "uf": "SC",
+      "cep": "89898-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3632-1184",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiatunapolis@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40OC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Ademir Schneider",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Ademir Schneider - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Santíssima Trindade",
+      "endereco": "",
+      "telefone": "(49) 3632-1184",
+      "email": "paroquiatunapolis@hotmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3632-1184",
+    "email": "paroquiatunapolis@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Pedro Apóstolo",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40OS5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1898812/4de1c9b0e611cebfb9be224b443fd646",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.286233",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Sete de Setembro, 429, Cep: 89690-000 | Vargeão/SC",
+      "logradouro": "Rua Sete de Setembro",
+      "numero": "429",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Vargeão",
+      "uf": "SC",
+      "cep": "89690-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3434-0132",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "par_saopedro@hotmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC40OS5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Adir Rodrigues",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Adir Rodrigues - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Pedro Apóstolo",
+      "endereco": "",
+      "telefone": "(49) 3434-0132",
+      "email": "par_saopedro@hotmail.com",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3434-0132",
+    "email": "par_saopedro@hotmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Senhor Bom Jesus da Coluna",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41MC5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1943019/c5f743889717341e473500cd3afb90d3",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.286255",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Rui Barbosa, 94, Centro - Cx. P. 2, Cep: 89820-000 | Xanxerê/SC",
+      "logradouro": "Rua Rui Barbosa",
+      "numero": "94",
+      "complemento": "Cx. P. 2",
+      "bairro": "",
+      "cidade": "Xanxerê",
+      "uf": "SC",
+      "cep": "89820-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3433-0340",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "comunicapsbj@netxan.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41MC5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Marlo Flávio Tessaro",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Marlo Flávio Tessaro - Pároco"
+      },
+      {
+        "nome": "Pasqualino Toscan",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Pasqualino Toscan - Vigário Paroquial"
+      },
+      {
+        "nome": "Rodrigo Isotton",
+        "titulo": "Pe.",
+        "cargo": "Vigário",
+        "texto_original": "Pe. Rodrigo Isotton - Vigário Paroquial"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "psbj@netxan.com.br, catequesepsbj@netxan.com.br, dizimopsbj@netxan.com.br",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Senhor Bom Jesus da Coluna",
+      "endereco": "",
+      "telefone": "(49) 3433-0340",
+      "email": "comunicapsbj@netxan.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3433-0340",
+    "email": "comunicapsbj@netxan.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia Nossa Senhora do Rosário",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41MS5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1943012/daab910283c27863b6216196134141fd",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:16.286280",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Pe. Miguel Schaff, 68, Cep: 89780-000 | Xavantina/SC",
+      "logradouro": "Rua Pe. Miguel Schaff",
+      "numero": "68",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Xavantina",
+      "uf": "SC",
+      "cep": "89780-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3454-1107",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiaxavantina@yahoo.com.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC41MS5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Ignacio Paulo Kolling",
+        "titulo": "Pe.",
+        "cargo": "Pároco",
+        "texto_original": "Pe. Ignacio Paulo Kolling - Pároco"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia Nossa Senhora do Rosário",
+      "endereco": "",
+      "telefone": "(49) 3454-1107",
+      "email": "paroquiaxavantina@yahoo.com.br",
+      "clero": "",
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": "",
+      "setor": null,
+      "redes_sociais": null
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": null,
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "",
+    "telefone": "(49) 3454-1107",
+    "email": "paroquiaxavantina@yahoo.com.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Paróquia São Luiz Gonzaga",
+    "tipo": "Paróquia",
+    "url": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC45My5ncm91cC4y",
+    "imagem_thumbnail": "https://arquidiocesechapeco.com.br/files/1898815/ee6340724236b5d3462745c2a06db522",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Chapecó",
+      "url": "https://arquidiocesechapeco.com.br/paroquias",
+      "data_coleta": "2026-05-22T23:50:14.996626",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua da Matriz, 54 - Cx. P. 08, Cep: 89825-000 | Xaxim/SC",
+      "logradouro": "Rua da Matriz",
+      "numero": "54",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "Xaxim",
+      "uf": "SC",
+      "cep": "89825-000",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(49) 3353-1093",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        },
+        {
+          "tipo": "fixo",
+          "valor": "3353-4776",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "paroquiasaoluizxaxim@gmail.com",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://arquidiocesechapeco.com.br/?ajax=get&comp=Y3R0OjEsZ3JvdXA6MSxncm91cDoxLHBhZ2U6L3Bhcm9xdWlhcyxncDpjb250ZW50cy5wYXJvcXVpYXMuZ3JvdXAuMi5ncm91cC45My5ncm91cC4y",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "https://www.facebook.com/paroquiasaoluizxaxim",
+          "escopo": "paroquia"
+        },
+        "instagram": {
+          "url": "https://www.instagram.com/paroquiasaoluizgonzagaxaxim/",
+          "escopo": "paroquia"
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Paróquia São Luiz Gonzaga",
+      "endereco": "Rua da Matriz, 54 - Cx. P. 08, Cep: 89825-000 | Xaxim/SC",
+      "telefone": "/fax: (49) 3353-1093 / 3353-4776 / Sacerdote(s): / Frei Gilson Kammer, OFM - Pároco / Frei Jacir Antônio Zolet, OFM - Vigário Paroquial / Frei Danilo Santos Oliveira, OFM - Vigário Paroquial / Religioso(s): / Frei Jonas Ribeiro da Silva, OFM - A serviço da Evangelização e acompanhamento dos jovens",
+      "email": "paroquiasaoluizxaxim@gmail.com",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {
+        "facebook": "https://www.facebook.com/paroquiasaoluizxaxim",
+        "instagram": "https://www.instagram.com/paroquiasaoluizgonzagaxaxim/"
+      }
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-22T23:50:16.285099",
+    "ultima_atualizacao": "2026-05-23T00:19:03.492634",
+    "endereco_original": "Rua da Matriz, 54 - Cx. P. 08, Cep: 89825-000 | Xaxim/SC",
+    "telefone": "(49) 3353-1093",
+    "email": "paroquiasaoluizxaxim@gmail.com",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "detalhes": {
+    "campos_labels": {
+      "clero": null,
+      "email": [
+        "E-mail"
+      ],
+      "endereco": [
+        "Endereço"
+      ],
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "telefone": [
+        "Telefone"
+      ]
+    },
+    "campos_seletores": {
+      "clero": "div.timeline-panel h4 a[href*=\"/clero/\"]",
+      "email": "div.btn-group button",
+      "endereco": "div.btn-group button",
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "telefone": "div.btn-group button"
+    },
+    "horarios_missa_seletor": "ul.timeline > li:nth-child(3) div.timeline-panel",
+    "headings_selector": "div.btn-group button",
+    "social_selector": null,
+    "tipo_layout": "label_value"
+  },
+  "listagem": {
+    "imagem_selector": "img.vc_gitem-zone-img",
+    "item_selector": "div.vc_grid-item",
+    "link_selector": "a.vc_gitem-link"
+  },
+  "nome": "Arquidiocese de Campinas SP",
+  "paginacao": {
+    "next_selector": null,
+    "tipo": "single_page",
+    "url_pattern": null
+  },
+  "url_base": "https://arquidiocesecampinas.com/paroquias/",
+  "is_wpbakery_grid": true
+}

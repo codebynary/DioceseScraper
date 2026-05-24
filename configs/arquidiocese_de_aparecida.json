@@ -1,0 +1,62 @@
+{
+  "detalhes": {
+    "campos_labels": {
+      "clero": [
+        "Clero",
+        "Clero:",
+        "Pároco:",
+        "Pároco",
+        "Padre:",
+        "Padres:"
+      ],
+      "email": [
+        "E-mail:",
+        "Email:"
+      ],
+      "endereco": [
+        "Endereço",
+        "Endereço:",
+        "Localização:"
+      ],
+      "funcionamento_secretaria": [
+        "Funcionamento na Secretaria",
+        "Fucionamentos na Secretaria",
+        "Secretaria:",
+        "Secretaria Paroquial:"
+      ],
+      "setor": [
+        "Setor:",
+        "Setor"
+      ],
+      "telefone": [
+        "Telefone:",
+        "Telefone",
+        "Fone:",
+        "Contato:"
+      ]
+    },
+    "campos_seletores": {
+      "clero": null,
+      "email": null,
+      "endereco": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "telefone": null
+    },
+    "horarios_missa_seletor": null,
+    "social_selector": null,
+    "tipo_layout": "selector"
+  },
+  "listagem": {
+    "imagem_selector": null,
+    "item_selector": "table.table-striped tr",
+    "link_selector": "td:nth-child(2) a"
+  },
+  "nome": "Arquidiocese de Aparecida",
+  "paginacao": {
+    "next_selector": null,
+    "tipo": "single_page",
+    "url_pattern": null
+  },
+  "url_base": "https://www.arqaparecida.org.br/paroquias"
+}

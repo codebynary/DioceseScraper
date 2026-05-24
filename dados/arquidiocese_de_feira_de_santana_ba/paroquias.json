@@ -1,0 +1,3880 @@
+[
+  {
+    "nome": "Paróquia Senhora Sant’Ana - Catedral Metropolitana",
+    "tipo": "Catedral",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "CEP: 44001-970",
+      "logradouro": "Avenida Getúlio Vargas",
+      "numero": "s/n",
+      "bairro": "Centro",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44001-970"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T11:06:23.529334",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia Santuário Senhor dos Passos",
+    "tipo": "Santuário",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Senhor dos Passos, s/n Centro | CEP: 44010-230",
+      "logradouro": "Avenida Senhor dos Passos",
+      "numero": "s/n",
+      "bairro": "CIS",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44010-230"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T09:36:17.330664",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia Santuário Santo Antônio",
+    "tipo": "Santuário",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Presidente Dutra, s/n Capuchinhos | CEP: 44050-000",
+      "logradouro": "Avenida Getulio Vargas",
+      "numero": "s/n",
+      "bairro": "Capuchinhos",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44050-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T09:36:36.807862",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia Cristo Redentor",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Lopes Rodrigues, 10 – Bairro Brasília | CEP 44062-360",
+      "logradouro": "Rua Lopes Rodrigues",
+      "numero": "10",
+      "bairro": "Bairro Brasília",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44062-360"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T09:41:45.831369",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora de Fátima",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. João Durval Carneiro, s/n – Caseb | CEP 44045-000",
+      "logradouro": "Av. João Durval Carneiro",
+      "numero": "s/n",
+      "bairro": "Estação Nova",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44045-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T09:42:18.250626",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora do Carmo",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Vasco Filho, s/n – Bairro Serraria Brasil | CEP 40301-110",
+      "logradouro": "Rua Vasco Filho",
+      "numero": "s/n",
+      "bairro": "Barbalho",
+      "cidade": "Salvador",
+      "uf": "BA",
+      "cep": "40301-110"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T09:42:45.368151",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia São João XXIII",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Artêmia Pires Freitas, 10.570 – Bairro SIM | CEP 44085-370",
+      "logradouro": "Rua Artêmia Pires Freitas",
+      "numero": "10",
+      "bairro": "SIM",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44085-370"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T09:43:08.600366",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania I – Senhora Sant’Ana"
+  },
+  {
+    "nome": "Paróquia Senhor do Bonfim",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Perolina Angélica, 294, | CEP 44022-032",
+      "logradouro": "Rua Perolina Angélica da Silva",
+      "numero": "294",
+      "bairro": "Cruzeiro",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44022-032"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T09:43:29.835622",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania II – Nossa Senhora Aparecida"
+  },
+  {
+    "nome": "Nossa Senhora do Perpétuo Socorro",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Macário Barreto, 35 – Tomba | CEP 44063-260",
+      "logradouro": "Praça Macário Barreto",
+      "numero": "35",
+      "bairro": "Tomba",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44063-260"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T09:44:10.669976",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania II – Nossa Senhora Aparecida"
+  },
+  {
+    "nome": "Paróquia Santa Clara de Assis",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Amado Bahia, 2015 – Panorama | CEP 44052- 360",
+      "logradouro": "Rua Amado Bahia",
+      "numero": "2015",
+      "bairro": "Lagoa Grande",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44052- 360"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T09:44:38.949281",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania II – Nossa Senhora Aparecida"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora Aparecida",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua A, s/ n – Conjunto Feira IX | CEP 44017-680",
+      "logradouro": "Rua A",
+      "numero": "",
+      "bairro": "Jardim Cruzeiro",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44017-680"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T09:49:26.634506",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania II – Nossa Senhora Aparecida"
+  },
+  {
+    "nome": "Paróquia Santíssima Trindade",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua A, 76 D – Conjunto Feira X | CEP 44085-000",
+      "logradouro": "Rua A",
+      "numero": "76",
+      "bairro": "Conjunto Feira IX",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44085-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:18:20.723405",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania II – Nossa Senhora Aparecida"
+  },
+  {
+    "nome": "Paróquia Imaculada Conceição",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Calamar, 531 – Conceição I | CEP 44040-160",
+      "logradouro": "Rua Calamar",
+      "numero": "531",
+      "bairro": "Conceição",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44040-160"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:18:47.875040",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia São José Operário",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Duque de Caxias, s/n – Campo Limpo | CEP 44023-110",
+      "logradouro": "Praça Duque de Caxias",
+      "numero": "s/n",
+      "bairro": "Campo Limpo",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44023-110"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:19:22.650910",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora das Graças",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Pelé, s/n – Cidade Nova | CEP 44032-539",
+      "logradouro": "Rua Pelé",
+      "numero": "s/n",
+      "bairro": "Cidade Nova",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44032-539"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:20:34.794558",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia Santa Dulce dos Pobres",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Joana Pereira, 60 – Pampalona | CEP 44031-095",
+      "logradouro": "Rua Joana Pereira da Silva",
+      "numero": "60",
+      "bairro": "Pampalona",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44031-095"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:20:45.367432",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora de Guadalupe",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "",
+      "logradouro": "",
+      "numero": "",
+      "bairro": "Distrito de Jaíba",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": ""
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:24:46.470323",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia São Francisco de Assis",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Cavalo de Aço, 30 – Bairro Gabriela | CEP 44022-230",
+      "logradouro": "Rua Cavalo de Aço",
+      "numero": "30",
+      "bairro": "Cruzeiro",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44022-230"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:31:28.320870",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia São João Paulo II",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua O, s/n – conj. João Paulo II – Mangabeira | CEP 44056-568",
+      "logradouro": "Rua O",
+      "numero": "s/n",
+      "bairro": "Mangabeira",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44056-568"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:32:12.417786",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia Todos os Santos",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Av. Bahia, 185 – Queimadinha | CEP 44031-440",
+      "logradouro": "Avenida Bahia",
+      "numero": "185",
+      "bairro": "Pampalona",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44031-440"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:32:27.660922",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania III – São Pedro e São Paulo"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora do Resgate das Umburanas",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n | CEP 44180-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "bairro": "Centro",
+      "cidade": "Antônio Cardoso",
+      "uf": "BA",
+      "cep": "44180-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:33:04.464918",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora da Conceição",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Artur Vieira, s/n | CEP 44670-000",
+      "logradouro": "Praça Artur Vieira",
+      "numero": "s/n",
+      "bairro": "Centro",
+      "cidade": "Anguera",
+      "uf": "BA",
+      "cep": "44670-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:33:28.807310",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora de Lourdes",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça 19 de Julho, s/n – Centro | CEP 44680-000",
+      "logradouro": "Praça 19 de Julho",
+      "numero": "s/n",
+      "bairro": "Centro",
+      "cidade": "Ipecaetá",
+      "uf": "BA",
+      "cep": "44680-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:33:43.086628",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia Santo Estevão",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n – Centro | CEP 44190-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "bairro": "Centro",
+      "cidade": "Santo Estêvão",
+      "uf": "BA",
+      "cep": "44190-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:33:56.984015",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora do Bom Conselho",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, 12 | CEP 44660-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "12",
+      "bairro": "Centro",
+      "cidade": "Serra Preta",
+      "uf": "BA",
+      "cep": "44660-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:34:15.903881",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia Senhor do Bonfim",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Cupertino Lacerda, s/n | CEP 44120-000",
+      "logradouro": "Praça Cupertino Lacerda",
+      "numero": "s/n",
+      "bairro": "Bonfim da Feira",
+      "cidade": "| CEP",
+      "uf": "BA",
+      "cep": "44120-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:34:26.263707",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora dos Remédios",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n – Gameleira | CEP 44130-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "bairro": "Governador João Durval Carneiro",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44130-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:34:50.671053",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania IV – São Mateus"
+  },
+  {
+    "nome": "Paróquia São Gonçalo do Amarante",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "CEP 44330-000",
+      "logradouro": "Praça Padre Bráulio Seixas",
+      "numero": "s/n",
+      "bairro": "Centro",
+      "cidade": "São Gonçalo dos Campos",
+      "uf": "BA",
+      "cep": "44330-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Praça Padre Bráulio Seixas, 09 – Centro",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "Praça Padre Bráulio Seixas, 09 – Centro"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:37:08.849215",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": "Praça Padre Bráulio Seixas, 09 – Centro",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania V – São Marcos"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora da Conceição",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Bandeira, s/n | CEP 44320-000",
+      "logradouro": "Praça da Bandeira",
+      "numero": "s/n",
+      "bairro": "Centro",
+      "cidade": "Conceição da Feira",
+      "uf": "BA",
+      "cep": "44320-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:37:25.504837",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania V – São Marcos"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora da Lapa",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n | CEP 44230-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "bairro": "Centro",
+      "cidade": "Amélia Rodrigues",
+      "uf": "BA",
+      "cep": "44230-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:37:40.552253",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania V – São Marcos"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora da Conceição",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Manuel Teixeira de Freitas, s/n | CEP 44245-000",
+      "logradouro": "Praça Manuel Teixeira de Freitas",
+      "numero": "s/n",
+      "bairro": "Centro",
+      "cidade": "Conceição do Jacuípe",
+      "uf": "BA",
+      "cep": "44245-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:38:12.250347",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania V – São Marcos"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora dos Humildes",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n | CEP 44135-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "bairro": "Humildes",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44135-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:38:29.520302",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania V – São Marcos"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora da Purificação dos Campos",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça. Pedro Nogueira, s/n – Centro | CEP 44255-000",
+      "logradouro": "Praça. Pedro Nogueira",
+      "numero": "s/n",
+      "bairro": "Centro",
+      "cidade": "Irará",
+      "uf": "BA",
+      "cep": "44255-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:38:45.602900",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VI – São Lucas"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora da Imaculada Conceição",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Cônego Estrela s/n | CEP 48150-000",
+      "logradouro": "Praça Cônego Estrela",
+      "numero": "s/n",
+      "bairro": "Centro",
+      "cidade": "Ouriçangas",
+      "uf": "BA",
+      "cep": "48150-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:39:34.956452",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VI – São Lucas"
+  },
+  {
+    "nome": "Paróquia São João Batista",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n – Centro | CEP 48170-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "bairro": "Centro",
+      "cidade": "Água Fria",
+      "uf": "BA",
+      "cep": "48170-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:39:50.267837",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VI – São Lucas"
+  },
+  {
+    "nome": "Paróquia Santíssimo Coração de Maria",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Dr. Araújo Pinho, 406 | CEP 44250-000",
+      "logradouro": "Praça Dr. Araújo Pinho",
+      "numero": "406",
+      "bairro": "Centro",
+      "cidade": "Coração de Maria",
+      "uf": "BA",
+      "cep": "44250-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:40:10.083295",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VI – São Lucas"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora das Dores",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "CEP 44250-000",
+      "logradouro": "Praça Padre Caetano Aragão",
+      "numero": "s/n",
+      "bairro": "Distrito de Retiro",
+      "cidade": "Coração de Maria",
+      "uf": "BA",
+      "cep": "44250-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [
+      {
+        "nome": "Praça Padre Caetano Aragão, s/n",
+        "titulo": "",
+        "cargo": "",
+        "texto_original": "Praça Padre Caetano Aragão, s/n"
+      }
+    ],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:41:56.899695",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": "Praça Padre Caetano Aragão, s/n",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VI – São Lucas"
+  },
+  {
+    "nome": "Paróquia Sagrado Coração de Jesus",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Álvaro Ribeiro Lima, 110 – Centro | CEP 48140-000",
+      "logradouro": "Rua Álvaro Ribeiro Lima",
+      "numero": "110",
+      "bairro": "Centro",
+      "cidade": "Pedrão",
+      "uf": "BA",
+      "cep": "48140-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:42:36.739780",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VI – São Lucas"
+  },
+  {
+    "nome": "Paróquia Senhor do Bonfim",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Senhor do Bonfim, S/N | CEP 48710-000",
+      "logradouro": "Praça Senhor do Bonfim",
+      "numero": "S/N",
+      "bairro": "Centro",
+      "cidade": "Candeal",
+      "uf": "BA",
+      "cep": "48710-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:42:48.452278",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia Santa",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz, s/n – Centro | CEP 44150-000",
+      "logradouro": "Praça da Matriz",
+      "numero": "s/n",
+      "bairro": "Centro",
+      "cidade": "Santa Bárbara",
+      "uf": "BA",
+      "cep": "44150-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:42:58.761843",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia Senhor do Bomfim",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça João Nery, 14 – Centro | CEP 44260-000",
+      "logradouro": "Praça João Nery",
+      "numero": "14",
+      "bairro": "Centro",
+      "cidade": "Santanópolis",
+      "uf": "BA",
+      "cep": "44260-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:43:12.273303",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia Santo Antônio",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Quatorze de Agosto, 08 | CEP 44160-000",
+      "logradouro": "Rua Quatorze de Agosto",
+      "numero": "08",
+      "bairro": "Centro",
+      "cidade": "Tanquinho",
+      "uf": "BA",
+      "cep": "44160-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:43:25.960922",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia São José das Itapororocas",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça São José, s/n | CEP 44110-000",
+      "logradouro": "Praça São José",
+      "numero": "s/n",
+      "bairro": "Maria Quitéria",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44110-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:43:39.253870",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia Nossa Senhora do Carmo",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Largo da Matriz, s/n | CEP 44125-000",
+      "logradouro": "Largo da Matriz",
+      "numero": "s/n",
+      "bairro": "Jaguara",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44125-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:44:03.809874",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia São Vicente Ferrer",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matriz São Vicente, s/n | CEP 44140-000",
+      "logradouro": "Praça da Matriz São Vicente",
+      "numero": "s/n",
+      "bairro": "Tiquaruçu",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44140-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:44:16.050349",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VII – São João"
+  },
+  {
+    "nome": "Paróquia São Roque",
+    "tipo": "Paróquia",
+    "url": "",
+    "imagem_thumbnail": "",
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Feira de Santana BA",
+      "url": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+      "data_coleta": "2026-05-24T00:09:50.394725",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça da Matinha, s/n | CEP 44118-000",
+      "logradouro": "Praça da Matinha",
+      "numero": "s/n",
+      "bairro": "Matinha",
+      "cidade": "Feira de Santana",
+      "uf": "BA",
+      "cep": "44118-000"
+    },
+    "contatos": {
+      "telefones": [],
+      "emails": [],
+      "sites": [],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "locais_culto": [],
+    "estrutura_pastoral": {
+      "setor": "Forania VII – São João",
+      "forania": "",
+      "regiao": "",
+      "texto_original": "Setor: Forania VII – São João"
+    },
+    "observacoes": "Vigário Forâneo:Pe. Zorimar Fernandes",
+    "raw": {
+      "nome": "Paróquia São Roque",
+      "endereco": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+      "telefone": null,
+      "email": null,
+      "clero": null,
+      "horarios_missa_texto": "",
+      "funcionamento_secretaria": "",
+      "setor": "Forania VII – São João",
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": true,
+    "data_criacao": "2026-05-24T00:09:51.399716",
+    "ultima_atualizacao": "2026-05-24T10:44:22.624263",
+    "endereco_original": "Praça da Matinha, s/n | CEP 44118-000 | Distrito de Matinha | Feira de Santana – BA",
+    "telefone": "",
+    "email": "",
+    "clero_original": null,
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": null,
+    "setor": "Forania VII – São João"
+  }
+]

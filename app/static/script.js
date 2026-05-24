@@ -4,6 +4,63 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
+    // Helper functions for structured parish fields fallback
+    function getFlatClero(p) {
+        if (!p) return '';
+        if (p.clero_original && typeof p.clero_original === 'string') {
+            return p.clero_original;
+        }
+        if (typeof p.clero === 'string') {
+            return p.clero;
+        }
+        if (Array.isArray(p.clero)) {
+            return p.clero.map(m => m.texto_original || [m.titulo, m.nome, m.cargo].filter(Boolean).join(' ')).filter(Boolean).join('\n');
+        }
+        return '';
+    }
+
+    function getFlatEndereco(p) {
+        if (!p) return '';
+        if (p.endereco_original && typeof p.endereco_original === 'string') {
+            return p.endereco_original;
+        }
+        if (typeof p.endereco === 'string') {
+            return p.endereco;
+        }
+        if (p.endereco && typeof p.endereco === 'object') {
+            return p.endereco.original || '';
+        }
+        return '';
+    }
+
+    function getFlatSecretaria(p) {
+        if (!p) return '';
+        if (p.funcionamento_secretaria_original && typeof p.funcionamento_secretaria_original === 'string') {
+            return p.funcionamento_secretaria_original;
+        }
+        if (typeof p.funcionamento_secretaria === 'string') {
+            return p.funcionamento_secretaria;
+        }
+        if (p.funcionamento_secretaria && typeof p.funcionamento_secretaria === 'object') {
+            return p.funcionamento_secretaria.texto_original || '';
+        }
+        return '';
+    }
+
+    function getFlatMissas(p) {
+        if (!p) return '';
+        if (typeof p.horarios_missa_texto === 'string') {
+            return p.horarios_missa_texto;
+        }
+        if (p.horarios_missa_texto_original && typeof p.horarios_missa_texto_original === 'string') {
+            return p.horarios_missa_texto_original;
+        }
+        if (Array.isArray(p.horarios_missa)) {
+            return p.horarios_missa.map(h => h.texto_original || h.observacoes || '').filter(Boolean).join('\n');
+        }
+        return '';
+    }
+
     // State management
     let activeDioceseId = null;
     let activeDioceseName = null;
@@ -73,6 +130,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchParishes = document.getElementById('search-parishes');
     const parishesTableBody = document.getElementById('parishes-table-body');
     const btnReScrape = document.getElementById('btn-re-scrape');
+    const btnReMap = document.getElementById('btn-re-map');
+    const btnExportJson = document.getElementById('btn-export-json');
+    
+    // Import MD Elements
+    const inputMdFiles = document.getElementById('input-md-files');
+    const btnUploadMd = document.getElementById('btn-upload-md');
+    const uploadFeedback = document.getElementById('upload-feedback');
 
     let parishDataCached = []; // For local search/filtering
 
@@ -288,6 +352,22 @@ document.addEventListener('DOMContentLoaded', () => {
         data.forEach(p => {
             const tr = document.createElement('tr');
             
+            // Set row status classes
+            if (p.status === 'removido') {
+                tr.classList.add('row-removed');
+            }
+            
+            // Status badges
+            let statusBadgesHtml = '';
+            if (p.status === 'removido') {
+                statusBadgesHtml += `<span class="status-badge status-badge-removido"><i class="fa-solid fa-trash-can"></i> Removido</span>`;
+            } else if (p.status === 'novo') {
+                statusBadgesHtml += `<span class="status-badge status-badge-novo"><i class="fa-solid fa-circle-plus"></i> Novo</span>`;
+            }
+            if (p.curado) {
+                statusBadgesHtml += `<span class="status-badge status-badge-curado"><i class="fa-solid fa-circle-check"></i> Curado</span>`;
+            }
+            
             // Thumbnail image or default icon
             const thumb = p.imagem_thumbnail 
                 ? `<img src="${p.imagem_thumbnail}" alt="${p.nome}" onerror="this.outerHTML='<i class=fa-solid fa-church></i>'">`
@@ -295,9 +375,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 
             // Clergy
             let clergyHtml = '';
-            if (p.clero) {
-                // Split clero by commas or newlines if it's structured, otherwise show as block
-                const members = p.clero.split('\n').filter(Boolean);
+            const cleroFlat = getFlatClero(p);
+            if (cleroFlat) {
+                const members = cleroFlat.split('\n').filter(Boolean);
                 members.forEach(m => {
                     clergyHtml += `<span class="clergy-member">${m}</span>`;
                 });
@@ -313,32 +393,40 @@ document.addEventListener('DOMContentLoaded', () => {
             if (p.email) {
                 contactsHtml += `<div class="contact-item"><i class="fa-solid fa-envelope"></i> <span>${p.email}</span></div>`;
             }
-            if (p.funcionamento_secretaria) {
-                contactsHtml += `<div class="contact-item" title="${p.funcionamento_secretaria}"><i class="fa-solid fa-clock"></i> <span class="address-text text-truncate">${p.funcionamento_secretaria}</span></div>`;
+            const secretariaFlat = getFlatSecretaria(p);
+            if (secretariaFlat) {
+                contactsHtml += `<div class="contact-item" title="${secretariaFlat}"><i class="fa-solid fa-clock"></i> <span class="address-text text-truncate">${secretariaFlat}</span></div>`;
             }
             if (!contactsHtml) contactsHtml = '<span class="text-dark">-</span>';
 
             // Address
             let addressHtml = '';
-            if (p.endereco) {
-                addressHtml += `<span class="address-text" title="${p.endereco}">${p.endereco}</span>`;
+            const enderecoFlat = getFlatEndereco(p);
+            if (enderecoFlat) {
+                addressHtml += `<span class="address-text" title="${enderecoFlat}">${enderecoFlat}</span>`;
             } else {
                 addressHtml = '<span class="text-dark">-</span>';
             }
 
             // Social Media
             let socialHtml = '';
+            let hasSocial = false;
             if (p.redes_sociais && Object.keys(p.redes_sociais).length > 0) {
                 Object.entries(p.redes_sociais).forEach(([net, link]) => {
+                    const url = link && typeof link === 'object' ? (link.url || '') : (link || '');
+                    if (!url) return;
+                    
+                    hasSocial = true;
                     let icon = 'fa-solid fa-link';
                     if (net === 'facebook') icon = 'fa-brands fa-facebook-f';
                     else if (net === 'instagram') icon = 'fa-brands fa-instagram';
                     else if (net === 'youtube') icon = 'fa-brands fa-youtube';
                     else if (net === 'whatsapp') icon = 'fa-brands fa-whatsapp';
                     
-                    socialHtml += `<a href="${link}" target="_blank" class="social-pill ${net}"><i class="${icon}"></i></a>`;
+                    socialHtml += `<a href="${url}" target="_blank" class="social-pill ${net}"><i class="${icon}"></i></a>`;
                 });
-            } else {
+            }
+            if (!hasSocial) {
                 socialHtml = '<span class="text-dark">-</span>';
             }
 
@@ -352,7 +440,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="parish-main-cell">
                         <div class="parish-avatar">${thumb}</div>
                         <div>
-                            <a href="${p.url}" target="_blank" class="parish-name-link">${p.nome}</a>
+                            <div class="parish-name-row">
+                                <a href="${p.url}" target="_blank" class="parish-name-link">${p.nome}</a>
+                                ${statusBadgesHtml}
+                            </div>
                             <span class="parish-external-link">${addressHtml}</span>
                         </div>
                     </div>
@@ -365,7 +456,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
             parishesTableBody.appendChild(tr);
         });
+
+        // Marca rows como clicáveis (o click handler fica no delegation abaixo)
+        parishesTableBody.querySelectorAll('tr').forEach(tr => tr.classList.add('clickable-row'));
     }
+
+    // Event delegation: único listener no tbody, resolve índice dinamicamente
+    parishesTableBody.addEventListener('click', (e) => {
+        if (e.target.closest('a')) return; // ignora cliques em links/redes sociais
+        const tr = e.target.closest('tr');
+        if (!tr) return;
+        const rows = Array.from(parishesTableBody.querySelectorAll('tr'));
+        const rowIdx = rows.indexOf(tr);
+        if (rowIdx === -1) return;
+        // Acha a paróquia correspondente na lista filtrada atual
+        const visibleData = parishDataCached.filter(p => {
+            const query = searchParishes.value.toLowerCase().trim();
+            if (!query) return true;
+            return [
+                p.nome, p.setor, getFlatClero(p), p.email, p.telefone, getFlatEndereco(p)
+            ].some(f => f && typeof f === 'string' && f.toLowerCase().includes(query));
+        });
+        const parish = visibleData[rowIdx];
+        if (!parish) return;
+        const realIndex = parishDataCached.indexOf(parish);
+        openParishModal(realIndex !== -1 ? realIndex : rowIdx);
+    });
+
 
     // Filter parishes in search bar
     searchParishes.addEventListener('input', (e) => {
@@ -378,10 +495,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const filtered = parishDataCached.filter(p => {
             const name = (p.nome || '').toLowerCase();
             const sector = (p.setor || '').toLowerCase();
-            const clero = (p.clero || '').toLowerCase();
+            const clero = getFlatClero(p).toLowerCase();
             const email = (p.email || '').toLowerCase();
             const tel = (p.telefone || '').toLowerCase();
-            const addr = (p.endereco || '').toLowerCase();
+            const addr = getFlatEndereco(p).toLowerCase();
             
             return name.includes(query) || 
                    sector.includes(query) || 
@@ -458,17 +575,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 previewNome.textContent = p.nome || 'Paróquia não mapeada';
                 previewUrl.textContent = p.url || '';
                 previewSetor.textContent = p.setor || '-';
-                previewClero.textContent = p.clero || '-';
+                previewClero.textContent = getFlatClero(p) || '-';
                 previewTelefone.textContent = p.telefone || '-';
                 previewEmail.textContent = p.email || '-';
-                previewSecretaria.textContent = p.funcionamento_secretaria || '-';
-                previewEndereco.textContent = p.endereco || '-';
-                previewMissas.textContent = p.horarios_missa_texto || '-';
+                previewSecretaria.textContent = getFlatSecretaria(p) || '-';
+                previewEndereco.textContent = getFlatEndereco(p) || '-';
+                previewMissas.textContent = getFlatMissas(p) || '-';
                 
                 // Redes
                 let socialText = '';
                 if (p.redes_sociais && Object.keys(p.redes_sociais).length > 0) {
-                    socialText = Object.keys(p.redes_sociais).join(', ');
+                    const activeKeys = Object.entries(p.redes_sociais)
+                        .filter(([_, link]) => {
+                            const url = link && typeof link === 'object' ? (link.url || '') : (link || '');
+                            return !!url;
+                        })
+                        .map(([net, _]) => net);
+                    socialText = activeKeys.length > 0 ? activeKeys.join(', ') : 'Nenhuma';
                 } else {
                     socialText = 'Nenhuma';
                 }
@@ -610,16 +733,57 @@ document.addEventListener('DOMContentLoaded', () => {
 
         sseSource.onerror = (err) => {
             console.error('SSE Error:', err);
-            appendLog('\n[SISTEMA ERROR] Conexão com o servidor de streaming foi encerrada de forma abrupta.');
             sseSource.close();
             loadDiocesesList();
+
+            // O scrape pode ter terminado com sucesso mesmo sem o sinal chegar.
+            // Tenta carregar os dados após 2s para verificar.
+            appendLog('\n[SISTEMA] Conexão encerrada. Verificando se dados foram salvos...');
+            setTimeout(() => {
+                fetch(`/api/dioceses`)
+                    .then(r => r.json())
+                    .then(list => {
+                        const diocese = list.find(d => d.id === configId);
+                        if (diocese && diocese.total_paroquias > 0) {
+                            appendLog(`[SISTEMA] Dados encontrados! ${diocese.total_paroquias} paróquia(s) salva(s). Carregando...`);
+                            setTimeout(() => selectDiocese(configId, name), 1500);
+                        } else {
+                            appendLog('[SISTEMA ERROR] Conexão com o servidor de streaming foi encerrada antes de salvar dados.');
+                        }
+                    })
+                    .catch(() => {
+                        appendLog('[SISTEMA ERROR] Não foi possível verificar os dados salvos.');
+                    });
+            }, 2000);
         };
     }
 
     btnReScrape.addEventListener('click', () => {
         if (activeDioceseId && activeDioceseName) {
-            if (confirm(`Deseja rodar novamente a raspagem completa para "${activeDioceseName}"? Os dados anteriores serão substituídos.`)) {
+            if (confirm(`Deseja rodar novamente a raspagem para "${activeDioceseName}"? Os dados novos serão mesclados com os existentes, preservando suas curadorias.`)) {
                 startScrapingProcess(activeDioceseId, activeDioceseName);
+            }
+        }
+    });
+
+    btnReMap.addEventListener('click', () => {
+        if (activeDioceseId && activeDioceseName) {
+            const currentDiocese = dioceseList.find(d => d.id === activeDioceseId);
+            if (currentDiocese) {
+                inputDioceseName.value = currentDiocese.nome;
+                inputDioceseUrl.value = currentDiocese.url_base;
+                showFeedback(analyzeFeedback, null);
+                
+                analyzeStepInput.classList.remove('hidden');
+                analyzeStepLoading.classList.add('hidden');
+                analyzeStepResult.classList.add('hidden');
+                
+                btnRunAnalysis.classList.remove('hidden');
+                btnSaveConfirm.classList.add('hidden');
+                btnAnalyzeBack.classList.add('hidden');
+                btnAnalyzeCancel.classList.remove('hidden');
+                
+                openModal(modalNewDiocese);
             }
         }
     });
@@ -695,4 +859,465 @@ document.addEventListener('DOMContentLoaded', () => {
         // Scroll terminal to bottom
         terminalBody.scrollTop = terminalBody.scrollHeight;
     }
+
+    // ==========================================
+    // PARISH CURATION MODAL
+    // ==========================================
+
+    let currentParishIndex = 0;
+    const modalParishDetail = document.getElementById('modal-parish-detail');
+    const btnDetailPrev = document.getElementById('btn-detail-prev');
+    const btnDetailNext = document.getElementById('btn-detail-next');
+    const btnSaveCuration = document.getElementById('btn-save-curation');
+    const detailSaveFeedback = document.getElementById('detail-save-feedback');
+
+    const detailFields = {
+        nome: document.getElementById('detail-nome'),
+        urlLink: document.getElementById('detail-url-link'),
+        avatar: document.getElementById('detail-avatar'),
+        clero: document.getElementById('detail-clero'),
+        setor: document.getElementById('detail-setor'),
+        telefone: document.getElementById('detail-telefone'),
+        email: document.getElementById('detail-email'),
+        telefone: document.getElementById('detail-telefone'),
+        email: document.getElementById('detail-email'),
+        enderecoOriginal: document.getElementById('detail-endereco-original'),
+        enderecoLogradouro: document.getElementById('detail-endereco-logradouro'),
+        enderecoNumero: document.getElementById('detail-endereco-numero'),
+        enderecoBairro: document.getElementById('detail-endereco-bairro'),
+        enderecoCidade: document.getElementById('detail-endereco-cidade'),
+        enderecoUF: document.getElementById('detail-endereco-uf'),
+        enderecoCEP: document.getElementById('detail-endereco-cep'),
+        secretaria: document.getElementById('detail-secretaria'),
+        secretaria: document.getElementById('detail-secretaria'),
+        missas: document.getElementById('detail-missas'),
+        facebook: document.getElementById('detail-facebook'),
+        instagram: document.getElementById('detail-instagram'),
+        youtube: document.getElementById('detail-youtube'),
+        whatsapp: document.getElementById('detail-whatsapp'),
+        navCounter: document.getElementById('detail-nav-counter'),
+        curadoBadge: document.getElementById('detail-curado-badge'),
+        completenessPct: document.getElementById('detail-completeness-pct'),
+        completenessFill: document.getElementById('detail-completeness-fill'),
+        locais: document.getElementById('detail-locais'),
+    };
+
+    // Map field ids to curation-field containers for status coloring
+    const fieldContainers = {
+        clero: document.getElementById('cf-clero'),
+        setor: document.getElementById('cf-setor'),
+        telefone: document.getElementById('cf-telefone'),
+        email: document.getElementById('cf-email'),
+        endereco: document.getElementById('cf-endereco'),
+        secretaria: document.getElementById('cf-secretaria'),
+        missas: document.getElementById('cf-missas'),
+        redes: document.getElementById('cf-redes'),
+    };
+
+    function openParishModal(index) {
+        currentParishIndex = index;
+        populateParishModal(parishDataCached[index], index);
+        openModal(modalParishDetail);
+    }
+
+    function populateParishModal(p, index) {
+        if (!p) return;
+
+        // Header
+        detailFields.nome.textContent = p.nome || 'Paróquia sem nome';
+        detailFields.urlLink.href = p.url || '#';
+
+        // Avatar
+        if (p.imagem_thumbnail) {
+            detailFields.avatar.innerHTML = `<img src="${p.imagem_thumbnail}" alt="${p.nome}" onerror="this.outerHTML='<i class=\\"fa-solid fa-church\\"></i>'">`;
+        } else {
+            detailFields.avatar.innerHTML = `<i class="fa-solid fa-church"></i>`;
+        }
+
+        // Nav counter
+        detailFields.navCounter.textContent = `${index + 1} / ${parishDataCached.length}`;
+        btnDetailPrev.disabled = index <= 0;
+        btnDetailNext.disabled = index >= parishDataCached.length - 1;
+
+        // Curado badge
+        if (p.curado) {
+            detailFields.curadoBadge.classList.remove('hidden');
+        } else {
+            detailFields.curadoBadge.classList.add('hidden');
+        }
+
+        // Text fields
+        detailFields.clero.value = getFlatClero(p);
+        detailFields.setor.value = p.setor || '';
+        detailFields.telefone.value = p.telefone || '';
+        detailFields.email.value = p.email || '';
+        detailFields.email.value = p.email || '';
+        
+        let endObj = p.endereco || {};
+        detailFields.enderecoOriginal.value = endObj.original || '';
+        detailFields.enderecoLogradouro.value = endObj.logradouro || '';
+        detailFields.enderecoNumero.value = endObj.numero || '';
+        detailFields.enderecoBairro.value = endObj.bairro || '';
+        detailFields.enderecoCidade.value = endObj.cidade || '';
+        detailFields.enderecoUF.value = endObj.uf || '';
+        detailFields.enderecoCEP.value = endObj.cep || '';
+        
+        detailFields.secretaria.value = getFlatSecretaria(p);
+        detailFields.secretaria.value = getFlatSecretaria(p);
+        detailFields.missas.value = getFlatMissas(p);
+
+        // Social media
+        const redes = p.redes_sociais || {};
+        detailFields.facebook.value = redes.facebook && typeof redes.facebook === 'object' ? (redes.facebook.url || '') : (redes.facebook || '');
+        detailFields.instagram.value = redes.instagram && typeof redes.instagram === 'object' ? (redes.instagram.url || '') : (redes.instagram || '');
+        detailFields.youtube.value = redes.youtube && typeof redes.youtube === 'object' ? (redes.youtube.url || '') : (redes.youtube || '');
+        detailFields.whatsapp.value = redes.whatsapp && typeof redes.whatsapp === 'object' ? (redes.whatsapp.url || '') : (redes.whatsapp || '');
+
+        // Locais de Culto
+        const locais = p.locais_culto || [];
+        if (locais.length > 0) {
+            let locaisHtml = '';
+            locais.forEach(loc => {
+                locaisHtml += `<div class="local-culto-item" style="padding: 12px; background: rgba(255,255,255,0.05); border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); font-size: 0.9rem;">
+                    <strong style="color: var(--primary-color); display: block; margin-bottom: 4px;">${loc.nome}</strong>
+                    ${loc.endereco ? `<div style="margin-bottom: 2px;"><i class="fa-solid fa-location-dot" style="opacity: 0.7; width: 16px;"></i> ${loc.endereco}</div>` : ''}
+                    ${loc.telefone ? `<div style="margin-bottom: 2px;"><i class="fa-solid fa-phone" style="opacity: 0.7; width: 16px;"></i> ${loc.telefone}</div>` : ''}
+                    ${loc.email ? `<div><i class="fa-solid fa-envelope" style="opacity: 0.7; width: 16px;"></i> ${loc.email}</div>` : ''}
+                </div>`;
+            });
+            if (detailFields.locais) {
+                detailFields.locais.innerHTML = locaisHtml;
+            }
+        } else {
+            if (detailFields.locais) {
+                detailFields.locais.innerHTML = '<div style="padding: 12px; font-style: italic; opacity: 0.6;">Nenhuma capela ou comunidade atrelada a esta matriz.</div>';
+            }
+        }
+
+        // Clear feedback
+        showFeedback(detailSaveFeedback, null);
+
+        // Update status indicators
+        updateFieldStatuses();
+    }
+
+    function updateFieldStatuses() {
+        const checks = {
+            clero: detailFields.clero.value.trim(),
+            setor: detailFields.setor.value.trim(),
+            telefone: detailFields.telefone.value.trim(),
+            email: detailFields.email.value.trim(),
+            endereco: detailFields.enderecoOriginal.value.trim() || detailFields.enderecoLogradouro.value.trim(),
+            secretaria: detailFields.secretaria.value.trim(),
+            missas: detailFields.missas.value.trim(),
+            redes: detailFields.facebook.value.trim() || detailFields.instagram.value.trim() ||
+                   detailFields.youtube.value.trim() || detailFields.whatsapp.value.trim(),
+        };
+
+        let filled = 0;
+        const total = Object.keys(checks).length;
+
+        Object.entries(checks).forEach(([key, val]) => {
+            const container = fieldContainers[key];
+            if (!container) return;
+            if (val) {
+                filled++;
+                container.classList.remove('field-empty');
+                container.classList.add('field-filled');
+            } else {
+                container.classList.remove('field-filled');
+                container.classList.add('field-empty');
+            }
+        });
+
+        const pct = Math.round((filled / total) * 100);
+        detailFields.completenessPct.textContent = `${pct}%`;
+        detailFields.completenessFill.style.width = `${pct}%`;
+    }
+
+    // Live update status on input
+    Object.values(detailFields).forEach(el => {
+        if (el && (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA')) {
+            el.addEventListener('input', updateFieldStatuses);
+        }
+    });
+
+    // Navigation
+    btnDetailPrev.addEventListener('click', () => {
+        if (currentParishIndex > 0) openParishModal(currentParishIndex - 1);
+    });
+
+    btnDetailNext.addEventListener('click', () => {
+        if (currentParishIndex < parishDataCached.length - 1) openParishModal(currentParishIndex + 1);
+    });
+
+    // Keyboard navigation
+    modalParishDetail.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft') btnDetailPrev.click();
+        if (e.key === 'ArrowRight') btnDetailNext.click();
+    });
+
+    // ViaCEP Sync Logic
+    const btnViacepSync = document.getElementById('btn-viacep-sync');
+    const viacepComparison = document.getElementById('viacep-comparison');
+    const viacepComparisonBody = document.getElementById('viacep-comparison-body');
+    const btnViacepCancel = document.getElementById('btn-viacep-cancel');
+    const btnViacepApply = document.getElementById('btn-viacep-apply');
+
+    let pendingViacepData = null;
+
+    if (btnViacepSync) {
+        btnViacepSync.addEventListener('click', async () => {
+            const cep = detailFields.enderecoCEP.value.replace(/\D/g, '');
+            if (cep.length !== 8) {
+                alert('Por favor, informe um CEP válido com 8 dígitos.');
+                return;
+            }
+
+            btnViacepSync.disabled = true;
+            btnViacepSync.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>';
+
+            try {
+                let foundData = null;
+
+                // 1. Tenta ViaCEP
+                try {
+                    const resViacep = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
+                    const dataViacep = await resViacep.json();
+                    if (!dataViacep.erro && dataViacep.localidade) {
+                        foundData = {
+                            logradouro: dataViacep.logradouro || '',
+                            bairro: dataViacep.bairro || '',
+                            localidade: dataViacep.localidade,
+                            uf: dataViacep.uf
+                        };
+                    }
+                } catch (e) { console.warn("ViaCEP falhou", e); }
+
+                // 2. Tenta AwesomeAPI como fallback
+                if (!foundData) {
+                    try {
+                        const resAwesome = await fetch(`https://cep.awesomeapi.com.br/json/${cep}`);
+                        if (resAwesome.ok) {
+                            const dataAwesome = await resAwesome.json();
+                            if (dataAwesome.city) {
+                                foundData = {
+                                    logradouro: dataAwesome.address || '',
+                                    bairro: dataAwesome.district || '',
+                                    localidade: dataAwesome.city,
+                                    uf: dataAwesome.state
+                                };
+                            }
+                        }
+                    } catch (e) { console.warn("AwesomeAPI falhou", e); }
+                }
+
+                // 3. Tenta BrasilAPI como último fallback
+                if (!foundData) {
+                    try {
+                        const resBrasil = await fetch(`https://brasilapi.com.br/api/cep/v1/${cep}`);
+                        if (resBrasil.ok) {
+                            const dataBrasil = await resBrasil.json();
+                            if (dataBrasil.city) {
+                                foundData = {
+                                    logradouro: dataBrasil.street || '',
+                                    bairro: dataBrasil.neighborhood || '',
+                                    localidade: dataBrasil.city,
+                                    uf: dataBrasil.state
+                                };
+                            }
+                        }
+                    } catch (e) { console.warn("BrasilAPI falhou", e); }
+                }
+
+                if (!foundData) {
+                    alert('CEP não encontrado nas bases do ViaCEP, AwesomeAPI ou BrasilAPI.');
+                    return;
+                }
+
+                pendingViacepData = foundData;
+                
+                // Build comparison table
+                const fieldsToCompare = [
+                    { id: 'logradouro', name: 'Logradouro', current: detailFields.enderecoLogradouro.value, new: foundData.logradouro },
+                    { id: 'bairro', name: 'Bairro', current: detailFields.enderecoBairro.value, new: foundData.bairro },
+                    { id: 'cidade', name: 'Cidade', current: detailFields.enderecoCidade.value, new: foundData.localidade },
+                    { id: 'uf', name: 'UF', current: detailFields.enderecoUF.value, new: foundData.uf }
+                ];
+
+                let html = '';
+                fieldsToCompare.forEach(f => {
+                    if (f.new && f.new.trim() !== '') {
+                        const isDifferent = f.current.trim().toLowerCase() !== f.new.trim().toLowerCase();
+                        const isCurrentEmpty = f.current.trim() === '';
+                        // Só marca automaticamente se o campo atual estiver vazio
+                        const shouldCheck = isCurrentEmpty;
+
+                        html += `
+                            <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                                <td style="padding: 6px 4px; font-weight: bold;">${f.name}</td>
+                                <td style="padding: 6px 4px; opacity: 0.7;">${f.current || '<em>(Vazio)</em>'}</td>
+                                <td style="padding: 6px 4px; color: #4ade80;">${f.new}</td>
+                                <td style="padding: 6px 4px; text-align: center;">
+                                    <input type="checkbox" class="viacep-apply-cb" data-field="${f.id}" data-value="${f.new}" ${shouldCheck ? 'checked' : ''} style="cursor: pointer; transform: scale(1.2);">
+                                </td>
+                            </tr>
+                        `;
+                    }
+                });
+
+                if (html === '') {
+                    alert('O ViaCEP não retornou dados úteis adicionais para este CEP.');
+                    return;
+                }
+
+                viacepComparisonBody.innerHTML = html;
+                viacepComparison.classList.remove('hidden');
+            } catch (e) {
+                alert('Erro ao consultar ViaCEP.');
+            } finally {
+                btnViacepSync.disabled = false;
+                btnViacepSync.innerHTML = '<i class="fa-solid fa-rotate"></i>';
+            }
+        });
+
+        btnViacepCancel.addEventListener('click', () => {
+            viacepComparison.classList.add('hidden');
+            pendingViacepData = null;
+        });
+
+        btnViacepApply.addEventListener('click', () => {
+            const checkboxes = viacepComparisonBody.querySelectorAll('.viacep-apply-cb:checked');
+            checkboxes.forEach(cb => {
+                const field = cb.dataset.field;
+                const val = cb.dataset.value;
+                if (field === 'logradouro') detailFields.enderecoLogradouro.value = val;
+                if (field === 'bairro') detailFields.enderecoBairro.value = val;
+                if (field === 'cidade') detailFields.enderecoCidade.value = val;
+                if (field === 'uf') detailFields.enderecoUF.value = val;
+            });
+            
+            updateFieldStatuses();
+            viacepComparison.classList.add('hidden');
+            pendingViacepData = null;
+            
+            // Auto-salvar após aplicar
+            btnSaveCuration.click();
+        });
+    }
+
+    // Save curation
+    btnSaveCuration.addEventListener('click', () => {
+        const p = parishDataCached[currentParishIndex];
+        if (!p) return;
+
+        const payload = {
+            nome: detailFields.clero.closest('.modal-content').querySelector('#detail-nome') ? p.nome : p.nome,
+            clero: detailFields.clero.value.trim() || null,
+            setor: detailFields.setor.value.trim() || null,
+            telefone: detailFields.telefone.value.trim() || null,
+            email: detailFields.email.value.trim() || null,
+            endereco: {
+                original: detailFields.enderecoOriginal.value.trim(),
+                logradouro: detailFields.enderecoLogradouro.value.trim(),
+                numero: detailFields.enderecoNumero.value.trim(),
+                bairro: detailFields.enderecoBairro.value.trim(),
+                cidade: detailFields.enderecoCidade.value.trim(),
+                uf: detailFields.enderecoUF.value.trim(),
+                cep: detailFields.enderecoCEP.value.trim()
+            },
+            funcionamento_secretaria: detailFields.secretaria.value.trim() || null,
+            horarios_missa_texto: detailFields.missas.value.trim() || null,
+            redes_sociais: {
+                ...(detailFields.facebook.value.trim() ? { facebook: detailFields.facebook.value.trim() } : {}),
+                ...(detailFields.instagram.value.trim() ? { instagram: detailFields.instagram.value.trim() } : {}),
+                ...(detailFields.youtube.value.trim() ? { youtube: detailFields.youtube.value.trim() } : {}),
+                ...(detailFields.whatsapp.value.trim() ? { whatsapp: detailFields.whatsapp.value.trim() } : {}),
+            }
+        };
+
+        btnSaveCuration.disabled = true;
+        btnSaveCuration.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Salvando...';
+
+        fetch(`/api/data/${activeDioceseId}/${currentParishIndex}`, {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        })
+        .then(async res => {
+            const data = await res.json();
+            if (res.ok) {
+                // Update local cache
+                if (data.parish) {
+                    parishDataCached[currentParishIndex] = data.parish;
+                } else {
+                    Object.assign(parishDataCached[currentParishIndex], payload);
+                    parishDataCached[currentParishIndex].curado = true;
+                }
+                detailFields.curadoBadge.classList.remove('hidden');
+                showFeedback(detailSaveFeedback, '✓ Dados salvos com sucesso!', 'success');
+                // Refresh table row
+                renderParishTable(parishDataCached);
+            } else {
+                showFeedback(detailSaveFeedback, data.message || 'Erro ao salvar.', 'error');
+            }
+        })
+        .catch(() => showFeedback(detailSaveFeedback, 'Erro de rede ao salvar.', 'error'))
+        .finally(() => {
+            btnSaveCuration.disabled = false;
+            btnSaveCuration.innerHTML = '<i class="fa-solid fa-floppy-disk"></i> Salvar Curadoria';
+        });
+    });
+
+    // ==========================================
+    // EXPORT JSON
+    // ==========================================
+    btnExportJson.addEventListener('click', () => {
+        if (!currentConfigId) return;
+        window.location.href = `/api/export-json/${currentConfigId}`;
+    });
+
+    // ==========================================
+    // SCRAPING / SSE
+    // ==========================================
+    btnUploadMd.addEventListener('click', () => {
+        inputMdFiles.click();
+    });
+
+    inputMdFiles.addEventListener('change', () => {
+        if (!inputMdFiles.files || inputMdFiles.files.length === 0) return;
+        
+        const formData = new FormData();
+        for (let i = 0; i < inputMdFiles.files.length; i++) {
+            formData.append('files', inputMdFiles.files[i]);
+        }
+        
+        btnUploadMd.disabled = true;
+        btnUploadMd.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin"></i> Processando...';
+        showFeedback(uploadFeedback, 'Enviando e processando arquivos, aguarde...', 'info');
+        
+        fetch('/api/upload-md', {
+            method: 'POST',
+            body: formData
+        })
+        .then(res => res.json().then(data => ({status: res.status, data})))
+        .then(result => {
+            if (result.status === 200 && result.data.success) {
+                showFeedback(uploadFeedback, '✓ ' + result.data.message, 'success');
+                // Refresh dioceses list
+                loadDiocesesList();
+            } else {
+                showFeedback(uploadFeedback, '⚠ ' + (result.data.message || 'Erro no upload.'), 'error');
+            }
+        })
+        .catch(err => {
+            showFeedback(uploadFeedback, 'Erro de rede: ' + err, 'error');
+        })
+        .finally(() => {
+            btnUploadMd.disabled = false;
+            btnUploadMd.innerHTML = '<i class="fa-solid fa-file-arrow-up"></i> Selecionar Arquivos .md';
+            inputMdFiles.value = ''; // Reset input
+        });
+    });
+
 });

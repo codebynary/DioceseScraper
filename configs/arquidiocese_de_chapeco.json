@@ -1,0 +1,63 @@
+{
+  "detalhes": {
+    "campos_labels": {
+      "clero": [
+        "Clero",
+        "Clero:",
+        "Pároco:",
+        "Pároco",
+        "Padre:",
+        "Padres:"
+      ],
+      "email": [
+        "E-mail:",
+        "Email:"
+      ],
+      "endereco": [
+        "Endereço",
+        "Endereço:",
+        "Localização:"
+      ],
+      "funcionamento_secretaria": [
+        "Funcionamento na Secretaria",
+        "Fucionamentos na Secretaria",
+        "Secretaria:",
+        "Secretaria Paroquial:"
+      ],
+      "setor": [
+        "Setor:",
+        "Setor"
+      ],
+      "telefone": [
+        "Telefone:",
+        "Telefone",
+        "Fone:",
+        "Contato:"
+      ]
+    },
+    "campos_seletores": {
+      "clero": "div.ctt-text b",
+      "email": "div.ctt-text b",
+      "endereco": "div.ctt-text b",
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "telefone": "div.ctt-text b"
+    },
+    "horarios_missa_seletor": null,
+    "social_selector": "div.ctt-images a",
+    "tipo_layout": "label_value"
+  },
+  "is_sitexpresso": true,
+  "listagem": {
+    "imagem_selector": "figure img",
+    "item_selector": "div.ctt-group-button",
+    "link_selector": "div[component]"
+  },
+  "nome": "Arquidiocese de Chapecó",
+  "paginacao": {
+    "next_selector": null,
+    "tipo": "single_page",
+    "url_pattern": null
+  },
+  "url_base": "https://arquidiocesechapeco.com.br/paroquias"
+}

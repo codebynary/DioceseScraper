@@ -1,0 +1,62 @@
+{
+  "detalhes": {
+    "campos_labels": {
+      "clero": [
+        "Clero",
+        "Clero:",
+        "Pároco:",
+        "Pároco",
+        "Padre:",
+        "Padres:"
+      ],
+      "email": [
+        "E-mail:",
+        "Email:"
+      ],
+      "endereco": [
+        "Endereço",
+        "Endereço:",
+        "Localização:"
+      ],
+      "funcionamento_secretaria": [
+        "Funcionamento na Secretaria",
+        "Fucionamentos na Secretaria",
+        "Secretaria:",
+        "Secretaria Paroquial:"
+      ],
+      "setor": [
+        "Setor:",
+        "Setor"
+      ],
+      "telefone": [
+        "Telefone:",
+        "Telefone",
+        "Fone:",
+        "Contato:"
+      ]
+    },
+    "campos_seletores": {
+      "clero": null,
+      "email": null,
+      "endereco": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "telefone": null
+    },
+    "horarios_missa_seletor": null,
+    "social_selector": null,
+    "tipo_layout": "selector"
+  },
+  "listagem": {
+    "imagem_selector": "div.elementor-post__thumbnail img",
+    "item_selector": "article.elementor-post",
+    "link_selector": "h3.elementor-post__title > a"
+  },
+  "nome": "Ordinariado Militar do Brasil",
+  "paginacao": {
+    "next_selector": null,
+    "tipo": "url_page",
+    "url_pattern": "https://arquidiocesemilitar.org.br/local/page/{page}/"
+  },
+  "url_base": "https://arquidiocesemilitar.org.br/local"
+}

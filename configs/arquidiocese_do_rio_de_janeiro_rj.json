@@ -1,0 +1,9 @@
+{
+  "nome": "Arquidiocese do Rio de Janeiro RJ",
+  "url_base": "importacao_md/Paroquias da Arquidiocese do Rio de Janeiro RJ.md",
+  "is_sitexpresso": false,
+  "paginacao": {
+    "tipo": "single_page"
+  },
+  "observacao": "Paróquias importadas via arquivo Markdown manualmente."
+}

@@ -1138,3 +1138,352 @@ body {
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
+/* =============================================
+   PARISH CURATION MODAL
+   ============================================= */
+
+.modal-xl {
+    max-width: 860px;
+}
+
+/* Clickable table rows */
+.data-table tbody tr.clickable-row {
+    cursor: pointer;
+}
+
+.data-table tbody tr.clickable-row:hover {
+    background: rgba(99, 102, 241, 0.06);
+    outline: 1px solid rgba(99, 102, 241, 0.15);
+}
+
+/* Modal header parish area */
+.modal-parish-title-area {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.detail-avatar {
+    width: 64px;
+    height: 64px;
+    background: rgba(255,255,255,0.05);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border-color);
+    flex-shrink: 0;
+}
+
+.detail-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detail-avatar i {
+    font-size: 1.75rem;
+    color: var(--text-dark);
+}
+
+.detail-url-link {
+    font-size: 0.78rem;
+    color: var(--primary);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-top: 0.25rem;
+    opacity: 0.8;
+    transition: var(--transition-fast);
+}
+
+.detail-url-link:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.detail-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+}
+
+.detail-nav-btns {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.detail-nav-counter {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-family: var(--font-heading);
+    font-weight: 600;
+    min-width: 50px;
+    text-align: center;
+}
+
+.curado-badge {
+    background: rgba(16, 185, 129, 0.15);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    color: var(--success);
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.25rem 0.6rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    animation: fadeIn var(--transition-normal);
+}
+
+/* Curation field grid */
+.curation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+.curation-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: rgba(255,255,255,0.02);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1rem;
+    transition: border-color var(--transition-fast);
+}
+
+.curation-field:hover {
+    border-color: rgba(99, 102, 241, 0.25);
+}
+
+.curation-field.field-filled {
+    border-color: rgba(16, 185, 129, 0.25);
+}
+
+.curation-field.field-empty {
+    border-color: rgba(239, 68, 68, 0.18);
+}
+
+.curation-field-wide {
+    grid-column: span 2;
+}
+
+.curation-field-full {
+    grid-column: 1 / -1;
+}
+
+.curation-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-heading);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.curation-label i {
+    font-size: 0.85rem;
+    color: var(--primary);
+    opacity: 0.7;
+}
+
+.field-status-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--text-dark);
+    margin-left: auto;
+    flex-shrink: 0;
+    transition: background var(--transition-fast);
+}
+
+.field-filled .field-status-dot {
+    background: var(--success);
+    box-shadow: 0 0 6px rgba(16, 185, 129, 0.5);
+}
+
+.field-empty .field-status-dot {
+    background: var(--error);
+    box-shadow: 0 0 6px rgba(239, 68, 68, 0.4);
+}
+
+.curation-input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 8px;
+    padding: 0.6rem 0.85rem;
+    color: var(--text-main);
+    font-family: var(--font-body);
+    font-size: 0.88rem;
+    transition: var(--transition-fast);
+}
+
+.curation-input:focus {
+    outline: none;
+    border-color: var(--primary);
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 0 8px rgba(99, 102, 241, 0.15);
+}
+
+.curation-textarea {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 8px;
+    padding: 0.6rem 0.85rem;
+    color: var(--text-main);
+    font-family: var(--font-body);
+    font-size: 0.88rem;
+    resize: vertical;
+    transition: var(--transition-fast);
+    min-height: 70px;
+}
+
+.curation-textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 0 8px rgba(99, 102, 241, 0.15);
+}
+
+/* Social media inputs */
+.social-curation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+}
+
+.social-input-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.social-input-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 7px;
+    background: rgba(255,255,255,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    color: var(--text-muted);
+}
+
+.social-input-icon.facebook { color: #1877f2; }
+.social-input-icon.instagram { color: #e1306c; }
+.social-input-icon.youtube { color: #ff0000; }
+.social-input-icon.whatsapp { color: #25d366; }
+
+/* Completeness bar */
+.completeness-bar-area {
+    margin-top: 0.5rem;
+}
+
+.completeness-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-bottom: 0.4rem;
+    font-family: var(--font-heading);
+    font-weight: 600;
+}
+
+.completeness-track {
+    height: 5px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.completeness-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary), var(--success));
+    border-radius: 10px;
+    transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Curado badge on table row */
+.curado-row-badge {
+    width: 8px;
+    height: 8px;
+    background: var(--success);
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 0.35rem;
+    box-shadow: 0 0 5px rgba(16, 185, 129, 0.5);
+}
+
+@media (max-width: 640px) {
+    .curation-grid { grid-template-columns: 1fr; }
+    .curation-field-wide { grid-column: span 1; }
+    .social-curation-grid { grid-template-columns: 1fr; }
+}
+
+/* Status Badges & Differential Scrape row styling */
+.parish-name-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.status-badge-novo {
+    background: rgba(16, 185, 129, 0.15);
+    color: #34d399;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.status-badge-curado {
+    background: rgba(245, 158, 11, 0.15);
+    color: #fbbf24;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.status-badge-removido {
+    background: rgba(239, 68, 68, 0.15);
+    color: #f87171;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.row-removed {
+    opacity: 0.55;
+    background: rgba(239, 68, 68, 0.01) !important;
+}
+
+.row-removed:hover {
+    background: rgba(239, 68, 68, 0.03) !important;
+}
+
+.row-removed .parish-name-link {
+    text-decoration: line-through;
+    color: var(--text-muted);
+}

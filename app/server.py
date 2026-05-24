@@ -221,9 +221,17 @@ def stream_scrape(config_id):
         
     def event_stream():
         for log in scraper.scrape_diocese_iterator(config):
+            # Mensagem de log real
             yield f"data: {log}\n\n"
+            # Heartbeat após cada mensagem para manter a conexão SSE viva
+            yield ": ping\n\n"
             
-    return Response(event_stream(), mimetype='text/event-stream')
+    response = Response(event_stream(), mimetype='text/event-stream')
+    # Headers essenciais para SSE funcionar corretamente sem proxies ou caches cortarem
+    response.headers['Cache-Control'] = 'no-cache'
+    response.headers['X-Accel-Buffering'] = 'no'  # Desativa buffer do Nginx se houver
+    response.headers['Connection'] = 'keep-alive'
+    return response
 
 @app.route('/api/data/<config_id>', methods=['GET'])
 def get_data(config_id):
@@ -233,6 +241,110 @@ def get_data(config_id):
         
     data = config_manager.get_scraped_data(config['nome'])
     return jsonify(data)
+
+@app.route('/api/data/<config_id>/<int:parish_index>', methods=['PUT'])
+def update_parish(config_id, parish_index):
+    config = config_manager.get_diocese_config(config_id)
+    if not config:
+        return jsonify({'success': False, 'message': 'Configuração não encontrada.'}), 404
+
+    data = config_manager.get_scraped_data(config['nome'])
+    if parish_index < 0 or parish_index >= len(data):
+        return jsonify({'success': False, 'message': 'Índice de paróquia inválido.'}), 400
+
+    updates = request.json or {}
+    # Allowed fields for curation
+    allowed = ['nome', 'setor', 'clero', 'telefone', 'email',
+               'funcionamento_secretaria', 'endereco', 'horarios_missa_texto', 'redes_sociais']
+    for field in allowed:
+        if field in updates:
+            data[parish_index][field] = updates[field]
+
+    # Re-enrich the parish to keep structured fields in sync with flat curations
+    from core import enricher
+    import datetime
+    
+    data[parish_index]['ultima_atualizacao'] = datetime.datetime.now().isoformat()
+    
+    enriched_parish = enricher.enrich_parish(data[parish_index], config['nome'], config.get('url_base', ''))
+    enriched_parish['curado'] = True
+    
+    data[parish_index] = enriched_parish
+
+    output_path = config_manager.get_diocese_data_path(config['nome'])
+    try:
+        import json
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        return jsonify({
+            'success': True,
+            'message': 'Paróquia atualizada com sucesso.',
+            'parish': enriched_parish
+        })
+    except Exception as e:
+        return jsonify({'success': False, 'message': f'Erro ao salvar: {e}'}), 500
+
+@app.route('/api/upload-md', methods=['POST'])
+def upload_md():
+    if 'files' not in request.files:
+        return jsonify({'success': False, 'message': 'Nenhum arquivo enviado.'}), 400
+        
+    files = request.files.getlist('files')
+    if not files or all(f.filename == '' for f in files):
+        return jsonify({'success': False, 'message': 'Nenhum arquivo selecionado.'}), 400
+
+    from werkzeug.utils import secure_filename
+    from core import importer
+    
+    import_dir = os.path.join(config_manager.DADOS_DIR, 'import_md')
+    os.makedirs(import_dir, exist_ok=True)
+    
+    results = []
+    success_count = 0
+    
+    for file in files:
+        if file and file.filename.endswith('.md'):
+            filename = secure_filename(file.filename)
+            filepath = os.path.join(import_dir, filename)
+            file.save(filepath)
+            
+            # Process the markdown file
+            success, message, config_data = importer.import_markdown_file(filepath)
+            
+            results.append({
+                'filename': filename,
+                'success': success,
+                'message': message
+            })
+            
+            if success:
+                success_count += 1
+                
+    if success_count > 0:
+        return jsonify({'success': True, 'message': f'{success_count} arquivo(s) importado(s) com sucesso.', 'details': results})
+    else:
+        return jsonify({'success': False, 'message': 'Falha na importação. Veja os detalhes.', 'details': results}), 400
+
+@app.route('/api/export-json/<config_id>', methods=['GET'])
+def export_json(config_id):
+    config = config_manager.get_diocese_config(config_id)
+    if not config:
+        return "Configuração não encontrada", 404
+        
+    diocese_name = config['nome']
+    filepath = config_manager.get_diocese_data_path(diocese_name)
+    
+    if not os.path.exists(filepath):
+        return "Arquivo JSON ainda não gerado", 404
+        
+    directory = os.path.dirname(filepath)
+    filename = os.path.basename(filepath)
+    
+    # Generate a user-friendly download name
+    safe_name = diocese_name.lower().replace(" ", "_").replace("á", "a").replace("é", "e").replace("í", "i").replace("ó", "o").replace("ú", "u").replace("ç", "c")
+    download_name = f"{safe_name}_paroquias.json"
+    
+    return send_from_directory(directory, filename, as_attachment=True, download_name=download_name)
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

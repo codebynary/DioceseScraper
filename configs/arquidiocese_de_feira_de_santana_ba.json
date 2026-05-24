@@ -1,0 +1,9 @@
+{
+  "nome": "Arquidiocese de Feira de Santana BA",
+  "url_base": "importacao_md/Paroquias da Arquidiocese de Feira de Santana BA.md",
+  "is_sitexpresso": false,
+  "paginacao": {
+    "tipo": "single_page"
+  },
+  "observacao": "Paróquias importadas via arquivo Markdown manualmente."
+}

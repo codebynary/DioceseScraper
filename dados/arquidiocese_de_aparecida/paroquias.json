@@ -1,0 +1,1959 @@
+[
+  {
+    "nome": "Aparecida - Santo Afonso Maria de Ligório",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/22407-santo-afonso-maria-de-ligorio",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:14:34.890013",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua José Rossi,\n12570-000",
+      "logradouro": "Rua José Rossi",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "12570-000",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3105-3620",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "safonso@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/22407-santo-afonso-maria-de-ligorio",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Aparecida - Santo Afonso Maria de Ligório",
+      "endereco": "Rua José Rossi,\n12570-000",
+      "telefone": "(12) 3105-3620",
+      "email": "safonso@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Rua José Rossi,\n12570-000",
+    "telefone": "(12) 3105-3620",
+    "email": "safonso@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Aparecida - São Roque",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/58d9d-sao-roque",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:14:38.375675",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Avenida Zezé Valadão,\n12570-000",
+      "logradouro": "Avenida Zezé Valadão",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "12570-000",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3105-2938",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "sroque@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/58d9d-sao-roque",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Aparecida - São Roque",
+      "endereco": "Avenida Zezé Valadão,\n12570-000",
+      "telefone": "(12) 3105-2938",
+      "email": "sroque@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Avenida Zezé Valadão,\n12570-000",
+    "telefone": "(12) 3105-2938",
+    "email": "sroque@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Aparecida - Nossa Senhora da Conceição Aparecida e São Benedito",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/ce090-nossa-senhora-da-conceicao-aparecida-e-sao-benedito",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:14:42.036286",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Dr. Benedito Meirelles,\n12570-000",
+      "logradouro": "Praça Dr. Benedito Meirelles",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "12570-000",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3105-1502",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "nscaparecida@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/ce090-nossa-senhora-da-conceicao-aparecida-e-sao-benedito",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Aparecida - Nossa Senhora da Conceição Aparecida e São Benedito",
+      "endereco": "Praça Dr. Benedito Meirelles,\n12570-000",
+      "telefone": "(12) 3105-1502",
+      "email": "nscaparecida@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Praça Dr. Benedito Meirelles,\n12570-000",
+    "telefone": "(12) 3105-1502",
+    "email": "nscaparecida@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Guaratinguetá - Nossa Senhora das Graças",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/02894-nossa-senhora-das-gracas",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:14:45.842539",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Estrada Presidente Tancredo Neves,\n12508-010",
+      "logradouro": "Estrada Presidente Tancredo Neves",
+      "numero": "",
+      "complemento": "",
+      "bairro": "Pedrinha",
+      "cidade": "Guaratinguetá",
+      "uf": "SP",
+      "cep": "12508-010",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3133-5875",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "nsgraca@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/02894-nossa-senhora-das-gracas",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Guaratinguetá - Nossa Senhora das Graças",
+      "endereco": "Estrada Presidente Tancredo Neves,\n12508-010",
+      "telefone": "(12) 3133-5875",
+      "email": "nsgraca@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Estrada Presidente Tancredo Neves,\n12508-010",
+    "telefone": "(12) 3133-5875",
+    "email": "nsgraca@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Guaratinguetá - São Dimas",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/36e28-sao-dimas",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:14:48.821901",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua José Limongi Moreira,\n12513-160",
+      "logradouro": "Rua José Limongi Moreira",
+      "numero": "",
+      "complemento": "",
+      "bairro": "São Dimas",
+      "cidade": "Guaratinguetá",
+      "uf": "SP",
+      "cep": "12513-160",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3125-5669",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "sdimas@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/36e28-sao-dimas",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Guaratinguetá - São Dimas",
+      "endereco": "Rua José Limongi Moreira,\n12513-160",
+      "telefone": "(12) 3125-5669",
+      "email": "sdimas@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Rua José Limongi Moreira,\n12513-160",
+    "telefone": "(12) 3125-5669",
+    "email": "sdimas@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Guaratinguetá - Nossa Senhora de Lourdes",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/39b99-nossa-senhora-de-lourdes",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:14:51.833421",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Avenida Nossa Senhora de Lourdes,\n12521-280",
+      "logradouro": "Avenida Nossa Senhora de Lourdes",
+      "numero": "",
+      "complemento": "",
+      "bairro": "Cidade Engenheiro Neiva",
+      "cidade": "Guaratinguetá",
+      "uf": "SP",
+      "cep": "12521-280",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3132-4970",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "nslourdes@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/39b99-nossa-senhora-de-lourdes",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Guaratinguetá - Nossa Senhora de Lourdes",
+      "endereco": "Avenida Nossa Senhora de Lourdes,\n12521-280",
+      "telefone": "(12) 3132-4970",
+      "email": "nslourdes@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Avenida Nossa Senhora de Lourdes,\n12521-280",
+    "telefone": "(12) 3132-4970",
+    "email": "nslourdes@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Guaratinguetá - Nossa Senhora da Glória",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/3e53e-nossa-senhora-da-gloria",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:14:55.132832",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Nossa Senhora da Glória,\n12515-175",
+      "logradouro": "Praça Nossa Senhora da Glória",
+      "numero": "",
+      "complemento": "",
+      "bairro": "Pedregulho",
+      "cidade": "Guaratinguetá",
+      "uf": "SP",
+      "cep": "12515-175",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3125-2042",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "nsgloria@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/3e53e-nossa-senhora-da-gloria",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Guaratinguetá - Nossa Senhora da Glória",
+      "endereco": "Praça Nossa Senhora da Glória,\n12515-175",
+      "telefone": "(12) 3125-2042",
+      "email": "nsgloria@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Praça Nossa Senhora da Glória,\n12515-175",
+    "telefone": "(12) 3125-2042",
+    "email": "nsgloria@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Guaratinguetá - Nossa Senhora do Rosário",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/54009-nossa-senhora-do-rosario",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:14:58.820871",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Niterói,\n12523-520",
+      "logradouro": "Rua Niterói",
+      "numero": "",
+      "complemento": "",
+      "bairro": "Jardim Vista Alegre",
+      "cidade": "Guaratinguetá",
+      "uf": "SP",
+      "cep": "12523-520",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3132-3623",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "nsrosario@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/54009-nossa-senhora-do-rosario",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Guaratinguetá - Nossa Senhora do Rosário",
+      "endereco": "Rua Niterói,\n12523-520",
+      "telefone": "(12) 3132-3623",
+      "email": "nsrosario@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Rua Niterói,\n12523-520",
+    "telefone": "(12) 3132-3623",
+    "email": "nsrosario@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Guaratinguetá - Puríssimo Coração de Maria",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/7df0e-purissimo-coracao-de-maria",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:15:02.301995",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Joaquim Vilela de Oliveira Marcondes,\n12502-040",
+      "logradouro": "Praça Joaquim Vilela de Oliveira Marcondes",
+      "numero": "",
+      "complemento": "",
+      "bairro": "São Gonçalo",
+      "cidade": "Guaratinguetá",
+      "uf": "SP",
+      "cep": "12502-040",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3132-2561",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "purissimo@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/7df0e-purissimo-coracao-de-maria",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Guaratinguetá - Puríssimo Coração de Maria",
+      "endereco": "Praça Joaquim Vilela de Oliveira Marcondes,\n12502-040",
+      "telefone": "(12) 3132-2561",
+      "email": "purissimo@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Praça Joaquim Vilela de Oliveira Marcondes,\n12502-040",
+    "telefone": "(12) 3132-2561",
+    "email": "purissimo@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Guaratinguetá - Santo Antônio",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/b45cd-santo-antonio",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:15:05.326882",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Santo Antônio,\n12500-320",
+      "logradouro": "Praça Santo Antônio",
+      "numero": "",
+      "complemento": "",
+      "bairro": "Centro",
+      "cidade": "Guaratinguetá",
+      "uf": "SP",
+      "cep": "12500-320",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3122-4840",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "santonio.pastoral@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/b45cd-santo-antonio",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Guaratinguetá - Santo Antônio",
+      "endereco": "Praça Santo Antônio,\n12500-320",
+      "telefone": "(12) 3122-4840",
+      "email": "santonio.pastoral@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Praça Santo Antônio,\n12500-320",
+    "telefone": "(12) 3122-4840",
+    "email": "santonio.pastoral@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Guaratinguetá - São Pedro Apóstolo",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/b778b-sao-pedro-apostolo",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:15:08.944820",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Cristóvão Colombo,\n12515-470",
+      "logradouro": "Praça Cristóvão Colombo",
+      "numero": "",
+      "complemento": "",
+      "bairro": "Nova Guará",
+      "cidade": "Guaratinguetá",
+      "uf": "SP",
+      "cep": "12515-470",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3125-4888",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "spedro@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/b778b-sao-pedro-apostolo",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Guaratinguetá - São Pedro Apóstolo",
+      "endereco": "Praça Cristóvão Colombo,\n12515-470",
+      "telefone": "(12) 3125-4888",
+      "email": "spedro@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Praça Cristóvão Colombo,\n12515-470",
+    "telefone": "(12) 3125-4888",
+    "email": "spedro@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Guaratinguetá - Nossa Senhora de Fátima",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/b7bdf-nossa-senhora-de-fatima",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:15:12.471341",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Profª. Dinah  Rangel Jacobelli,\n12517-420",
+      "logradouro": "Rua Profª. Dinah  Rangel Jacobelli",
+      "numero": "",
+      "complemento": "",
+      "bairro": "Parque Residencial Beira Rio I",
+      "cidade": "Guaratinguetá",
+      "uf": "SP",
+      "cep": "12517-420",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12)3125-8897",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "nsfatima@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/b7bdf-nossa-senhora-de-fatima",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Guaratinguetá - Nossa Senhora de Fátima",
+      "endereco": "Rua Profª. Dinah  Rangel Jacobelli,\n12517-420",
+      "telefone": "(12)3125-8897",
+      "email": "nsfatima@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Rua Profª. Dinah  Rangel Jacobelli,\n12517-420",
+    "telefone": "(12)3125-8897",
+    "email": "nsfatima@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Guaratinguetá - Santa Luzia",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/bdc6a-santa-luzia",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:15:15.949807",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Geraldo Resende,\n12507-040",
+      "logradouro": "Rua Geraldo Resende",
+      "numero": "",
+      "complemento": "",
+      "bairro": "Jardim Santa Luzia",
+      "cidade": "Guaratinguetá",
+      "uf": "SP",
+      "cep": "12507-040",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "celular",
+          "valor": "(12) 98122-5711",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "sluzia@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/bdc6a-santa-luzia",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Guaratinguetá - Santa Luzia",
+      "endereco": "Rua Geraldo Resende,\n12507-040",
+      "telefone": "(12) 98122-5711",
+      "email": "sluzia@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Rua Geraldo Resende,\n12507-040",
+    "telefone": "(12) 98122-5711",
+    "email": "sluzia@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Guaratinguetá - Santo Expedito",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/c39e0-santo-expedito",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:15:19.123044",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rodovia Estadual Paulo Virgílio,\n12503-790",
+      "logradouro": "Rodovia Estadual Paulo Virgílio",
+      "numero": "",
+      "complemento": "",
+      "bairro": "Rocinha",
+      "cidade": "Guaratinguetá",
+      "uf": "SP",
+      "cep": "12503-790",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3127-1356",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "sexpedito@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/c39e0-santo-expedito",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Guaratinguetá - Santo Expedito",
+      "endereco": "Rodovia Estadual Paulo Virgílio,\n12503-790",
+      "telefone": "(12) 3127-1356",
+      "email": "sexpedito@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Rodovia Estadual Paulo Virgílio,\n12503-790",
+    "telefone": "(12) 3127-1356",
+    "email": "sexpedito@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Guaratinguetá - São Francisco de Assis",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/c88eb-sao-francisco-de-assis",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:15:22.332718",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Dr. Fernando Miléo,\n12509-060",
+      "logradouro": "Rua Dr. Fernando Miléo",
+      "numero": "",
+      "complemento": "",
+      "bairro": "Parque São Francisco",
+      "cidade": "Guaratinguetá",
+      "uf": "SP",
+      "cep": "12509-060",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3127-9597",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "sfrancisco@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/c88eb-sao-francisco-de-assis",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Guaratinguetá - São Francisco de Assis",
+      "endereco": "Rua Dr. Fernando Miléo,\n12509-060",
+      "telefone": "(12) 3127-9597",
+      "email": "sfrancisco@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Rua Dr. Fernando Miléo,\n12509-060",
+    "telefone": "(12) 3127-9597",
+    "email": "sfrancisco@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Guaratinguetá - São Miguel Arcanjo",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/e796f-sao-miguel-arcanjo",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:15:25.942027",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Joaquim Fagundes,\n12503-060",
+      "logradouro": "Rua Joaquim Fagundes",
+      "numero": "",
+      "complemento": "",
+      "bairro": "Alto das Almas",
+      "cidade": "Guaratinguetá",
+      "uf": "SP",
+      "cep": "12503-060",
+      "pais": "Brasil",
+      "confidence": "HIGH"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3132-2612",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "smiguel@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/e796f-sao-miguel-arcanjo",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Guaratinguetá - São Miguel Arcanjo",
+      "endereco": "Rua Joaquim Fagundes,\n12503-060",
+      "telefone": "(12) 3132-2612",
+      "email": "smiguel@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Rua Joaquim Fagundes,\n12503-060",
+    "telefone": "(12) 3132-2612",
+    "email": "smiguel@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Lagoinha - Nossa Senhora da Conceição",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/44ead-nossa-senhora-da-conceicao",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:15:29.811397",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Pedro Alves Ferreira,\n12130-000",
+      "logradouro": "Praça Pedro Alves Ferreira",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "12130-000",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3647-1202",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "nsconceicao@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/44ead-nossa-senhora-da-conceicao",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Lagoinha - Nossa Senhora da Conceição",
+      "endereco": "Praça Pedro Alves Ferreira,\n12130-000",
+      "telefone": "(12) 3647-1202",
+      "email": "nsconceicao@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Praça Pedro Alves Ferreira,\n12130-000",
+    "telefone": "(12) 3647-1202",
+    "email": "nsconceicao@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Potim - Senhor Bom Jesus",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/ea1d6-senhor-bom-jesus",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:15:33.412456",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Rua Ciro de Castro Nogueira,\n12525-000",
+      "logradouro": "Rua Ciro de Castro Nogueira",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "12525-000",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3112-1154",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "sbomjesus@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/ea1d6-senhor-bom-jesus",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Potim - Senhor Bom Jesus",
+      "endereco": "Rua Ciro de Castro Nogueira,\n12525-000",
+      "telefone": "(12) 3112-1154",
+      "email": "sbomjesus@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Rua Ciro de Castro Nogueira,\n12525-000",
+    "telefone": "(12) 3112-1154",
+    "email": "sbomjesus@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  },
+  {
+    "nome": "Roseira - Sant'Ana",
+    "tipo": "Paróquia",
+    "url": "https://www.arqaparecida.org.br/paroquia/2336a-santana",
+    "imagem_thumbnail": null,
+    "fonte": {
+      "tipo": "site_diocese",
+      "nome": "Arquidiocese de Aparecida",
+      "url": "https://www.arqaparecida.org.br/paroquias",
+      "data_coleta": "2026-05-24T01:15:37.136089",
+      "metodo": "scraper_ia"
+    },
+    "endereco": {
+      "original": "Praça Sant' Ana,\n12580-000",
+      "logradouro": "Praça Sant' Ana",
+      "numero": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "12580-000",
+      "pais": "Brasil",
+      "confidence": "LOW"
+    },
+    "contatos": {
+      "telefones": [
+        {
+          "tipo": "fixo",
+          "valor": "(12) 3646-1147",
+          "rotulo": "Telefone",
+          "whatsapp": false
+        }
+      ],
+      "emails": [
+        {
+          "valor": "santana@arqaparecida.org.br",
+          "rotulo": "E-mail"
+        }
+      ],
+      "sites": [
+        {
+          "valor": "https://www.arqaparecida.org.br/paroquia/2336a-santana",
+          "rotulo": "oficial"
+        }
+      ],
+      "redes_sociais": {
+        "facebook": {
+          "url": "",
+          "escopo": ""
+        },
+        "instagram": {
+          "url": "",
+          "escopo": ""
+        },
+        "youtube": {
+          "url": "",
+          "escopo": ""
+        },
+        "whatsapp": {
+          "url": "",
+          "telefone": "",
+          "escopo": ""
+        }
+      }
+    },
+    "clero": [],
+    "horarios_missa": [],
+    "horarios_missa_texto_original": "",
+    "funcionamento_secretaria": {
+      "texto_original": "",
+      "dias": [],
+      "horarios": []
+    },
+    "estrutura_pastoral": {
+      "setor": null,
+      "forania": "",
+      "regiao": "",
+      "texto_original": ""
+    },
+    "observacoes": "",
+    "raw": {
+      "nome": "Roseira - Sant'Ana",
+      "endereco": "Praça Sant' Ana,\n12580-000",
+      "telefone": "(12) 3646-1147",
+      "email": "santana@arqaparecida.org.br",
+      "clero": null,
+      "horarios_missa_texto": null,
+      "funcionamento_secretaria": null,
+      "setor": null,
+      "redes_sociais": {}
+    },
+    "status": "ativo",
+    "curado": false,
+    "data_criacao": "2026-05-24T01:15:39.443004",
+    "ultima_atualizacao": "2026-05-24T01:15:39.443004",
+    "endereco_original": "Praça Sant' Ana,\n12580-000",
+    "telefone": "(12) 3646-1147",
+    "email": "santana@arqaparecida.org.br",
+    "clero_original": "",
+    "horarios_missa_texto": "",
+    "funcionamento_secretaria_original": "",
+    "setor": null
+  }
+]

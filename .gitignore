@@ -21,3 +21,4 @@ configs/settings.json
 # Local logs or scratch files
 *.log
 scratch/
+*.html

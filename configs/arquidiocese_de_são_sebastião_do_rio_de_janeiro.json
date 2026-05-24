@@ -1,0 +1,62 @@
+{
+  "detalhes": {
+    "campos_labels": {
+      "clero": [
+        "Clero",
+        "Clero:",
+        "Pároco:",
+        "Pároco",
+        "Padre:",
+        "Padres:"
+      ],
+      "email": [
+        "E-mail:",
+        "Email:"
+      ],
+      "endereco": [
+        "Endereço",
+        "Endereço:",
+        "Localização:"
+      ],
+      "funcionamento_secretaria": [
+        "Funcionamento na Secretaria",
+        "Fucionamentos na Secretaria",
+        "Secretaria:",
+        "Secretaria Paroquial:"
+      ],
+      "setor": [
+        "Setor:",
+        "Setor"
+      ],
+      "telefone": [
+        "Telefone:",
+        "Telefone",
+        "Fone:",
+        "Contato:"
+      ]
+    },
+    "campos_seletores": {
+      "clero": "div.panel-body b",
+      "email": "div.panel-body b",
+      "endereco": "div.panel-body b",
+      "funcionamento_secretaria": "div.panel-body b",
+      "setor": "div.panel-body b",
+      "telefone": "div.panel-body b"
+    },
+    "horarios_missa_seletor": "div.panel-body",
+    "social_selector": "div.panel-body a",
+    "tipo_layout": "label_value"
+  },
+  "listagem": {
+    "imagem_selector": null,
+    "item_selector": ".panel.panel-default",
+    "link_selector": "h4.panel-title a.lista-link"
+  },
+  "nome": "Arquidiocese de São Sebastião do Rio de Janeiro",
+  "paginacao": {
+    "next_selector": null,
+    "tipo": "url_page",
+    "url_pattern": "https://www.arqrio.com.br/curia/paroquias.php?pagina={page}"
+  },
+  "url_base": "https://www.arqrio.com.br/curia/paroquias.php"
+}
