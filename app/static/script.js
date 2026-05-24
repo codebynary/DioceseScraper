@@ -812,7 +812,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 setTimeout(() => {
                     scrapeProgressPanel.classList.add('hidden');
                     dataViewerPanel.classList.remove('hidden');
-                    loadParishData(activeDioceseId);
+                    selectDiocese(activeDioceseId, activeDioceseName);
                     loadDiocesesList();
                 }, 2000);
             }
@@ -824,7 +824,7 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => {
                 scrapeProgressPanel.classList.add('hidden');
                 dataViewerPanel.classList.remove('hidden');
-                loadParishData(activeDioceseId);
+                selectDiocese(activeDioceseId, activeDioceseName);
             }, 2000);
         };
     });

@@ -261,7 +261,7 @@ def stream_scrape_append(config_id):
     def event_stream():
         yield f"data: [APPEND] Iniciando raspagem adicional em: {url_override}\n\n"
         yield ": ping\n\n"
-        for log in scraper.scrape_diocese_iterator(append_config):
+        for log in scraper.scrape_diocese_iterator(append_config, is_append=True):
             yield f"data: {log}\n\n"
             yield ": ping\n\n"
 

@@ -125,10 +125,11 @@ def get_scraped_data(name):
             pass
     return []
 
-def merge_scraped_data(name, new_results):
+def merge_scraped_data(name, new_results, is_append=False):
     """
     Intelligently merges new crawl results with existing scraped data for a diocese,
-    preserving manual user curations and tracking parish status (ativo/novo/removido).
+    preserving curated fields and updating timestamps.
+    If is_append is True, old parishes not found in the new scrape are kept as active.
     """
     import datetime
     
@@ -215,7 +216,7 @@ def merge_scraped_data(name, new_results):
         if url not in new_urls:
             p_old_copy = p_old.copy()
             # If it was already marked as removed, keep it. Otherwise flag it.
-            if p_old_copy.get('status') != 'removido':
+            if not is_append and p_old_copy.get('status') != 'removido':
                 p_old_copy['status'] = 'removido'
                 p_old_copy['ultima_atualizacao'] = now_str
             

@@ -527,7 +527,7 @@ def scrape_single_parish(url, config):
         
     return result
 
-def scrape_diocese_iterator(config, limit=None):
+def scrape_diocese_iterator(config, limit=None, is_append=False):
     """Yields progress string updates (logs) as it executes the scrape process."""
     nome_diocese = config.get("nome")
     url_base = config.get("url_base")
@@ -766,7 +766,7 @@ def scrape_diocese_iterator(config, limit=None):
     # Save output
     output_path = config_manager.get_diocese_data_path(nome_diocese)
     try:
-        merged = config_manager.merge_scraped_data(nome_diocese, results)
+        merged = config_manager.merge_scraped_data(nome_diocese, results, is_append=is_append)
         
         # Gerar relatório qualitativo de validação
         report = enricher.generate_enrichment_report(nome_diocese, merged)
