@@ -229,6 +229,7 @@ body {
     grid-template-columns: 360px 1fr;
     gap: 1.5rem;
     flex: 1;
+    align-items: start;
 }
 
 @media (max-width: 1024px) {
@@ -254,14 +255,19 @@ body {
     flex-direction: column;
     gap: 1.5rem;
     position: sticky;
-    top: calc(1rem + 110px);
-    height: calc(100vh - 130px);
+    top: 100px;
+    max-height: calc(100vh - 120px);
     overflow-y: auto;
-    padding-right: 0.5rem;
+    padding-right: 0.25rem;
 }
 
 .control-panel::-webkit-scrollbar {
     width: 4px;
+}
+
+.control-panel::-webkit-scrollbar-thumb {
+    background: rgba(255,255,255,0.1);
+    border-radius: 4px;
 }
 
 .main-actions-card {
