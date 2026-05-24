@@ -63,16 +63,17 @@ def analyze_diocese():
         return jsonify({'success': False, 'message': 'Nome e URL Base são obrigatórios.'}), 400
         
     try:
-        # 1. Fetch listing HTML
-        list_resp = requests.get(url_base, headers=scraper.HEADERS, timeout=15)
-        if list_resp.status_code != 200:
-            return jsonify({'success': False, 'message': f'Falha ao acessar a URL da listagem: Status {list_resp.status_code}'}), 400
-            
+        # 1. Fetch listing HTML (com fallback automático para Playwright em sites Wix/SPA)
+        list_resp = scraper.fetch_page(url_base)
+        if not list_resp or list_resp.status_code != 200:
+            status = list_resp.status_code if list_resp else 'timeout'
+            return jsonify({'success': False, 'message': f'Falha ao acessar a URL da listagem: Status {status}'}), 400
+
         list_html = list_resp.text
         is_sitexp = False
         if 'sitexpresso' in list_html.lower() or 'sx.check' in list_html or 'sx.start' in list_html or 'window.sxid' in list_html:
             is_sitexp = True
-            
+
         parsed = urllib.parse.urlparse(url_base)
         
         if is_sitexp:
@@ -128,10 +129,11 @@ def analyze_diocese():
         if not detail_url:
             return jsonify({'success': False, 'message': 'Não foi possível detectar links de paróquias na página de listagem. Verifique se a URL está correta.'}), 400
             
-        # 3. Fetch detail page HTML
-        detail_resp = requests.get(detail_url, headers=scraper.HEADERS, timeout=15)
-        if detail_resp.status_code != 200:
-            return jsonify({'success': False, 'message': f'Falha ao acessar a página de exemplo de detalhes ({detail_url}): Status {detail_resp.status_code}'}), 400
+        # 3. Fetch detail page HTML (com fallback para Playwright em sites Wix/SPA)
+        detail_resp = scraper.fetch_page(detail_url)
+        if not detail_resp or detail_resp.status_code != 200:
+            status = detail_resp.status_code if detail_resp else 'timeout'
+            return jsonify({'success': False, 'message': f'Falha ao acessar a página de exemplo de detalhes ({detail_url}): Status {status}'}), 400
             
         detail_html = detail_resp.text
         if is_sitexp:

@@ -26,8 +26,95 @@ def polite_sleep(base=POLITE_DELAY_BASE, jitter=POLITE_DELAY_JITTER):
     """Espera educada com jitter para não parecer um bot previsível."""
     time.sleep(base + random.uniform(-jitter, jitter))
 
-def fetch_page(url, retries=4, delay=2):
-    """Politely fetches a URL with retries and exponential backoff."""
+def _is_spa_or_wix(html_text):
+    """
+    Detecta se um HTML retornado é de um site SPA/Wix que precisa de renderização JS.
+    Retorna True se o conteúdo visível for mínimo ou houver marcadores de frameworks JS.
+    """
+    markers = [
+        'wix.com', 'wixstatic.com', 'wix-essential',
+        '__NEXT_DATA__', '__nuxt', 'window.__NUXT__',
+        'data-reactroot', 'ng-version',
+        'thunderbolt', 'parastorage.com',
+    ]
+    html_lower = html_text.lower()
+    for marker in markers:
+        if marker.lower() in html_lower:
+            return True
+
+    # Verifica se o body tem pouco conteúdo visível (menos de 500 chars de texto)
+    try:
+        from bs4 import BeautifulSoup as _BS
+        soup = _BS(html_text, 'html.parser')
+        for tag in soup(['script', 'style', 'meta', 'link']):
+            tag.decompose()
+        visible_text = soup.get_text(strip=True)
+        if len(visible_text) < 500:
+            return True
+    except Exception:
+        pass
+    return False
+
+
+def fetch_page_with_browser(url, wait_for='networkidle', timeout=30000):
+    """
+    Renderiza uma página usando Playwright (Chromium headless real).
+    Usado automaticamente para sites Wix, React, Vue e outros SPAs.
+    Retorna um objeto fake-response com .text e .status_code para compatibilidade.
+    """
+    try:
+        from playwright.sync_api import sync_playwright
+
+        class BrowserResponse:
+            def __init__(self, text, status_code=200):
+                self.text = text
+                self.status_code = status_code
+
+        with sync_playwright() as p:
+            browser = p.chromium.launch(
+                headless=True,
+                args=[
+                    '--no-sandbox',
+                    '--disable-setuid-sandbox',
+                    '--disable-dev-shm-usage',
+                    '--disable-gpu',
+                    '--no-first-run',
+                    '--no-zygote',
+                ]
+            )
+            context = browser.new_context(
+                user_agent=HEADERS['User-Agent'],
+                locale='pt-BR',
+                viewport={'width': 1280, 'height': 800},
+            )
+            page = context.new_page()
+
+            # Bloqueia recursos desnecessários para acelerar (imagens, fontes, mídias)
+            page.route("**/*.{png,jpg,jpeg,gif,svg,webp,woff,woff2,ttf,mp4,mp3}", lambda route: route.abort())
+
+            response = page.goto(url, wait_until=wait_for, timeout=timeout)
+            status = response.status if response else 200
+
+            # Aguarda o conteúdo principal aparecer
+            try:
+                page.wait_for_load_state('networkidle', timeout=15000)
+            except Exception:
+                pass  # Timeout ok, pega o que tiver
+
+            html = page.content()
+            browser.close()
+            return BrowserResponse(html, status)
+
+    except ImportError:
+        print("[fetch_page_with_browser] Playwright não instalado. Usando requests.")
+        return fetch_page_requests(url)
+    except Exception as e:
+        print(f"[fetch_page_with_browser] Erro ao renderizar {url}: {e}")
+        return None
+
+
+def fetch_page_requests(url, retries=4, delay=2):
+    """Fetch simples via requests (sem JS). Uso interno."""
     for attempt in range(retries):
         try:
             r = requests.get(url, headers=HEADERS, timeout=20)
@@ -36,14 +123,31 @@ def fetch_page(url, retries=4, delay=2):
             elif r.status_code == 404:
                 return r
             elif r.status_code == 429:
-                # Rate limited — espera mais antes de tentar de novo
                 wait = delay * (2 ** attempt) + random.uniform(0, 2)
                 time.sleep(wait)
                 continue
         except requests.RequestException as e:
-            print(f"[fetch_page] Tentativa {attempt+1}/{retries} falhou para {url}: {e}")
+            print(f"[fetch_page_requests] Tentativa {attempt+1}/{retries} falhou para {url}: {e}")
         time.sleep(delay * (attempt + 1))
     return None
+
+
+def fetch_page(url, retries=4, delay=2):
+    """
+    Busca uma URL de forma inteligente:
+    1. Tenta com requests (rápido)
+    2. Se detectar site SPA/Wix (conteúdo vazio ou marcadores JS), usa Playwright
+    """
+    response = fetch_page_requests(url, retries=retries, delay=delay)
+
+    if response and response.status_code == 200:
+        if _is_spa_or_wix(response.text):
+            print(f"[fetch_page] SPA/Wix detectado em {url}. Usando Playwright...")
+            browser_response = fetch_page_with_browser(url)
+            if browser_response:
+                return browser_response
+    return response
+
 
 def resolve_url(base_url, relative_url):
     """Joins a base URL and a relative URL securely."""
