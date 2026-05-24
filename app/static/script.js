@@ -1273,8 +1273,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // EXPORT JSON
     // ==========================================
     btnExportJson.addEventListener('click', () => {
-        if (!currentConfigId) return;
-        window.location.href = `/api/export-json/${currentConfigId}`;
+        if (!activeDioceseId) return;
+        window.location.href = `/api/export-json/${activeDioceseId}`;
     });
 
     // ==========================================
