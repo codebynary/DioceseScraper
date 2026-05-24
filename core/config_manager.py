@@ -204,7 +204,8 @@ def merge_scraped_data(name, new_results, is_append=False):
             merged_results.append(enriched_merged_p)
         else:
             # It's a brand new parish!
-            enriched_new = enricher.enrich_parish(p_new, name, p_new.get("fonte", {}).get("url", ""))
+            fonte_dict_new = p_new.get("fonte") or {}
+            enriched_new = enricher.enrich_parish(p_new, name, fonte_dict_new.get("url", ""))
             enriched_new['curado'] = False
             enriched_new['status'] = 'novo'
             enriched_new['data_criacao'] = now_str
@@ -219,8 +220,8 @@ def merge_scraped_data(name, new_results, is_append=False):
             if not is_append and p_old_copy.get('status') != 'removido':
                 p_old_copy['status'] = 'removido'
                 p_old_copy['ultima_atualizacao'] = now_str
-            
-            enriched_old = enricher.enrich_parish(p_old_copy, name, p_old_copy.get("fonte", {}).get("url", ""))
+            fonte_dict = p_old_copy.get("fonte") or {}
+            enriched_old = enricher.enrich_parish(p_old_copy, name, fonte_dict.get("url", ""))
             merged_results.append(enriched_old)
             
     # Write back to disk
