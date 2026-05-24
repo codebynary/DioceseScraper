@@ -259,11 +259,14 @@ def stream_scrape_append(config_id):
         append_config['listagem']['url_listagem'] = url_override
 
     def event_stream():
-        yield f"data: [APPEND] Iniciando raspagem adicional em: {url_override}\n\n"
-        yield ": ping\n\n"
-        for log in scraper.scrape_diocese_iterator(append_config, is_append=True):
-            yield f"data: {log}\n\n"
+        try:
+            yield f"data: [APPEND] Iniciando raspagem adicional em: {url_override}\n\n"
             yield ": ping\n\n"
+            for log in scraper.scrape_diocese_iterator(append_config, is_append=True):
+                yield f"data: {log}\n\n"
+                yield ": ping\n\n"
+        except Exception as e:
+            yield f"data: [ERRO] Ocorreu uma falha no backend: {e}\n\n"
 
     response = Response(event_stream(), mimetype='text/event-stream')
     response.headers['Cache-Control'] = 'no-cache'

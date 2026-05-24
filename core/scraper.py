@@ -743,7 +743,7 @@ def scrape_diocese_iterator(config, limit=None, is_append=False):
     yield f"Concluída Fase 1. Total de paróquias únicas encontradas: {total_found}\n"
     
     if not parish_urls:
-        yield "Nenhuma paróquia para processar. Cancelando extração."
+        yield "\n[ERRO] Nenhuma paróquia para processar (seletores provavelmente não funcionam nesta página). Cancelando."
         return
         
     # Phase 2: Scrape details
