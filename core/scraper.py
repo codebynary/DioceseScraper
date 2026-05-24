@@ -681,7 +681,7 @@ def scrape_diocese_iterator(config, limit=None, is_append=False):
                 name = a_tag.text.strip()
                 if not name and a_tag.get('title'):
                     name = a_tag.get('title').strip()
-                if not name or name.lower() in ['ver mais', 'saiba mais', 'leia mais', 'detalhes', 'visualizar', 'link']:
+                if not name or name.lower() in ['ver mais', 'saiba mais', 'leia mais', 'detalhes', 'visualizar', 'link', 'clique aqui', 'acesse']:
                     # Try to find a header or span inside the parent container that contains the name
                     title_elem = item.find(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
                     if not title_elem:
