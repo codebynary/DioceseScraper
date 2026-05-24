@@ -129,10 +129,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const viewerStats = document.getElementById('viewer-stats');
     const btnReMap = document.getElementById('btn-re-map');
     const btnReScrape = document.getElementById('btn-re-scrape');
+    const btnAppendSource = document.getElementById('btn-append-source');
     const btnExportJson = document.getElementById('btn-export-json');
     const btnDeleteDiocese = document.getElementById('btn-delete-diocese');
     const searchParishes = document.getElementById('search-parishes');
     const parishesTableBody = document.getElementById('parishes-table-body');
+
+    // Append Source Modal elements
+    const modalAppendSource = document.getElementById('modal-append-source');
+    const inputAppendUrl = document.getElementById('input-append-url');
+    const appendFeedback = document.getElementById('append-feedback');
+    const btnStartAppend = document.getElementById('btn-start-append');
     
     // Import MD Elements
     const inputMdFiles = document.getElementById('input-md-files');
@@ -766,6 +773,62 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     });
+
+    // ==========================================
+    // ADICIONAR FONTES (APPEND SOURCE)
+    // ==========================================
+
+    btnAppendSource.addEventListener('click', () => {
+        if (!activeDioceseId) return;
+        inputAppendUrl.value = '';
+        showFeedback(appendFeedback, null);
+        openModal(modalAppendSource);
+    });
+
+    btnStartAppend.addEventListener('click', () => {
+        const url = inputAppendUrl.value.trim();
+        if (!url) {
+            showFeedback(appendFeedback, 'Por favor, insira uma URL válida.', 'error');
+            return;
+        }
+
+        closeModal(modalAppendSource);
+
+        // Show terminal panel and connect to SSE append stream
+        dataViewerPanel.classList.add('hidden');
+        emptyState.classList.add('hidden');
+        scrapeProgressPanel.classList.remove('hidden');
+        progressDioceseName.textContent = `Adicionando fontes: ${activeDioceseName}`;
+        terminalBody.innerHTML = '';
+
+        const encodedUrl = encodeURIComponent(url);
+        const evtSource = new EventSource(`/api/scrape/stream-append/${activeDioceseId}?url_override=${encodedUrl}`);
+
+        evtSource.onmessage = (event) => {
+            const msg = event.data;
+            appendLog(msg);
+            if (msg.includes('[CONCLUÍDO]') || msg.includes('[ERRO]') || msg.includes('✅') || msg.includes('paróquias salvas')) {
+                evtSource.close();
+                setTimeout(() => {
+                    scrapeProgressPanel.classList.add('hidden');
+                    dataViewerPanel.classList.remove('hidden');
+                    loadParishData(activeDioceseId);
+                    loadDiocesesList();
+                }, 2000);
+            }
+        };
+
+        evtSource.onerror = () => {
+            evtSource.close();
+            appendLog('[SISTEMA] Conexão encerrada.');
+            setTimeout(() => {
+                scrapeProgressPanel.classList.add('hidden');
+                dataViewerPanel.classList.remove('hidden');
+                loadParishData(activeDioceseId);
+            }, 2000);
+        };
+    });
+
 
     btnReMap.addEventListener('click', () => {
         if (activeDioceseId && activeDioceseName) {

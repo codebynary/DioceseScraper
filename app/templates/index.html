@@ -126,6 +126,9 @@
                             <button id="btn-re-scrape" class="btn btn-primary btn-sm">
                                 <i class="fa-solid fa-rotate"></i> Rodar Novamente
                             </button>
+                            <button id="btn-append-source" class="btn btn-sm" style="background: linear-gradient(135deg, #0ea5e9, #6366f1); color: white; border: none;">
+                                <i class="fa-solid fa-plus-circle"></i> Adicionar Fontes
+                            </button>
                             <button id="btn-export-json" class="btn btn-success btn-sm">
                                 <i class="fa-solid fa-download"></i> Baixar JSON
                             </button>
@@ -444,6 +447,34 @@
         </div>
     </div>
 
-    <script src="/static/script.js?v=8"></script>
+    <!-- MODAL: Adicionar Fontes (Append Source) -->
+    <div id="modal-append-source" class="modal">
+        <div class="modal-content card-glass">
+            <div class="modal-header">
+                <h2><i class="fa-solid fa-plus-circle" style="color: #0ea5e9;"></i> Adicionar Fontes</h2>
+                <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <p style="color: var(--text-muted); margin-bottom: 1.25rem; font-size: 0.9rem;">
+                    Insira a URL de uma nova página de listagem de paróquias que será mesclada a esta diocese.
+                    A configuração de extração já existente será reutilizada — <strong>sem custo de IA</strong>.
+                    Paróquias já curadas não serão sobrescritas.
+                </p>
+                <div class="form-group">
+                    <label for="input-append-url">URL da Nova Listagem:</label>
+                    <input type="url" id="input-append-url" placeholder="Ex: https://arquidiocese.org.br/copia-vicanato-sul">
+                </div>
+                <div id="append-feedback" class="feedback-msg"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary modal-close-btn">Cancelar</button>
+                <button id="btn-start-append" class="btn btn-primary">
+                    <i class="fa-solid fa-rocket"></i> Iniciar Raspagem
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js?v=9"></script>
 </body>
 </html>

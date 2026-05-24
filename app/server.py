@@ -233,6 +233,42 @@ def stream_scrape(config_id):
     response.headers['Connection'] = 'keep-alive'
     return response
 
+@app.route('/api/scrape/stream-append/<config_id>')
+def stream_scrape_append(config_id):
+    """
+    Endpoint SSE para adicionar mais fontes a uma diocese existente.
+    Reutiliza a config de CSS já gerada, substituindo apenas a url_base
+    pelo url_override fornecido via query string.
+    O merge_scraped_data cuida de mesclar sem duplicatas e sem perder curadoria.
+    """
+    config = config_manager.get_diocese_config(config_id)
+    if not config:
+        return Response("data: Configuração não encontrada.\n\n", mimetype='text/event-stream')
+
+    url_override = request.args.get('url_override', '').strip()
+    if not url_override:
+        return Response("data: URL de origem não informada.\n\n", mimetype='text/event-stream')
+
+    import copy
+    append_config = copy.deepcopy(config)
+    append_config['url_base'] = url_override
+    if 'listagem' in append_config:
+        append_config['listagem']['url_listagem'] = url_override
+
+    def event_stream():
+        yield f"data: [APPEND] Iniciando raspagem adicional em: {url_override}\n\n"
+        yield ": ping\n\n"
+        for log in scraper.scrape_diocese_iterator(append_config):
+            yield f"data: {log}\n\n"
+            yield ": ping\n\n"
+
+    response = Response(event_stream(), mimetype='text/event-stream')
+    response.headers['Cache-Control'] = 'no-cache'
+    response.headers['X-Accel-Buffering'] = 'no'
+    response.headers['Connection'] = 'keep-alive'
+    return response
+
+
 @app.route('/api/dioceses/<config_id>', methods=['DELETE'])
 def delete_diocese(config_id):
     success = config_manager.delete_diocese_config(config_id)
